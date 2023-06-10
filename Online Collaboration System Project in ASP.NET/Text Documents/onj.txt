@@ -1,0 +1,267 @@
+<html>
+<head>
+	<title>Online Collaboration: WorkZone Online Collaboration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="description" content="WorkZone is an easy-to-use extranet or intranet for secure online collaboration and document sharing over the web.">
+	<meta name="keywords" content="online collaboration">
+
+	<link rel="stylesheet" href="/CSS/default.css" type="text/css">
+	<script SRC="/Javascripts/tour-window.js"> </script>
+	<script SRC="/Javascripts/industry-window.js"> </script>
+</head>
+<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginheight="0" marginwidth="0">
+
+<table border="0" background="/images/bg-left150.gif" background-repeat: no-repeat cellpadding="0" cellspacing="0" width="775" height="100%" align="center">
+	<tr>
+		<td valign="top" height="100%">
+		<!-- main cell -->
+			<table border="0" bordercolor="red" cellpadding="0" cellspacing="0">
+				<tr>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="150" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="15" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="40" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="10" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="100" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="10" alt=""></td>						<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="75" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="10" alt=""></td>						<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="130" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="10" alt=""></td>						<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="130" alt=""></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="10" alt=""></td>	
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="1" width="90" alt=""></td>				</tr>
+				<tr>
+					<td  bgcolor="#000000" rowspan="2" ><a href="/" rel="nofollow"><img src="/images/wz_logo_150x64.gif" height="64" width="150" border="0" alt= "extranet and intranet online collaboration"></a></td>
+					<td bgcolor="#000000"><img src="/images/spacer.gif" height="31" width="15" alt=""></td>
+					<td colspan="11" bgcolor="#000000" class="whiteheader">Easy-to-use online collaboration.</td>
+				</tr>
+				<tr>
+					<td bgcolor="#ff6633"><img src="/images/spacer.gif" height="33" width="14" alt=""></td>
+					<td align="left" bgcolor="#ff6633">			<a href="/index.vm" rel="nofollow" class="topnav" style="color:#222222;">Home</a>
+	</td>
+					<td align="center" bgcolor="#ff6633"><span class="whiteheader">|</span></td>
+					<td align="center" bgcolor="#ff6633">			<a href="javascript:win('/home/tour/client-extranet.vm')" rel="nofollow" class="topnav" style="color:#222222;">Product Tour</a>
+	</td>
+					<td align="center" bgcolor="#ff6633"><span class="whiteheader">|</span></td>
+					<td align="center" bgcolor="#ff6633">			<a href="/home/features/collaboration/overview.vm" rel="nofollow" class="topnav" style="color:#222222;">Features</a>
+	</td>
+					<td align="center" bgcolor="#ff6633"><span class="whiteheader">|</span></td>
+					<td align="center" bgcolor="#ff6633">			<a href="/home/easy-collaboration.vm" rel="nofollow" class="topnav" style="color:#222222;">Why We're Different</a>
+	</td>
+					<td align="center" bgcolor="#ff6633"><span class="whiteheader">|</span></td>
+					<td align="center" bgcolor="#ff6633">			<a href="/home/industry-solutions/industry-solutions-overview.vm" rel="nofollow" class="topnav" style="color:#222222;">Industry Solutions</a>
+	</td>
+					<td align="center" bgcolor="#ff6633"><span class="whiteheader">|</span></td>
+					<td align="center" bgcolor="#ff6633">			<a href="/home/contactus.vm" rel="nofollow" class="topnav" style="color:#222222;">Contact Us</a>
+						</td>
+				</tr>
+
+			</table>
+
+			
+			<table border="0" bordercolor="blue" cellpadding="0" cellspacing="0">
+				<tr>
+					<td bgcolor="#ffcc00"><img src="/images/spacer.gif" height="1" width="150" alt=""></td>
+					<td bgcolor="#ffffff"><img src="/images/spacer.gif" height="1" width="460" alt=""></td>
+					<td bgcolor="#ffffff"><img src="/images/spacer.gif" height="1" width="20" alt=""></td>
+					<td bgcolor="#ffffff"><img src="/images/spacer.gif" height="1" width="145" alt=""></td>
+				</tr>
+				<tr>
+					<td valign="top" bgcolor="#ffcc00">
+						<table border="0" bordercolor="red" cellpadding="0" cellspacing="0">
+							<tr>
+								<td><img src="/images/spacer.gif" height="10" width="10" alt=""></td>
+								<td><img src="/images/spacer.gif" height="1" width="135" alt=""></td>
+							</tr>
+							<tr>
+								<td><img src="/images/spacer.gif" height="1" width="7" alt=""></td>
+								<td><table>
+	<tr><td class="leftnav" bgcolor="#ffe6b3">PRODUCTS<br></td></tr>
+	<tr><td><a class="leftnav" href="/intranet-extranet/extranet-solution.vm" rel="nofollow">Extranet Solutions</a><br></td></tr>
+	<tr><td><a class="leftnav" href="/intranet-extranet/intranet-solution.vm" rel="nofollow">Intranet Solutions</a><br><br><br></td></tr>
+	<tr><td class="leftnav" bgcolor="#ffe6b3">INDUSTRY SOLUTIONS<br></td></tr>
+	<tr><td><a class="leftnav" href="/agency/agency-extranet-collaboration.vm" rel="nofollow">Advertising Agencies</a><br></td></tr>
+	<tr><td><a class="leftnav" href="/marketing/marketing-collaboration.vm" rel="nofollow">Marketing</a><br></td></tr>
+	<tr><td><a class="leftnav" href="/professional/team-collaboration.vm" rel="nofollow">Professional Services</a><br></td></tr>
+	<tr><td><a class="leftnav" href="/marketing/marketing-collaboration.vm" rel="nofollow">Marketing</a><br></td></tr>
+	<tr><td><a class="leftnav" href="/home/industry-solutions/industry-solutions-overview.vm" rel="nofollow">More industries . . .</a><br></td></tr>
+</table>
+</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td><img src="/images/spacer.gif" height="10" width="14" alt=""></td>
+								<td width="99%"><img src="/images/spacer.gif" height="1" width="421" alt=""></td>
+							</tr>
+							<tr>
+								<td><img src="/images/spacer.gif" height="1" width="14" alt=""></td>
+								<td>
+
+<!-- begin online collaboration content -->
+<h1 class="green"><b>Online Collaboration Solutions</b></h1>
+
+Organize your work, speed decisions, and enhance your relationships. 
+Make collaboration with teams, clients or business partners faster and easier.
+Share documents and projects securely over the web.
+<br><br><br>
+<h1 class="green">Is an extranet or intranet right for you?</h1>
+<ul>
+<li>Do you share lots of documents with people in multiple locations who need access at 
+all times?</li><br><br>
+<li>Would a well-organized, shared document archive make your teams work more efficiently?</li><br><br>
+<li>Would you like to control who sees what, and when they see it, all within a secure 
+environment?</li><br><br>
+<li>Does email keep you from sending large documents and graphics?</li>
+</ul>
+Then an intranet or extranet may be a good solution for on-line collaboration and document sharing. 
+But not all solutions are designed the same.
+<br><br><br>
+<h1 class="green">What makes WorkZone different from other online collaboration solutions?<br></h1>
+It's simple. Simple to set up, simple to learn and simple to use...with all the power you need. Other collaboration solutions are crammed full of features that rarely get used and get in the way of effective collaboration.  At WorkZone, we realize that simplicity is a virtue. &nbsp;<a href="javascript:win('/home/tour/client-extranet.vm')"><span style="font-size:8pt"><b>take a quick tour</b></span></a>
+
+<br><br><br>
+
+<img src="/images/client-extranet-advertisers.gif" alt="Client extranet" height=301px width=450px>
+<br>
+<div class="legend">sample client view</div>
+<br><br>
+We've simply taken out the complicated stuff that gets in the way of real collaboration. <b>It's simply powerful. </b>
+&nbsp;<a href="/home/easy-collaboration.vm" rel="nofollow"><span style="font-size:8pt"><b>more about the WorkZone difference</b></span></a>
+
+<br><br>
+WorkZone's elegantly simple, yet powerful extranet design makes online collaboration 
+faster and easier. It can be used effectively by computer novices and experts alike, and 
+requires very little training. You'll be up and running from day one.
+<br><br>
+All documents, regardless of size, can be viewed by everyone without concern for restrictions 
+and firewalls. 
+<br><br>
+It organizes everything you share in a simple file and folder system that assures nothing 
+is lost, and everything is accessible quickly. You decide who has permission to view 
+documents, and all of your work is shared using highly secure 128-bit SSL encryption.
+<br><br>
+There's no hardware or software to install, and WorkZone requires no IT support. 
+It works across any platform - PC or Mac. 
+<br><br>
+WorkZone was created to help non-technical business professionals use powerful technology 
+to collaborate more effectively. 
+<br><br><br>
+<b>See WorkZone online collaboration in action.</b> Give us a call at <b>866-967-5966</b> 
+(610-828-2877 outside U.S./Canada) or schedule a personal 
+<a href="../home/extranet-demo.vm" rel="nofollow" style="font-weight:bold;" >online collaboration demo</a> of WorkZone.
+<!-- end online collaboration content -->
+</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top">&nbsp;</td>
+					<td valign="top" bgcolor="#fff5ba">
+						<table border="0" cellpadding="0" cellspacing="0" align="center">
+							<tr bgcolor="#ffffff">
+								<td width="6">&nbsp;</td>
+								<td><img src="/images/spacer.gif" height="10" width="133" alt=""></td>
+								<td width="6">&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td valign="top" align="center"><br><br><br>
+<a href="/home/extranet-demo.vm" rel="nofollow"><img src="/images/extranet-demo.gif" height="50" width="125" border="0" alt="internet collaboration demo"></a>
+<br><br><br>
+<a href="javascript:win('/home/tour/client-extranet.vm')"><img src="/images/extranet-tour.gif" height="50" width="125" border="0" alt="online collaboration tour"></a>
+<br><br><br><br><br>
+<table border="1px" bordercolor="black" cellpadding="8" cellspacing="0" align="center">
+			<tr>
+				<td width="124" bgcolor="ffffff" align="center">
+				<b>
+<div style="font-size:10pt; color:#000000;">866-WORKZONE</b><br>(866-967-5966)</div>
+
+				
+
+				</div>
+				</td>
+			</tr></table></td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+				</tr>
+			</table>
+		
+		<!-- end main cell -->
+		
+		</td>
+	</tr>
+	<tr>
+		<td valign="bottom">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="150" bgcolor="#ffcc00"><img src="/images/trichyslogo150.gif" width="150" height="45" alt="Extranet and Intranet Software">
+						<img src="/images/spacer.gif" height="1" width="22" alt=""><img src="/images/copyright2005.gif" height="13" width="64" alt="WorkZone extranet; copyright Trichys 2005"></td>
+					<td valign="bottom">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+							<div align="right">
+								<td bgcolor="#66cc00">&nbsp;&nbsp;&nbsp;
+<a href="/home/whoweare.vm" rel="nofollow" class="footnav">About Us</a>
+									<img src="/images/spacer.gif" height="13" width="410" alt="">
+<a href="/home/privacy.vm" rel="nofollow" class="footnav">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/home/sitemap.vm" class="footnav">Site Map</a>&nbsp;&nbsp;&nbsp;&nbsp;
+</td></div>
+							</tr> 						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	<!--	<td valign="bottom">
+			<table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+				<td bgcolor="#66cc00"><img src="/images/spacer.gif" height="13" width="1" alt=""></td> 
+				</tr>
+			</table>
+		</td> -->
+	</tr>
+</table>
+<table width="755" bgcolor="#ffffff" align="center">
+<tr><td><br><br><br><br></td></tr>
+<tr><td><span class = "smallcat">Quick Links:<br><br>
+Collaboration Resources:</span>&nbsp;
+<a class = "small" href="/collaboration/web-collaboration.vm">web collaboration,</a>&nbsp;
+<a class = "small" href="/home/easy-extranet-design.vm">online collaboration,</a>&nbsp;
+<a class = "small" href="/marketing/online-collaboration.vm">online project collaboration,</a>&nbsp;
+<a class = "small" href="/collaboration/collaboration-software.vm">collaboration software,</a>&nbsp;
+<a class = "small" href="/collaboration/collaboration-solutions.vm">collaboration solutions,</a>&nbsp;
+<a class = "small" href="/collaboration/collaboration-tools.vm">collaboration tools,</a>&nbsp;
+<a class = "small" href="/collaboration/document-collaboration.vm">document collaboration,</a>&nbsp;
+<a class = "small" href="/collaboration/client-collaboration.vm">client collaboration,</a>&nbsp;
+<a class = "small" href="/collaboration/group-collaboration-software.vm">group collaboration software,</a>&nbsp;
+<a class = "small" href="/marketing/online-collaboration.vm">project collaboration tool,</a>&nbsp;
+<a class = "small" href="/professional/team-collaboration-solution.vm">collaborative software,</a>&nbsp;
+<a class = "small" href="/professional/team-collaboration.vm">team collaboration</a>&nbsp;
+
+<br>
+<span class = "smallcat">Other Resources:</span>&nbsp;
+<a class = "small" href="/">extranet,</a>&nbsp;
+<a class = "small" href="/intranet-extranet/intranet-software.vm">intranet software,</a>&nbsp;
+<a class = "small" href="/professional/document-sharing.vm">document sharing,</a>&nbsp;
+<a class = "small" href="/agency/agency-extranet-collaboration.vm">ad agency software</a>&nbsp;
+
+
+<!--WEBSITECEO:BEGIN:{764EEF2E-BC11-45CF-8627-300CE1BA2219}-->
+<script type="text/javascript"><!--
+// hitlens v1.2.7
+function hitlens_embedded() {
+var id = 45956;
+var pc = 0;
+var PAGENAME = escape('/home/easy-extranet-design.vm');
+var TRANSACTION = escape('');
+return "id="+id+"&pc="+pc+"&p="+PAGENAME+"&tr="+TRANSACTION;
+}
+//--></script>
+<script type="text/javascript" src="/webceo.js"></script>
+<!--WEBSITECEO:END:{764EEF2E-BC11-45CF-8627-300CE1BA2219}-->
+
+</td></tr>
+</table>
+</div>
+</body></html>
+<!-- Copyright (c)2005 Trichys LLC.  All rights reserved. -->
+

@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Business Solution</title>
+</head>
+
+<LINK Rel='stylesheet' Type='text/css' HREF='menu_styles.css'>
+<LINK Rel='stylesheet' Type='text/css' HREF='../../css/styles.css'>
+
+<body bgcolor="#FFFFFF" background="images/background2.gif" link="#990000" vlink="#999999" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/bo_francais_over.gif','images/bo_search_over.gif')">
+<script language="JavaScript" src="print.js"></script>
+<script language="JavaScript" src="menus.js"></script>
+<script language="JavaScript" src="menu_def_eng.js"></script>
+<script>oCMenu.construct()</script>
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="320"><img src="images/entete_site_logo1.gif" alt="" width="320" height="83" border="0"></td>
+		<td width="450"><img src="images/entete_site_logo2.gif" alt="" width="450" height="83" border="0"></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+	<tr>
+		<td width="320"><img src="images/entete_site_ptitslogan.gif" alt="" width="320" height="18" border="0"></td>
+
+    <td width="315" bgcolor="#9a0002" align="right"><font style="color: #ffffcf; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; background-color: #990000;">June
+      2005</font></td>
+		<td width="135" bgcolor="#9a0002"><img src="images/spacer.gif" alt="" width="135" height="1" border="0"></td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="770">
+	<tr>
+
+    <td width="140" valign="top" bgcolor="#9a0002">
+      <!-- Debut Marge Gauche -->
+      <img src="images/spacer.gif" alt="" width="140" height="125" border="0">
+      <a href="../fr/index.html" ONMOUSEOUT="MM_swapImgRestore()" ONMOUSEOVER="MM_swapImage('english_btn','','images/bo_francais_over.gif',1)"><img src="images/bo_francais_of.gif" alt="" width="140" height="26" border="0" name="english_btn"></a>
+      <!-- Fin Marge Gauche -->
+    </td>
+		<td width="494" valign="top" align="center" bgcolor="#FFFFFF">
+		<!-- Debut Colonne Centre -->
+<table border="0" cellpadding="0" cellspacing="0" width="494">
+	<tr>
+		<td><img src="images/spacer.gif" alt="" width="20" height="20" border="0"></td>
+		<td><img src="images/spacer.gif" alt="" width="454" height="1" border="0"></td>
+		<td><img src="images/spacer.gif" alt="" width="20" height="1" border="0"></td>
+	</tr>
+	<tr>
+		  <td ><img src="images/spacer.gif" alt="" width="20" height="1" border="0"></td>
+		  <td valign="top">
+            <!-- Article Entete -->
+            <img src="images/articles_internetpme.gif" width="450" height="39">
+            <table border="0" cellpadding="0" cellspacing="0" width="450">
+			<tr>
+				<td width="22"><img src="images/spacer.gif" alt="" width="20" height="1" border="0"></td>
+				<td width="428" valign="top" align="left"> <p><A HREF="javascript:void(0)" onClick="return printPage(window)"><img src="images/btn_imprimer.gif" alt="" width="77" height="16" border="0" align="right"></a>
+                    <br><a href="#confiance"><br>
+                    </a></font><font style="color: #000000; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none">
+                    <a name="top"></a><a name="10"></a><b>Online teamwork gives your business a boost</b><br>
+                    </b><br>
+                    
+     <i>By using simple information technology tools that facilitate cooperative work, small and medium sized enterprises can enhance productivity </i><br><br>
+
+
+
+Computer-supported cooperative (or collaborative) work is another of those expressions that’s popular among management experts. It refers to teamwork done by a group of colleagues who use the Internet or networked computers to exchange and share knowledge as they carry out a common project. 
+<br><br>
+
+    
+<b><a href="#1">What is cooperative work?</a><br>
+
+<a href="#2">Main advantages of cooperative work</a><br>
+
+<a href="#3">How your business can benefit from cooperative work</a></b><br><br><br>
+
+
+<a name="1"></a><b><i>What is cooperative work?</i></b><br>
+In the 18th century, after observing 10 workers in a pin factory, economist Adam Smith determined that each worker produced 20 pins a day on an individual basis. In contrast, once the workers began to specialize in a single step of the pin manufacturing process, they were able to produce 4,800 pins each! <br><br>
+
+Cooperative work could be described as a white collar reinterpretation of the assembly line processes developed by Henry Ford, who was inspired by Adam Smith’s findings.<br><br>
+
+Actually, any business consisting of more than one person assigned specific duties is a cooperative work environment. It’s always been that way. What’s different now is that information technology tools allow cooperative work to be done on a much wider scale, involving work teams that are brought together and disbanded as needs change.<br><br>
+
+Computer supported cooperative work (CSCW) relies on information technology to enable collaborating individuals to do the following:
+
+<ul><li>Share information 
+
+<li>Plan and manage the time the group devotes to a project
+
+<li>Organize how team members work together
+
+<li>Learn about each other’s experiences
+
+<li>Define common objectives
+
+<li>Produce common information
+
+<li>Enhance the group’s competencies.</ul>
+
+
+            
+  <br><br><br>
+ <a name="2"></a><b><i>Main advantages of cooperative work</a></i></b><br><br>
+Although cooperative work by office employees may not generate the kind of spectacular, measurable productivity gains found by Adam Smith, it has a number of major advantages in our knowledge economy. In particular, cooperative work can help your business do the following: 
+
+<ul><li>Improve productivity
+
+<li>Enable all team members to monitor how a project is progressing in real time
+
+<li>Ensure that knowledge is shared within the organization in keeping with <a href="http://www.messagia.net/bnc/webzine/0311/en/internet_pme.html" target="_new">knowledge management</a> principles
+
+<li>Allow <a href="http://www.messagia.net/bnc/webzine/0310/en/internet_pme.html" target="_new">e-learning</a> to take place on an ongoing basis.</ul><br>
+<br><br>
+
+
+       <a name="3"></a><b><i>How your business can benefit from cooperative work</a></i></b><br><br>
+Specialized software or groupware is already available to facilitate online or networked teamwork. For example, most engineers are familiar with shared engineering platforms that enable multiple team members to work in a coordinated way on the same plan or project. 
+
+Fully automated cooperative work systems also exist. In those systems, the computer is responsible for coordinating the work done by humans.
+
+Obviously, few SMEs can afford to invest the sums needed for such advanced tools but they still have access to up-to-date technology designed to facilitate cooperative work. 
+
+In fact, simple everyday software can serve as a very effective foundation for CSCW. 
+
+Recent generations of computers are already equipped with most of the tools you need. All you have to do is implement collaborative practices and principles among your team.
+
+<ul><li>Assign tasks to work teams rather than individuals
+
+<li>Eliminate the use of paper
+
+<li>Give priority to the following communication methods:<br><br>
+
+<ul><li>Email <br>
+Studies show that workers prefer to communicate via email. In addition, for team projects, the advantage of email is that it provides a written record of communications.<br><br>
+
+<li>Chat<br> 
+Rather than holding small in-person meetings that are labour-intensive (everyone has to show up at a specific location, stacks of photocopies have to be prepared,  etc.), hold online chat sessions using a simple, widely available tool such as MSN Messenger. Documents can be exchanged between participants while remaining in electronic format.<br><br>
+
+<li>Videoconference <br>
+The same principle applies to larger meetings or negotiations where visual contact is important: hold a videoconference instead.<br><br>
+
+<li><a href="http://www.messagia.net/bnc/webzine/0410/en/nouveaute.html" target="_new">Text message</a><br>
+Text messaging can be very useful in certain situations, e.g. obtaining input from a team member who’s at a worksite or travelling.<br><br>
+
+<li>Office software with shared scheduling functions<br>
+Why spend hours on the phone trying to coordinate participants’ schedules when an online conference is being organized? A variety of readily available software suites can automate that task. <br><br>
+
+<li>Word<br>
+Simply by activating the Track Changes function in Word, several individuals can make separate contributions to the same file while allowing a coordinator to identify, accept or reject their changes. <br><br>
+
+<li>Web log (blog) <br>
+Blogs are online personal journals and are becoming increasingly popular on the Net. In some cases, key team members could make an entry in a blog each day so that others can monitor progress.<br><br>
+
+<li>Document management <br>
+Document management software makes cooperative work much easier by keeping track of the various documents in circulation.<br><br>
+
+<li><a href="http://www.messagia.net/bnc/webzine/0407/en/internet_pme.html" target="_new">Intranet</a> (if you have one)</ul></ul>
+
+
+Although there is no shortage of teamwork solutions, it takes some time to fully implement cooperative work strategies. If you take a step by step approach and do a little at a time, you’ll be able to regularly ensure that you're gaining maximum benefits. Once you’re on your way, you won't want to turn back.
+
+
+     
+                  </td>
+			</tr>
+		</table>
+		<table border="0" cellpadding="0" cellspacing="0" width="450">
+			<tr>
+				<td width="20" height="57"><img src="images/spacer.gif" alt="" width="20" height="1" border="0"></td>
+				<td width="176" valign="bottom">&nbsp;
+                  <p><a href="../../en/form.html"><img src="images/articles_txt_envoyer.gif" alt="" width="147" height="17" border="0"><img src="images/btn_envoyer.gif" alt="" width="28" height="17" border="0"></a><img src="images/spacer.gif" alt="" width="46" height="2" border="0"></td>
+				<td width="254" align="center" valign="bottom"> <img src="images/spacer.gif" alt="" width="46" height="18" border="0"><a href="nouveaute.html" onMouseOver="MM_swapImage('btn_prev','','images/btn_articles_back_over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/btn_articles_back.gif" alt="" name="btn_prev" id="btn_prev" width="16" height="19" border="0"></a>
+                  <img src="images/articles_txt_autresarticles.gif" alt="" width="106" height="29" border="0"><a href="pme_inc.html" ONMOUSEOVER="MM_swapImage('btn_next','','images/btn_articles_next_over.gif',1)" ONMOUSEOUT="MM_swapImgRestore()"><img src="images/btn_articles_next.gif" alt="" name="btn_next" id="btn_next" width="16" height="19" border="0"></a>
+                </td>
+			</tr>
+		</table>
+		</td>
+		<td><img src="images/spacer.gif" alt="" width="20" height="1" border="0"></td>
+	</tr>
+</table>
+<br><br><center>
+      <font style="color: #000000; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none">You
+      can contact us at: <a href="mailto:businesssolution@nbc.ca">businesssolution@nbc.ca</a></font><br>
+      <font style="color: #000000; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none">National
+      Bank of Canada, all rights reserved &copy;2005</font></center><br>
+      &nbsp;<br><br>&nbsp;
+
+
+      <!-- Fin Colonne Centre -->
+    </td>
+		<td width="135" bgcolor="#9a0002" valign="top">
+		<!-- Debut Marge Droite -->
+		<table border="0" cellpadding="0" cellspacing="0" >
+			<tr>
+				<td><img src="images/onglet_abonnezvous.gif" alt="" width="136" height="89" border="0"></td>
+			</tr>
+			<tr>
+				<form>
+            <td background="images/onglet_abonnezvous_fond.gif" align="center" valign="top" height="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="button" value="OK" onclick="window.location.href='http://www.messagia.net/bnc/webzine/subscription/en/subscription.asp'">
+              <br>
+              <img src="images/spacer.gif" alt="" width="136" height="1" border="0"></td></form>
+			</tr>
+		</table>
+
+      <!-- Debut Recherche -->
+      <a href="../../en/archives.html" ONMOUSEOUT="MM_swapImgRestore()" ONMOUSEOVER="MM_swapImage('recherche','','images/bo_search_over.gif',1)"><img src="images/bo_search_of.gif" alt="" name="recherche" id="recherche" width="136" height="27" border="0"></a>
+      <!-- Fin Recherche -->
+      <!-- Fin Marge Droite -->
+    </td>
+	</tr>
+</table>
+
+<script>
+<!--
+	document.write('<img src="../../readpage.asp?l=en&m=0506&p=3" border="0", width="0" height="0" alt="">')
+//-->
+</script>
+<noscript><img src="../../readpage.asp?l=en&m=0506&p=3" border="0", width="0" height="0" alt=""></noscript>
+

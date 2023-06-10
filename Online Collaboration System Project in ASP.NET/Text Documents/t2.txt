@@ -1,0 +1,929 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<title>Technologies And Traits For Effective Online Teamwork - Online Collaboration and Web Conferencing Breaking News - Kolabora&#046;com</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="expires" content="-1" />
+<meta http-equiv= "pragma" content="no-cache" />
+<meta name="author" content="AUTHOR_NAME" />
+<meta name="robots" content="all" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="description" content="META_DESCRIPTION" />
+<meta name="keywords" content="KEYWORDS" />
+
+<style type="text/css">
+    @import "http://www.kolabora.com/quicksub.css";
+</style>
+
+<link rel="Stylesheet" href="http://www.kolabora.com/style/news.css" type="text/css" media="screen" />
+<style type="text/css" media="all">@import "http://www.kolabora.com/style/sophisto.css";</style>
+<link rel="stylesheet" type="text/css" href="http://www.kolabora.com/style/print.css" media="print" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.kolabora.com/news/index.rdf" />
+
+<link rel="start" href="http://www.kolabora.com/" title="Home" />
+<link rel="prev" href="http://www.kolabora.com/news/2004/01/23/webconferencing_to_go_for_internet.htm" title="Webconferencing To Go For Internet Service Providers" />
+
+<link rel="next" href="http://www.kolabora.com/news/2004/01/29/fullfeatured_web_conferencing_under_an.htm" title="Full-Featured Web Conferencing Under An Instant Messaging Interface" />
+
+
+<script type="text/javascript" language="javascript">
+<!--
+
+function OpenTrackback (c) {
+    window.open(c,
+                    'trackback',
+                    'width=480,height=480,scrollbars=yes,status=yes');
+}
+
+var HOST = '';
+
+// Copyright (c) 1996-1997 Athenia Associates.
+// http://www.webreference.com/js/
+// License is granted if and only if this entire
+// copyright notice is included. By Tomer Shiran.
+
+function setCookie (name, value, expires, path, domain, secure) {
+    var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
+    document.cookie = curCookie;
+}
+
+function getCookie (name) {
+    var prefix = name + '=';
+    var c = document.cookie;
+    var nullstring = '';
+    var cookieStartIndex = c.indexOf(prefix);
+    if (cookieStartIndex == -1)
+        return nullstring;
+    var cookieEndIndex = c.indexOf(";", cookieStartIndex + prefix.length);
+    if (cookieEndIndex == -1)
+        cookieEndIndex = c.length;
+    return unescape(c.substring(cookieStartIndex + prefix.length, cookieEndIndex));
+}
+
+function deleteCookie (name, path, domain) {
+    if (getCookie(name))
+        document.cookie = name + "=" + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + "; expires=Thu, 01-Jan-70 00:00:01 GMT";
+}
+
+function fixDate (date) {
+    var base = new Date(0);
+    var skew = base.getTime();
+    if (skew > 0)
+        date.setTime(date.getTime() - skew);
+}
+
+function rememberMe (f) {
+    var now = new Date();
+    fixDate(now);
+    now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
+    setCookie('mtcmtauth', f.author.value, now, '', HOST, '');
+    setCookie('mtcmtmail', f.email.value, now, '', HOST, '');
+    setCookie('mtcmthome', f.url.value, now, '', HOST, '');
+}
+
+function forgetMe (f) {
+    deleteCookie('mtcmtmail', '', HOST);
+    deleteCookie('mtcmthome', '', HOST);
+    deleteCookie('mtcmtauth', '', HOST);
+    f.email.value = '';
+    f.author.value = '';
+    f.url.value = '';
+}
+
+//-->
+</script>
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.kolabora.com/news/2004/01/27/technologies_and_traits_for_effective.htm"
+    trackback:ping="http://www.kolabora.com/cgi-bin/mt/mt-tb.r375.cgi/38"
+    dc:title="Technologies And Traits For Effective Online Teamwork"
+    dc:identifier="http://www.kolabora.com/news/2004/01/27/technologies_and_traits_for_effective.htm"
+    dc:subject="Hot Issues"
+    dc:description="What are the features and facilities you really need when collaborating online? Is it true that present-day state-of-art conferencing solutions integrate and include what we, professional end users really want? Who is driving the Web conferencing industry? Technologists, businessmen or..."
+    dc:creator="Robin Good"
+    dc:date="2004-01-27T11:11:44+00:00" />
+</rdf:RDF>
+-->
+
+
+<script language="Javascript">
+function printit(){  
+if (window.print) {
+    window.print() ;  
+} else {
+    var WebBrowser = '<object id="WebBrowser1" width="0" height="0" classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>';
+document.body.insertAdjacentHTML('beforeEnd', WebBrowser);
+    WebBrowser1.ExecWB(6, 2);//Use a 1 vs. a 2 for a prompting dialog box    WebBrowser1.outerHTML = "";  
+}
+}
+</script>
+
+</head>
+<body>
+
+<div id="quickSub" style="position:absolute; visibility:hidden; z-index:1000;" onMouseOut="return timeqs();" onMouseMove="return delayqs();"></div>
+<script language="JavaScript" src="http://www.kolabora.com/quicksub.js"><!-- quickSub (c) Jason Brome --></script>
+
+<div class="noprint">
+
+<table width="1004" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="blacknav" width="50%"><a href="http://www.kolabora.com/about.htm"><img alt="About" src="http://www.kolabora.com/images/topnav_about.gif" width="82" height="39" border="0" /></a><a href="http://www.kolabora.com/privacy.htm"><img alt="Privacy" src="http://www.kolabora.com/images/topnav_privacy.gif" width="90" height="39" border="0" /></a><a href="http://www.kolabora.com/contact.htm"><img alt="Contact" src="http://www.kolabora.com/images/topnav_contact.gif" width="86" height="39" border="0" /></a></td>
+    <td class="blacknav">&nbsp;</td>
+    <td class="blacknav" align="right" width="50%"><a href="http://www.kolabora.com/"><img alt="Kolabora" src="http://www.kolabora.com/images/logo.gif" width="164" height="39" vspace="2" border="0" /></a></td>
+    <td class="blacknav"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="48" height="1" /></td>
+  </tr>
+</table>
+<table width="1004" align="center" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td><img alt="" src="http://www.kolabora.com/images/dot.gif" width="20" height="1" border="0" /></td>
+    <td width="100%">&nbsp;</td>
+    <td><img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="135" border="0" /></td>
+    <td width="209" valign="top">
+<img alt="The Online Collaboration Authority" src="http://www.kolabora.com/images/tagline.gif" width="193" height="13" vspace="5" /><br />
+<img alt="Where end users meet the industry" src="http://www.kolabora.com/images/tagline_2nd.gif" width="202" height="12" /><br />
+<br />
+<img alt="Kolabora :: The Online Collaboration Authority - Breaking News, Commentary, Forums, Expert Advice, Tools Review And Guidelines On How To Best Present, Communicate And Collaborate Online" src="http://www.kolabora.com/images/links/kolabora.gif" width="209" height="23" /><br />
+<a href="http://www.masternewmedia.org/" target="_blank"><img alt="MasterNewMedia :: What Communication Experts Need To Know - Robin Good's Helps You Communicate More Effectively With New Media Technologies" src="http://www.kolabora.com/images/links/masternewmedia.gif" vspace="6" width="209" height="23" border="0" /></a><br />
+<a href="http://www.masterviews.com/" target="_blank"><img alt="MasterViews :: How To Create, Manage And Deliver Effective PowerPoint Presentations For International Audiences" src="http://www.kolabora.com/images/links/masterview.gif" width="209" height="23" border="0" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="21" border="0" /></td>
+  </tr>
+</table>
+<table width="1004" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="191" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnt.gif" width="200" height="1" /></td>
+  </tr>
+  <tr>
+    <td class="mainnav" valign="bottom">
+
+<!-- Search Google -->
+<div class="search">
+<form method="get" action="http://www.google.com/custom" name="q">
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="10" height="1" /><a href="http://www.google.com/" target="_blank"><img alt="Google" src="http://www.kolabora.com/images/google.jpg" width="55" height="18" align="middle" border="0" /></a> <input type="text" name="q" id="q" size="7" maxlength="255" value="" class="monospace" />
+<a class="mainnav" name="sa" href="javascript:document.q.submit();">Search</a><br />
+<input type="hidden" name="domains" value="kolabora.com"></input>
+<input type="hidden" name="client" value="pub-1185284300475723" />
+<input type="hidden" name="forid" value="1" />
+<input type="hidden" name="channel" value="1750557026" />
+<input type="hidden" name="ie" value="ISO-8859-1" />
+<input type="hidden" name="oe" value="ISO-8859-1" />
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:000000;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:39;LW:164;L:http://www.kolabora.com/images/logo.gif;S:http://;FORID:1;" />
+<input type="hidden" name="hl" value="en" />
+<input type="hidden" name="sitesearch" value="kolabora.com" />
+</form>
+</div>
+<!-- Search Google -->
+    </td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/index.htm">Home</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/news_radars/">News Radars</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/tools.htm">Tools</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/reviews.htm">Reviews</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/howto.htm">How To</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav" align="center"><a class="mainnav" href="http://www.kolabora.com/experts.htm">Experts</a></td>
+    <td class="mainnav"><img alt="" src="http://www.kolabora.com/images/topnav_delimiter.gif" width="1" height="26" /></td>
+    <td class="mainnav"><a href="http://www.kolabora.com/buzzometer.htm"><img alt="" src="http://www.kolabora.com/images/buzzometer.gif" width="87" height="14" hspace="35" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="191" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="101" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="1" height="1" /></td>
+    <td><img alt="" src="http://www.kolabora.com/images/dotnb.gif" width="200" height="1" /></td>
+  </tr>
+</table>
+</div>
+
+<div class="title"><big>Kolabora News</big> by Robin Good</div> 
+
+<div class="toptagline"><b>Online collaboration, web conferencing and live presentation: latest news</b></div>
+
+<table width="1004" align="center" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td class="dividert" colspan="5"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="2" /></td>
+  </tr>
+  <tr>
+    <td class="section" colspan="5"><p class="section"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="10" /><a href="http://www.kolabora.com/index.htm">Home</a> &#187; Technologies And Traits For Effective Online Teamwork</p></td>
+  </tr>
+  <tr>
+    <td class="left"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="171" height="1" /></td>
+    <td class="divider" rowspan="2"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="2" height="1" /></td>
+    <td class="divider"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="2" height="1" /></td>
+    <td class="divider2" rowspan="2"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="1" /></td>
+    <td class="divider"><img alt="" src="http://www.kolabora.com/images/dot.gif" width="200" height="1" /></td>
+  </tr>
+  <tr>
+    <td class="left" valign="top">
+
+	<!-- Left Navigation Column STARTS here -->
+	
+	<div id="leftcolumn" class="leftcolumn">
+
+<p class="news_info"><a href="http://www.kolabora.com/news/index.rdf" onmouseout="return timeqs();" onmouseover="return quicksub(this, 'http://www.kolabora.com/news/index.rdf');"><img alt="RSS Feed" src="http://www.kolabora.com/images/rss.gif" width="36" height="14" align="middle" /></a> &nbsp;</p>
+
+<br />
+
+<div id="adstrip">
+<table class="premiumad">
+<tr>
+<td class="blogad_headline">
+<span class="blogad_headline">&nbsp;</span>
+</td>
+</tr>
+<tr>
+<td class="blogad_thumbnail">
+
+<script language="JavaScript1.1" src="http://altfarm.mediaplex.com/ad/js/3976-22164-12317-1?mpt=[CACHEBUSTER]&mpvc="></script>
+<noscript>
+<a href="http://altfarm.mediaplex.com/ad/ck/3976-22164-12317-1?mpt=[CACHEBUSTER]"><img src="http://altfarm.mediaplex.com/ad/bn/3976-22164-12317-1?mpt=[CACHEBUSTER]" alt="Try it Free" border="0"></a>
+</noscript>
+
+</td>
+</tr>
+<tr>
+<td class="blogad_text">
+<span class="blogad_text">
+Hi, here is Robin Good.<br /><br />
+
+"GoToMeeting is my Web conferencing solution of choice.<br />
+It has replaced Glance in my system tray and made my WebEx friends extremely envious. Why?"<br /><br />
+
+1) great ease of use<br />
+2) lowcost<br />
+3) good performance and rock-solid reliability<br />
+4) secure (128-bit encryption)<br /><br />
+
+Now, you can hold Web conferences with up to 10 users for as little as $39/month.<br /><br />
+
+Try it Free.
+</span>
+</td>
+</tr>
+<tr>
+<td class="blogad_link">
+<a href="https://www.gotomeeting.com/t/iko/Q3_2005/kol_premref/text/g2m_nocc30lp?Target=m/g2m_nocc30lp.tmpl" class="blogad_link" target="_blank">Read More...</a>
+</td>
+</tr>
+</table>
+</div>
+<br />
+
+<a href="http://www.corante.com/events/ssa/index.php" target="_blank"><img alt="The Symposium on Social Architecture" title="The Symposium on Social Architecture" src="http://www.kolabora.com/images/sponsors/social_architecture_symposium.gif"   width="150" height="200" border="0" /></a>
+
+<br /><br />
+
+<script language="javascript" src="http://proxy.blogads.com/spcjohppenbtufsofxnfejbpsh/kolabora/feed.js"></script>
+<p>&nbsp;</p>
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>29 Nov 2004;</b> 02:38.AM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/11/29/towards_a_new_generation_of.htm"><b>Towards A New Generation Of Web Conferencing Tools: Co-browsing And Web Touring</b></a></p>
+
+<div class="news">
+If you have been following my work on the web...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/11/29/towards_a_new_generation_of.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b> 6 Aug 2004;</b> 03:51.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/08/06/state_of_the_industry_says.htm"><b>State of the Industry Says: It's A Buyer's Market</b></a></p>
+
+<div class="news">
+Report From The Trenches :: The Real-Time Blog of yesterday's...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/08/06/state_of_the_industry_says.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>21 Jun 2004;</b> 12:35.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/06/21/ray_ozzie_and_howard_rheingold.htm"><b>Ray Ozzie And Howard Rheingold On The Future Of Online Collaboration: Kolabora Live! The Competitive Edge</b></a></p>
+
+<div class="news">
+Swarming, collective intelligence, digital lifestyle aggregation, ubiquitous conferencing and P2P...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/06/21/ray_ozzie_and_howard_rheingold.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>14 Jun 2004;</b> 03:53.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/06/14/best_screen_sharing_tools_reviewed.htm"><b>Best Screen Sharing Tools Reviewed At Buyer's Review</b></a></p>
+
+<div class="news">
+Last Thursday, June 10th, I reviewed seven different screen-sharing technologies...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/06/14/best_screen_sharing_tools_reviewed.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b> 9 Jun 2004;</b> 05:03.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/06/09/screen_sharing_takes_center_stage.htm"><b>Screen Sharing Takes Center Stage At Buyer's Review</b></a></p>
+
+<div class="news">
+Tomorrow is again time for a new Buyer's Review live...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/06/09/screen_sharing_takes_center_stage.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b> 6 Jun 2004;</b> 03:28.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/06/06/always_on_peripheral_hearing_presence.htm"><b>Always On, Peripheral Hearing, Presence Awareness: The Competitive Edge Talks About The Future</b></a></p>
+
+<div class="news">
+Looking into the future of online collaboration technologies has now...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/06/06/always_on_peripheral_hearing_presence.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>24 May 2004;</b> 12:05.AM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/05/24/the_future_of_online_collaboration.htm"><b>The Future Of Online Collaboration This Week At The Competitive Edge</b></a></p>
+
+<div class="news">
+The Competitive Edge is back for its second live event,...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/05/24/the_future_of_online_collaboration.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>18 May 2004;</b> 11:12.AM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/05/18/megameeting_creates_virtual_videospaces.htm"><b>MegaMeeting Creates Virtual VideoSpaces</b></a></p>
+
+<div class="news">
+A new videoconferencing service called MegaMeeting provides the ability to...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/05/18/megameeting_creates_virtual_videospaces.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b>17 May 2004;</b> 03:06.PM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/05/17/best_multiparty_videoconferencing_tools_take.htm"><b>Best Multi-Party Videoconferencing Tools Take The Podium At Buyer's Review</b></a></p>
+
+<div class="news">
+ The second Buyers Review live event went online last...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/05/17/best_multiparty_videoconferencing_tools_take.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="news_date"><img alt="" src="http://www.kolabora.com/images/title.gif" width="12" height="11" /> <b> 4 May 2004;</b> 08:48.AM</p>
+
+<p class="news_title"><a class="title" href="http://www.kolabora.com/news/2004/05/04/end_user_preferences.htm"><b>End User Preferences</b></a></p>
+
+<div class="news">
+ www.viewletpoll.com/poll Your browser does not support JavaScript. The ViewletPoll...
+</div>
+
+<p class="news_readmore_nd"><a class="readmore" href="http://www.kolabora.com/news/2004/05/04/end_user_preferences.htm">read more</a>&nbsp;&nbsp;<img alt="" src="http://www.kolabora.com/images/read_thing.gif" width="10" height="10" border="0" /></p>
+
+<br />
+
+
+<p class="lnav"><a href="http://www.kolabora.com/archives.htm">Read more news</a></p>
+
+<p><a href="http://www.kolabora.com/news/index.rdf" onmouseout="return timeqs();" onmouseover="return quicksub(this, 'http://www.kolabora.com/news/index.rdf');"><img alt="RSS Feed" src="http://www.kolabora.com/images/rss.gif" width="36" height="14" align="middle" /></a></p>
+
+<br />
+
+<a class="lnav" href="http://www.kolabora.com/submit.htm">Submit content</a><br />
+<a class="lnav" href="http://www.kolabora.com/expert.htm">Be an expert</a><br />
+<a class="lnav" href="http://www.kolabora.com/featured.htm">Featured blog</a><br />
+<a class="lnav" href="http://www.kolabora.com/rss.htm">Using RSS</a><br />
+<a class="lnav" href="http://www.kolabora.com/rss.htm">Get automatic updates</a><br />
+<a class="lnav" href="http://www.kolabora.com/advertise.htm">Advertise here</a>
+
+	<p>&nbsp;</p>
+	
+	</div>
+
+ 	<!-- Left Navigation Column ENDS here -->
+       
+    </td>
+    <td class="content" width="610" valign="top">
+
+	<!-- Central Column STARTS here -->
+
+<p class="news_info">Online collaboration, web conferencing and live presentation: latest news</p>
+
+      <div class="white">113</div>
+
+<div class="print"><a onClick="printit()" OnMouseOver="this.className='cursorimg'"><img alt="Print this article" title="Print this article" src="http://www.kolabora.com/images/printer.jpg" width="12" height="11" align="absmiddle" /></a> <a class="cursor" href="#" onClick="printit()">Print this article</a></div>
+
+<p>January 27, 2004</p>
+
+<h1>Technologies And Traits For Effective Online Teamwork</h1>
+
+<h2 class="category"><span class="category">Hot Issues</span></h2>
+
+
+<div class="body">
+
+<div class="noprint">
+<div style="float: left; padding: 0px; margin: 0px; border-width: 0px 15px 5px 0px; border-style: solid; border-color: White;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1185284300475723";
+google_alternate_ad_url = "http://www.kolabora.com/googleads-alt/google_adsense_script.html";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_channel ="5057875078";
+google_ad_type = "text_image";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "000000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-1185284300475723";
+google_alternate_ad_url = "http://www.kolabora.com/googleads-alt/google_adsense_script.html";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_channel ="5057875078";
+google_ad_type = "text_image";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_url = "000000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+
+<p><b>What are the features and facilities you really need when collaborating online?</b></p>
+
+<p><b>Is it true</b> that present-day state-of-art conferencing solutions integrate and include what we, professional end users really want?</p>
+
+<p><b>Who is driving</b> the Web conferencing industry? <br />
+Technologists, businessmen or us?</p>
+
+<p><b>Time to wake up.</b> </p>
+
+<p>Business and technology have been driving this and other industries where the market would have never thought of even looking to. Let's look with a bit more criticism to what we have been getting, while trying to define what it is that really makes the types of collaboration tools that will have to be built in the near future.</p>
+
+<p><b>One consideration that I ought to make</b> is that there many types of live collaboration scenarios one can join in. Online collaboration is not all about presentation and conferences. Actually that maybe the smallest part of the overall market.</p>
+
+<p><b>Much greater amounts of time are spent in online collaboration sessions</b> that have little of the actual official presentations and which require tools and facilities more in line with our day-to-day work and habits.</p>
+
+<p><b>Here is my personal list for what makes the foundation of an ideal online collaboration platform</b>, but I leave the comments area open on this one for you to add and integrate as much as you think I have been missing.</p>
+
+<p>(I will pull through all of this content after your reactions fall off and compile an ideal, dream system, list of killer features and facilities for different types of collaboration tools.)</p>
+
+<p><b>a) Required qualities technologies must have to enable efficient teamwork offline and online</b>  </p>
+
+<p><b>Key qualities:</b>  </p>
+
+<p>1) <b>Ease of use</b> </p>
+
+<p>2) <b>Unobtrusiveness</b> </p>
+
+<p>3) <b>Integration with tools and processes already in place</b> </p>
+
+<p>4) <b>Modularity</b> </p>
+
+<p>5) <b>Reliability and performance</b>  </p>
+
+<p></p>
+
+<p><b>b) The technologies themselves</b>  </p>
+
+<p>a) <a href="http://www.google.com/search?ie=UTF-8&oe=UTF-8&sourceid=deskbar&q=Multi-protocol+instant+messaging">Multi-protocol instant messaging</a> </p>
+
+<p>b) <a href="http://www.glance.net">Screen sharing</a> </p>
+
+<p>c) <a href="http://searchcrm.techtarget.com/sDefinition/0,,sid11_gci761648,00.html">Web touring</a> </p>
+
+<p>d) <b>Presentation delivery</b> facility </p>
+
+<p>e) <a href="http://www.milori.com/products/trainingtools/">Live annotation and markup</a> </p>
+
+<p>f) <a href="http://www.google.com/search?q=define:file+sharing">File sharing</a> and distribution </p>
+
+<p>g) <a href="http://www.google.com/search?q=define:Voice+Over+IP+(VoIP)">Voice over IP</a> </p>
+
+<p>h) <a href="http://www.google.com/search?q=define:Videoconferencing">Video</a> (even at low frame rates) </p>
+
+<p>i) Fully Featured <b>Text chat</b> </p>
+
+<p>l) <a href="http://www.google.com/search?q=define:emoticons">Emoticons</a> </p>
+
+<p>m) Room - Shared space creation and management</p>
+
+<p>n) <a href="http://www.google.com/search?q=define:access+privileges">Access privileges</a> </p>
+
+<p>o) <a href="http://www.google.com/search?q=define:Encryption">Encryption</a>  </p>
+
+<p>and also  </p>
+
+<p>p) <a href="http://www.google.com/search?q=define:application+sharing">Application sharing</a> </p>
+
+<p>q) <a href="http://www.google.com/search?q=define:remote+control">Remote control</a>  </p>
+
+<p>Again: the list here could go on quite a bit (discussion threads, polling, project management), but I would consider the above the absolutely necessary building blocks to construct anything of value in this direction.  </p>
+
+<p></p>
+
+<p>***The above was inspired by an excellent post from <a href="http://www.webassistant.com/vision.lhtml">Garsett Larosse</a> inside <a href="http://www.rheingold.com/">Howard Reinghold Brainstorms forums</a>, to which I replied by providing essentially the list here above.</p>
+
+<p><br />
+</p>
+
+
+
+</div>
+
+<p>&nbsp;</p>
+
+<div class="print"><a onClick="printit()" OnMouseOver="this.className='cursorimg'"><img alt="Print this article" title="Print this article" src="http://www.kolabora.com/images/printer.jpg" width="12" height="11" align="absmiddle" /></a> <a class="cursor" href="#" onClick="printit()">Print this article</a></div>
+
+<div class="url">
+<p><b>URL of this article:</b><br />
+http://www.kolabora.com/news/2004/01/27/technologies_and_traits_for_effective.htm</p>
+</div>
+
+<hr class="date">
+
+<p class="date">posted by <span class="a"><b>Robin Good</b></span> on <b>Tuesday January 27</b> 2004<br />
+updated on <b>Saturday October  2</b> 2004</p>
+
+<script language="javascript" type="text/javascript" src="http://www.masternewmedia.org/gads/record.php"></script>
+
+<br />
+
+
+
+
+
+
+
+
+
+<br />
+
+<ul>
+
+<li><b><a class="toc" href="#trackbacks">Pings and Trackbacks</a></b></li>
+
+
+
+
+
+
+
+<li><b><a class="toc" href="#recent_articles">Recent Articles</a></b></li>
+
+
+
+<li><b><a class="toc" href="#search_this_site">Search for more</a></b></li>
+
+</ul>
+
+<br />
+
+	
+
+
+
+<h2><a name="trackbacks"></a><br />
+Pings and Trackbacks</h2>
+
+
+<p class="dated"><b>TrackBack URL</b> for this article:<br />
+<script language='Javascript'>document.write('http://www.kolabora.com/cgi-bin/mt/'); document.write('mt-tb.r375.cgi/'); document.write('38'); </script></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="recent_articles"></a><br /><h2>Recent Articles</h2>
+
+
+<p><a class="rprt" href="http://www.kolabora.com/news/2004/03/17/robin_good_interviews_ray_ozzie.htm">Robin Good Interviews Ray Ozzie</a><br />
+<span class="rprs">The 50-minute interview that I have had the pleasure of recording yesterday, during a live online VoIP session with Ray Ozzie is finally available online. As I have mentioned before, the issues covered were quite a few, ranging from Groove latest ver 3 to RSS, VoIP and to interoperability with other technologies.... <a class="rprrm" href="http://www.kolabora.com/news/2004/03/17/robin_good_interviews_ray_ozzie.htm">read more</a></span><br />
+<span class="rpra"><b>March 17, 2004</b> - Robin Good</span></p>
+
+
+
+
+
+<p><a class="rprt" href="http://www.kolabora.com/news/2004/02/24/kolabora_live_what_experts_need.htm">Kolabora Live! "What Experts Need To Do To Prepare For A Killer Web Event"</a><br />
+<span class="rprs"> Need to get ready for an online event but don't know what to prepare? Bored with the usual PowerPoint presentations? What should you focus on to prepare a killer web event? The first live Kolabora Event! is a 60-minute experts-panel focus on what it really takes to prepare for such a killer event. Scheduled for today, Tuesday February the 24th at 12 noon EDT, this is an event that... <a class="rprrm" href="http://www.kolabora.com/news/2004/02/24/kolabora_live_what_experts_need.htm">read more</a></span><br />
+<span class="rpra"><b>February 24, 2004</b> - Robin Good</span></p>
+
+
+
+
+
+<p><a class="rprt" href="http://www.kolabora.com/news/2004/01/21/live_online_events_the.htm">Live Online Events - The Art Of Interaction</a><br />
+<span class="rprs">For as much we fill our discourses with stories about fantastic cutting edge technologies and systems, it is rare to see the skill and art of interaction design reap the fruits of so many new innovative tools. I am just out after a few hours into the RSS Winterfest, a premiere event bringing together some of the best minds in Internet technology, online publishing, blogs and the opportunities that these... <a class="rprrm" href="http://www.kolabora.com/news/2004/01/21/live_online_events_the.htm">read more</a></span><br />
+<span class="rpra"><b>January 21, 2004</b> - Robin Good</span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="search_this_site"></a><br />
+
+<!-- Search Google -->
+<form method="get" action="http://www.google.com/custom">
+<h2>Search this site for more with <a href="http://www.google.com/" target="_blank"><img alt="Google" src="http://www.kolabora.com/images/googlew.jpg" width="65" height="23" border="0" /></a> <input type="text" name="q" id="q" size="12" maxlength="255" value="" class="monospace"></input> <input type="submit" name="sa" value="Search" /></h2>
+<input type="hidden" name="domains" value="kolabora.com"></input>
+<input type="hidden" name="client" value="pub-1185284300475723" />
+<input type="hidden" name="forid" value="1" />
+<input type="hidden" name="channel" value="1750557026" />
+<input type="hidden" name="ie" value="utf-8" />
+<input type="hidden" name="oe" value="utf-8" />
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:000000;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:39;LW:164;L:http://www.kolabora.com/images/logo.gif;S:http://;FORID:1;" />
+<input type="hidden" name="hl" value="en" />
+<input type="hidden" name="sitesearch" value="kolabora.com" />
+</form>
+<!-- Search Google -->
+
+	<p>&nbsp;</p>
+
+	<p>&nbsp;</p>
+
+	<!-- Central Column ENDS here -->
+	
+    </td>
+    <td class="right" valign="top">
+	
+	<!-- Right Navigation Column STARTS here -->
+	
+	<div id="rightcolumn" class="rightcolumn">
+
+<div align="center">
+<center>
+<form method="post" action="http://www.bloglet.com/subscribe.asp">
+<img alt="" src="http://www.kolabora.com/images/news.gif" width="160" height="20" vspace="3" /><br />
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="5" /><br />
+<input type="hidden" name="ID" value="8626" />
+<input type="hidden" name="redirect" value="http://www.kolabora.com/thankyou.htm" />
+<img alt="daily" src="http://www.kolabora.com/images/daily.jpg" width="48" height="16" align="absmiddle" /><img alt="" src="http://www.kolabora.com/images/dot.gif" width="10" height="1" /><input type="text" name="email" value="your email"" size="12" style="font-size: 12px" maxlength="100" onclick="this.select()" class="monospace" /><br />
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="5" /><br />
+<input type="submit" value="Subscribe me" style="font-size: 12px" /><br />
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="6" />
+<img alt="" src="http://www.kolabora.com/images/right_spacer.gif" width="30" height="1" />
+</form>
+
+<form action="http://www.email-publisher.com/survey/index.html" method="post" target="New_Window" name="TEPremotesub">
+<input type="hidden" name="branding" value="1700059786" />
+<input type="hidden" name="primarylanguage" value="eng" />
+<input type="hidden" name="secondarylanguage" value="" />
+<input type="hidden" name="lists" value="1700059786" />
+<img alt="weekly" src="http://www.kolabora.com/images/weekly.jpg" width="48" height="16" align="absmiddle" /><img alt="" src="http://www.kolabora.com/images/dot.gif" width="10" height="1" /><input type="text" size="12" style="font-size: 12px" class="monospace" name="email" value="your email" onfocus="if (document &amp;&amp; document.TEPremotesub &amp;&amp; document.TEPremotesub.email &amp;&amp; document.TEPremotesub.email.value == 'your email') document.TEPremotesub.email.value = '';" /><br />
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="5" /><br />
+<input type="radio" name="type" value="HTML" />HTML <input type="radio" name="type" value="TEXT" checked="checked" />Text &nbsp;<br />
+<img alt="" src="http://www.kolabora.com/images/dot.gif" width="1" height="5" /><br />
+<input type="submit" value="Subscribe me" style="font-size: 12px" />
+</form>
+</center>
+</div>
+<p align="center"><img alt="" src="http://www.kolabora.com/images/right_spacer.gif" width="97" height="1" /></p>
+<script language="javascript" src="http://proxy.blogads.com/spcjohppenbtufsofxnfejbpsh/kolabora/feed.js"></script>
+<p align="center"><img alt="" src="http://www.kolabora.com/images/right_spacer.gif" width="97" height="1" /></p>
+<div align="center">
+<a href="http://www.conferral.com/" target="_blank"><img alt="Conferral: All-in-One Web Conferencing and Collaboration, web conferencing software, online meetings, web conferencing solutions, web conference, presentation software, web collaboration, collaboration software, web conferencing software, live meeting" title="Conferral: All-in-One Web Conferencing and Collaboration, web conferencing software, online meetings, web conferencing solutions, web conference, presentation software, web collaboration, collaboration software, web conferencing software, live meeting" src="http://www.kolabora.com/images/sponsors/conferral_160x400.jpg" width="160" height="400" border="0" /></a>
+</div>
+<p align="center"><img alt="" src="http://www.kolabora.com/images/right_spacer.gif" width="97" height="1" /></p>
+<p class="promo" align="center">Robin Good's Online Guide<br />
+To Web Conferencing And<br />
+Live Presentation Tools</p>
+
+<p align="center"><a href="http://www.masternewmedia.org/reports/webconferencing/guide/" target="_blank"><img alt="Robin Good's Official Online Guide To Web Conferencing And Live Presentation Tools" src="http://www.kolabora.com/images/webconfguide.jpg" width="180" height="178" border="0" vspace="2" /></a></p>
+
+<table summary="" border="0" width="180" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td class="right">
+
+<p class="promo">Last Updates <a href="http://www.masternewmedia.org/reports/webconferencing/guide/news.php" onmouseout="return timeqs();" onmouseover="return quicksub(this, 'http://www.masternewmedia.org/reports/webconferencing/guide/news.php');"><img alt="Last Updates Of Robin Good's Official Guide To Web Conferencing" src="http://www.kolabora.com/images/rss.gif" width="36" height="14" valign="bottom" /></a></p>
+
+<br />
+
+
+<p class="news_title">Oct 12, 2005<br /> <b><a href="http://www.masternewmedia.org/reports/webconferencing/guide/conferral/file_sharing.htm" target="_blank" class="title">Conferral - File Sharing</a></b><br /><br /></p> 
+
+
+<p class="news_title">Oct 12, 2005<br /> <b><a href="http://www.masternewmedia.org/reports/webconferencing/guide/gotomeeting/customer_support.htm" target="_blank" class="title">GoToMeeting - Customer Support</a></b><br /><br /></p> 
+
+
+<p class="news_title">Oct 12, 2005<br /> <b><a href="http://www.masternewmedia.org/reports/webconferencing/guide/gotomeeting/security.htm" target="_blank" class="title">GoToMeeting - Security</a></b><br /><br /></p> 
+
+
+<p class="news_title">Oct 12, 2005<br /> <b><a href="http://www.masternewmedia.org/reports/webconferencing/guide/gotomeeting/system_requirements.htm" target="_blank" class="title">GoToMeeting - System Requirements</a></b><br /><br /></p> 
+
+
+<p class="news_title">Oct 12, 2005<br /> <b><a href="http://www.masternewmedia.org/reports/webconferencing/guide/gotomeeting/system_check.htm" target="_blank" class="title">GoToMeeting - System Check</a></b><br /><br /></p> 
+
+
+</td>
+</tr>
+</table>
+<p align="center"><img alt="" src="http://www.kolabora.com/images/right_spacer.gif" width="97" height="1" /></p>
+	</div>
+
+	<!-- Right Navigation Column ENDS here -->
+     
+    </td>
+  </tr>
+</table>
+
+<div class="noprint">
+<table width="1004" align="center" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td><img alt="" src="http://www.kolabora.com/images/footer_news.gif" name="footer" usemap="#footer" width="430" height="72" /><map name="footer"><area shape="rect" coords="119,42,220,62" href="http://www.masternewmedia.org/" target="_blank" title="MasterNewMedia" alt="Powered by RobinGood's Master New Media" /></map></td>
+    <td>
+<map id="bottomnav" name="bottomnav">
+      <area alt="Home" shape="rect" coords="37,56,60,62" href="http://www.kolabora.com/index.htm" />
+      <area alt="News Radars" shape="rect" coords="84,56,147,62" href="http://www.kolabora.com/news_radars/" />
+      <area alt="Tools" shape="rect" coords="170,56,199,62" href="http://www.kolabora.com/tools.htm" />
+      <area alt="Reviews" shape="rect" coords="221,56,259,62" href="http://www.kolabora.com/reviews.htm" />
+      <area alt="How To" shape="rect" coords="282,56,319,62" href="http://www.kolabora.com/howto.htm" />
+      <area alt="Experts" shape="rect" coords="342,56,382,62" href="http://www.kolabora.com/experts.htm" />
+      <area alt="About" shape="rect" coords="404,56,434,62" href="http://www.kolabora.com/about.htm" />
+      <area alt="Privacy" shape="rect" coords="457,56,495,62" href="http://www.kolabora.com/privacy.htm" />
+      <area alt="Contact" shape="rect" coords="518,56,560,62" href="http://www.kolabora.com/contact.htm" />
+</map>      <img alt="" src="http://www.kolabora.com/images/bottomnav_white.gif" border="0" width="574" height="72" usemap="#bottomnav" /></td>
+  </tr>
+</table>
+</div>
+
+<!-- webbot bot="HTMLMarkup" startspan -->
+<!-- BEGIN WEBSIDESTORY CODE -->
+<!-- COPYRIGHT 1997-2001 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT PENDING. Privacy notice at: http://websidestory.com/privacy -->
+<script language="javascript" type="text/javascript">// <![CDATA[
+var _pn="Technologies+And+Traits+For+Effective+Online+Teamwork"; 	//page name(s)
+var _mlc="/Kolabora+Latest+News";	//multi-level content category
+var _cp="null"; 		//campaign
+var _acct="WR54013059EE38EN3"; 	//account number(s)
+var _pndef="title"; 		//default page name
+var _ctdef="full"; 		//default content category
+var _dlf="n";			//download filter
+var _elf="n";			//exit link filter
+var _epg="n"; 			//event page identifier
+var _hcv=65;			//code version
+var _mn="wp169";			//machine name
+var _gn="phg.hitbox.com";			//gateway name
+function _wn(_nm){if((_nm.indexOf("NAME")>0&&_nm.indexOf("PUT")>=0)||
+(_nm.indexOf("CONTENT")>=0&&_nm.indexOf("CATEGORY")>0))return true;return false;}
+function _gd(_x,_w){_ed = (_x.lastIndexOf("/"));
+_be = (_w!="full")?(_x.lastIndexOf("/",(_ed-2))):(_x.indexOf("/"));
+_dn = (_be==_ed)?"/":(_x.substring(_be, _ed));return _dn;}
+function _gf(_x){_ed = (_x.length);_be = ((_x.lastIndexOf("/"))+1);
+_fn = (_x.substring(_be, _ed));return _fn;}
+function _vc(_ml){_mll=_ml.length-1;if(_ml.lastIndexOf("/")==_mll){_ml=_ml.substring(0,_mll)}
+if(_ml.indexOf("/")!=0){_ml="/"+_ml;}return _ml;}
+function _ps(_ip,_pml){if(!_ip){_pml=(_wn(_pml))?_gd(location.pathname,_ctdef):_vc(_pml);}
+else{if (_wn(_pml)){if (_pndef=="title"){_pt=document.title; if (_pt!=""){_pml=_pt};}
+else{_pml=_gf(location.pathname);if (_pml==""){_pml=_pndef};}};}return _pml;}
+function _pm(_ml,_fml,_ipn){if (_ml.indexOf(";")!=-1){_nml=_ml.substring(0,(_ml.indexOf(";")));
+_rm=_ml.substring((_ml.indexOf(";")+1),_ml.length);_fml+=_ps(_ipn,_nml)+";";
+_gp=_pm(_rm,_fml,_ipn);return _gp;}else {_fml+=_ps(_ipn,_ml);return _fml;}}
+var _sv=10;var _bn=navigator.appName;if(_bn.substring(0,9)=="Microsoft"){_bn="MSIE";};
+var _bv=(Math.round(parseFloat(navigator.appVersion)*100));if((_bn=="MSIE")&&(parseInt(_bv)==2))_bv=301;
+var _rf=escape(document.referrer);_mlc=_pm(_mlc,"",false);_pn=_pm(_pn,"",true);
+// ]]></script><script language="javascript1.1" type="text/javascript" id="_hbc">_sv=11;</script>
+<script language="javascript1.1" type="text/javascript" defer="defer" src="http://stats.hitbox.com/js/hbp.js"></script>
+<script language="javascript" type="text/javascript">// <![CDATA[
+if (_sv==10){if (document.cookie.indexOf("CP=")!=-1){_ce="y";}else{
+document.cookie="CP=null*; path=/; expires=Wed, 1 Jan 2020 00:00:00 GMT";
+_ce=(document.cookie.indexOf("CP=")!=-1)?"y":"n";};if((_rf=="undefined")||(_rf=="")){_rf="bookmark";};
+_x2="<img src='http://"+_gn+"/HG?hc="+_mn+"&hb="+escape(_acct)+"&n="+escape(_pn);
+_x3="&cd=1&hv=6' border=0 height=1 width=1>";
+_ar="&bn="+escape(_bn)+"&bv="+_bv+"&ce="+_ce+"&ss=na&sc=na&dt=&sv="+_sv+"&con="+escape(_ct);
+_ar+="&vcon="+escape(_mlc)+"&epg="+_epg+"&hp=u&cy=u&ja=na&ln=na&cp="+escape(_cp)+"&pl=&rf="+_rf;
+document.write(_x2+_ar+_x3);}document.write("<\!--");
+// ]]></script>
+<noscript>// <![CDATA[
+<img src="http://phg.hitbox.com/HG?hc=wp169&cd=1&hv=6&ce=u&hb=WR54013059EE38EN3&n=Technologies+And+Traits+For+Effective+Online+Teamwork&vcon=/Kolabora+Latest+News" border='0' width='1' height='1'>
+// ]]></noscript><!--//-->
+<!--  END WEBSIDESTORY CODE  -->
+<!-- webbot bot="HTMLMarkup" endspan -->
+
+</body>
+</html>

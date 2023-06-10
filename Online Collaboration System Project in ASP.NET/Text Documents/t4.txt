@@ -1,0 +1,550 @@
+﻿
+<html>
+<head>
+<title>eSchool News online - Teamwork pays off for Monterey Bay</title>
+<link rel="stylesheet" href="/css/esn.css" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" SRC="/CFIDE/scripts/cfform.js"></SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+function  _CF_checkCFForm_1(_CF_this)
+{
+	if  (!_CF_hasValue(_CF_this.SearchParameter, "TEXT" ))
+	{
+		if  (!_CF_onError(_CF_this, _CF_this.SearchParameter, _CF_this.SearchParameter.value, "Please enter a search term"))
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
+
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+function  _CF_checkCFForm_2(_CF_this)
+{
+	if  (!_CF_hasValue(_CF_this.email, "TEXT" ))
+	{
+		if  (!_CF_onError(_CF_this, _CF_this.email, _CF_this.email.value, "Please enter a valid email address."))
+		{
+			return false;
+		}
+	}
+
+	if  (!testemail(_CF_this, _CF_this.email, _CF_this.email.value))
+	{
+		if  (!_CF_onError(_CF_this, _CF_this.email, _CF_this.email.value, "Please enter a valid email address."))
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
+
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+function  _CF_checkCFForm_3(_CF_this)
+{
+	if  (!_CF_hasValue(_CF_this.email, "TEXT" ))
+	{
+		if  (!_CF_onError(_CF_this, _CF_this.email, _CF_this.email.value, "Please enter a valid email address."))
+		{
+			return false;
+		}
+	}
+
+	if  (!testemail(_CF_this, _CF_this.email, _CF_this.email.value))
+	{
+		if  (!_CF_onError(_CF_this, _CF_this.email, _CF_this.email.value, "Please enter a valid email address."))
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
+
+//-->
+</SCRIPT>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="3" cellpadding="0">
+  <tr>
+    <td colspan="3">
+
+<table border=0 cellspacing=0 cellpadding=0 width="100%"><tr>
+	<td background="/images/headerbg.gif" width="290"><a href="/"><img src="/images/header.gif" border="0" alt="eSchool News Online"></a>
+	</td><td background="/images/headerbg.gif" width="518">
+	<table><tr><td align="center">
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://www.eschoolnews.com/phpadsnew/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:32&amp;target=_blank");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referer)
+      document.write ("&amp;referer=" + escape(document.referer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://www.eschoolnews.com/phpadsnew/adclick.php?n=aa6d1e9b' target='_blank'><img src='http://www.eschoolnews.com/phpadsnew/adview.php?what=zone:32&amp;n=aa6d1e9b' border='0' alt=''></a></noscript>
+
+</td></tr></table>
+	</td>
+	<td background="/images/headerbg.gif">
+	
+	</td>
+</tr>
+</table>
+<table border=0 cellspacing=1 cellpadding=0 width="100%">
+<tr>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="http://www.eschoolnews.com">Home</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="http://store.eschoolnews.com">Store</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/tsc">Tech Solutions Center</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/resources/productnews/">Product News Update</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a href="/marketplace/marketplace.pdf" class="thw">Marketplace</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="http://www.eschoolnews.com/eti/index.php">Ed-Tech Insider</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/resources/partners">Partners' Update</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/mediakit">Media Kit</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/service">Customer Service</a>
+	</td>
+	<td bgcolor=#E4E7ED align=center nowrap><a class="thw" href="/exchange">Free News</a>
+	</td>
+</tr>
+<tr bgcolor="#3469b0"><td colspan="10"><img src="/images/spacer.gif" width="780" height="1" border="0"></td></tr>
+
+</table>
+
+
+
+
+</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="left" valign="top" bgcolor=#E4E7ED width="130">    <table width="100%" cellpadding="2" cellspacing="1" border="0" bgcolor="#ffffff">
+	<tr bgcolor="#003366"><td width="100%"><a href="/subscribe" class="gsw"><b>Subscribe Today</b></a></span></td></tr>
+	
+
+				<tr>
+					<td bgcolor="cc0000" height="1" colspan="3">
+							<table width="100%" class="thw" cellpadding="2">
+								<TR bgcolor="E4E7ED">
+									<TD>
+										<a href="/registration/index.cfm?ul=%2Fnews%2FshowStory%2Ecfm" class="thw"><strong>REGISTERED?</strong><br>Click here to register<br>or to log in.</a>
+										<br><a class="thw" onclick="window.open('http://www.eschoolnews.com/registration/why_register.cfm','Why_register','left=100,top=100,width=620,height=620,resizable,scrollbars=no')" target="WhatIsThis"><u>Why Register?</u></a>
+									</TD>
+								</TR>
+							</table>
+					</TD>
+				</tr>
+				
+	<FORM NAME="CFForm_1" ACTION="/news/searchResults.cfm" METHOD="POST" onSubmit="return _CF_checkCFForm_1(this)"> 
+		<tr bgcolor="#E4E7ED"><td width="100%">
+		
+			<span class="thw">Search Archives</span>
+			<br><INPUT TYPE="text" NAME="SearchParameter" CLASS="textsmall" SIZE="8">
+			<input type="Submit" class="textsmall" value="Go">
+		
+	</td></tr>
+	</FORM> 
+<form method="get" action="http://www.google.com/custom" target="_top">
+<tr bgcolor="#E4E7ED"><td width="100%">
+<!-- SiteSearch Google -->
+
+<span class="thw">Search eSN with</span><br>
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25wht.gif"
+border="0" alt="Google"></img></a>
+<br/>
+<input type="hidden" name="domains" value="www.eschoolnews.com"></input>
+<input type="text" name="q" size="8" maxlength="255" value="" class="textsmall"></input>
+<input type="submit" name="sa" value="Go" class="textsmall"></input>
+
+<input type="hidden" name="sitesearch" value="www.eschoolnews.com"></input>
+<input type="hidden" name="client" value="pub-3772975341619062"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:65;LW:780;L:http://www.eschoolnews.com/images/googleheader.gif;S:http://www.eschoolnews.com;FORID:1;"></input>
+<input type="hidden" name="hl" value="en"></input>
+
+
+<!-- SiteSearch Google -->
+</td></tr>
+</form>
+
+	<tr bgcolor="#003366"><td width="100%"><span class="textWhite"><b>News</b></span></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/news/current.cfm">Current Issue</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/news/contents.cfm?PubID=1">Past Issues</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://www.eschoolnews.com/phpadsnew/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:19");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referer)
+      document.write ("&amp;referer=" + escape(document.referer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://www.eschoolnews.com/phpadsnew/adclick.php?n=afa154a7' target='_blank'><img src='http://www.eschoolnews.com/phpadsnew/adview.php?what=zone:19&amp;n=afa154a7' border='0' alt=''></a></noscript>
+</td></tr>
+
+	
+	
+	<tr bgcolor="#003366"><td width="100%"><span class="textWhite"><b>Resources</b></span></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/tsc">Technology Solutions Center</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/calendar/">Calendar</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/cic/">Conference Information Center</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/erc/">Educator's Resource Center</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="http://www.eschoolnews.com/ubb/index.htm">Forums</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/emailprofile/">eNewsletters</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/funding/">Funding Center</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/partners/">Partners' Update</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/erc/professionaldevelopment/">Professional Development</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/reports/">Special Reports</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class='thw' href="/resources/links/showLink.cfm">Site of the Week</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/productnews/">Product News Update</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/surveys/">Surveys</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/resources/surveys/editorial/rca/">Readers' Choice Awards</a></td></tr>
+	<tr bgcolor="#003366"><td width="100%"><span class="textWhite"><b>Services</b></span></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/service/">Customer Service</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/sitemap.cfm">Sitemap</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/mediakit/">Media Kit</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/exchange/">Content Exchange</a></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><a class="thw" href="/about/">About Us</a></td></tr>
+
+	<tr bgcolor="#E4E7ED">
+	<td width="100%" valign="top"><span class="thw">
+<script>
+<!--
+function testemail(form, ctrl, value) {
+  if (value == "" || value.indexOf ('@', 1) == -1 || 
+value.indexOf ('.', 3) == -1) 
+  {
+    return (false);
+  } 
+  else
+  {
+    return (true);
+  } 
+}
+//-->
+</script>	
+	<FORM NAME="CFForm_2" ACTION="/emailprofile/manage.cfm" METHOD="POST" onSubmit="return _CF_checkCFForm_2(this)"> 
+		<strong>View your<br>eMail Profile:</strong>
+		<INPUT TYPE="Text" NAME="email" ONFOCUS="if(this.value=='Enter Email')this.value='';" CLASS="textsmall" SIZE="11" VALUE="Enter Email">
+		<input type="Submit" value="Go" class="textsmall">
+		<br><a href="/emailprofile/">More info</a>
+		</span><br><br>
+	</FORM> 
+	</td>
+	</tr>
+	
+	<tr bgcolor="#E4E7ED"><td width="100%"><img src="/images/mwm_cfmx_120_40.gif" alt="powered with Macromedia ColdFusion"></td></tr>
+	<tr bgcolor="#E4E7ED"><td width="100%"><img src="/images/mwm_studiomx_120_40.gif" alt="made with Macromedia Studio MX"></td></tr>
+	</table>
+</td>
+    <td align="left" valign="top">
+	
+	
+
+<table width="100%" cellpadding="10" cellspacing="0" border="0">
+	<tr>
+		<td width="100%" valign="top" class="text">
+
+	
+
+
+	<span class="text3">Teamwork pays off for Monterey Bay</span>
+	<br>
+	
+	<span class="text"><b>By Robert Brumfield, Assistant Editor, eSchool News</b>
+	<br><b>June 10, 2005</b></span>
+	<p>
+	<table width="100%">
+	<tr>
+	<td>
+	
+
+<table width="180" border="0" cellspacing="0" cellpadding="3" align="right"><tr><td align="center"><span class="textSmall"><center>advertisement</center></span>
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://www.eschoolnews.com/phpadsnew/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:8&amp;block=1");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referer)
+      document.write ("&amp;referer=" + escape(document.referer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://www.eschoolnews.com/phpadsnew/adclick.php?n=a6b9ce03' target='_blank'><img src='http://www.eschoolnews.com/phpadsnew/adview.php?what=zone:8&amp;n=a6b9ce03' border='0' alt=''></a></noscript>
+</td></tr><tr>
+<td>
+
+<div align="center">
+
+<table class="textSmall" width="100%">
+<tr>
+<td colspan="3" bgcolor="black" height="1"><img src="http://www.eschoolnews.com/images/clear.gif" border="0" height="1" width="1"></td>
+</tr>
+<tr>
+<td width="15">&nbsp;
+</td>
+<td><a href="../news/recommendArticle.cfm?ArticleID=5726">eMail this&nbsp;article</a></td><td><a href="mailto:tips@eschoolnews.com?subject=News tip">Send&nbsp;us&nbsp;a news&nbsp;tip</a></td>
+</tr>
+<tr>
+<td width="15">&nbsp;
+</td>
+<td><a href="http://www.eschoolnews.com/ubb/index.htm">Discuss this&nbsp;article</a></td><td><a href="/news/PFshowstory.cfm?ArticleID=5726" target=_blank>Print&nbsp;this&nbsp;article</a></td>
+</tr>
+<tr>
+<td width="15">&nbsp;
+</td>
+<td><a href="/news/reprints/index.cfm?articleid=5726">Reprints &amp; Permissions</a></td><td><a href="/erc/nic/">More Headlines</a></td></tr>
+<tr>
+<td colspan="3" bgcolor="black" height="1"><img src="http://www.eschoolnews.com/images/clear.gif" border="0" height="1" width="1"></td>
+</tr>
+
+</table>
+
+</div>
+</span>
+
+
+
+
+
+
+</td>
+</tr>
+<tr>
+<td class="textSmall">
+<P><hr><table width="275" align="right"><tr><td><img src="http://www.eschoolnews.com/images/5726.jpg" width="270" height="170" vspace="4" hspace="3"></td></tr><tr><td><font size="1" face="verdana">Mystic Aquarium in Mystic, Conn., uses Monterey Bay's iNet to webcast "live-dives" to students around the world. (Photo courtesy of Mystic Aquarium)</td></tr></table> <P> 
+</td>
+</tr>
+</table>   						<span class="text">If you pooled the technology resources of city hall, the police department, local businesses, area hospitals, a university, and elementary and secondary schools of a single community, what would you have? Answer: The iNet gigabit ethernet of Monterey Bay, Calif.    <P>  Thanks to a rare collaboration among all the government agencies, schools, and other public entities in Monterey Bay, students, instructors, and other community members in this coastal city now enjoy internet connectivity at speeds more than 600 times faster than a T1 line can provide--and they enjoy it at just a fraction of the customary cost.    <P>  What makes the project uncommon is the degree of cooperation participants say exists among the city's political, commercial, and educational institutions. Because they all share the same network infrastructure, they have been able to pool their resources and provide a high-quality technology program at a cost much lower than taxpayers would pay if they had used a traditional approach. Cutting costs even further, the city was able to negotiate a first-rate deal with its local cable company to lay fiber-optic cable for the network's backbone.    <P>  Monterey Bay's success could serve as a blueprint for other communities. But the process wasn't without significant challenges, the most notable of which was getting everyone on board.     <P>  The citywide iNet was completed this spring, too late for most of the city's K-12 schools and universities to take full advantage. But come fall, students and teachers in this seaside community will have a whole new world of learning opportunities at their disposal. These include prospects for research, collaboration, and distance education that would have scarcely been possible previously.    <P>  Public officials, meanwhile, will use the high-speed network--which allows for the rapid transfer of large amounts of text, audio, video, and voice traffic--to encourage greater participation by the community in its local government and to foster more partnerships between businesses and government agencies.    <P>  Fred Cohn, deputy city manager for Monterey Bay, is widely regarded as the visionary leader who spearheaded the iNet initiative. He said the project grew out of the city's cable television franchising process.    <P>  iNet was created when Monterey Bay's cable provider was rebuilding its subscriber infrastructure in the city using a hybrid of fiber-optic wire and coaxial cable, Cohn explained. "The city paid an additional cost to place additional fiber at our disposal. That became the institutional network, the iNet," he said.    <P>  Cohn said the cable operator was a private company using public property to do business. So officials in Monterey Bay believed the public was entitled to something in return. The secret to the success of the network's implementation, he said, was "treating the cable-franchising process as a strategic opportunity for the community, instead of just another contract."    <P></span>  						 <P> 
+
+
+				
+	</td>
+	</tr>
+	</table>
+		
+			Continued<br>
+	<table class="text"><tr><td>
+	
+	Page 1 of 4  | <a href="/news/showStory.cfm?ArticleID=5726&page=2" class="text">Next &gt;&gt;</a>
+	</td></tr></table>
+
+
+	
+		</td>
+	</tr>		
+
+</table>
+	</td>
+    <td rowspan="2" align="left" valign="top" bgcolor=#E4E7ED width="130">
+
+<table width="139" cellpadding="2" cellspacing="1" border="0" bgcolor="#FFFFFF">
+		
+	<tr bgcolor="#E4E7ED">
+	<td width="100%" valign="top"><span class="thw">
+<script>
+<!--
+function testemail(form, ctrl, value) {
+  if (value == "" || value.indexOf ('@', 1) == -1 || 
+value.indexOf ('.', 3) == -1) 
+  {
+    return (false);
+  } 
+  else
+  {
+    return (true);
+  } 
+}
+//-->
+</script>	
+	<FORM NAME="CFForm_3" ACTION="/emailprofile/manage.cfm" METHOD="POST" onSubmit="return _CF_checkCFForm_3(this)"> 
+		<span class="thw"><strong>View your<br>eMail Profile:</strong>
+		<INPUT TYPE="Text" NAME="email" ONFOCUS="if(this.value=='Enter Email')this.value='';" CLASS="textsmall" SIZE="11" VALUE="Enter Email">
+		<input type="Submit" value="Go" class="textsmall">
+		<br><a href="/emailprofile/">More info</a>
+		</span>
+	</FORM> 
+	</td>
+	</tr>
+	
+	<tr bgcolor="#003366">
+	<td><img src="../images/clear.gif" height="1" width="1"></td>
+	</tr>
+	<tr>
+	<td align="center" bgcolor="#E4E7ED">
+	<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://www.eschoolnews.com/phpadsnew/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:15");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referer)
+      document.write ("&amp;referer=" + escape(document.referer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://www.eschoolnews.com/phpadsnew/adclick.php?n=a71f407c' target='_blank'><img src='http://www.eschoolnews.com/phpadsnew/adview.php?what=zone:15&amp;n=a71f407c' border='0' alt=''></a></noscript>
+
+
+	</td></tr>
+	<tr bgcolor="#003366">
+	<td><img src="../images/clear.gif" height="1" width="1"></td>
+	</tr>
+	<tr>
+<td width="100%" align="center" bgcolor="#E4E7ED"><span class="text"><b>This Week Online</b>
+	</span>
+	
+	
+	</td>
+	</tr>
+	
+	<tr>
+	<td width="100%" bgcolor="#E4E7ED">
+	<span class="text">
+	<br>Something on your mind?<br>Discuss it in the <br><b><a href='http://www.eschoolnews.com/ubb/index.htm'>eSchool News Forums!</a></b>
+
+	<br><br>
+	
+	</span> 
+	</td>
+	</tr>
+	<tr bgcolor="#003366">
+	<td>
+	<img src="../images/clear.gif" height="1" width="1"></td>
+	</tr>
+
+	<tr bgcolor="#003366">
+	<td><img src="../images/clear.gif" height="1" width="1"></td>
+	</tr>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+	<Table width="100%" cellpadding="5"><tr><td align="center" height="62">
+
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://www.eschoolnews.com/phpadsnew/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:17");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referer)
+      document.write ("&amp;referer=" + escape(document.referer));
+   document.write ("'><" + "/script>");
+//-->
+</script><noscript><a href='http://www.eschoolnews.com/phpadsnew/adclick.php?n=a2259b99' target='_blank'><img src='http://www.eschoolnews.com/phpadsnew/adview.php?what=zone:17&amp;n=a2259b99' border='0' alt=''></a></noscript>
+
+
+</td></tr></Table> 
+
+<table width="100%" cellpadding="3">
+<tr bgcolor="#003366"><td width="100%"><span class="textWhite"><b>Sponsored White Papers</b></span></td></tr>
+
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=102&id=3534"><B>Absolute Software</B> ComputracePlus Computer Tracking and Loss Control Solution</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=109&id=3364"><B>Austin Sky Technology (AST)</B> True Efficiency through True Mobility</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=118&id=2789"><B>netTrekker d.i.</B> netTrekker classic and netTrekker d.i.: Research basis for the product design, content and instructional utilization</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=164&id=2652"><B>Pearson NCS</B> Using Assessment to Improve Learning: A White Paper on Formative Assessment</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=142&id=3639"><B>Bridges Transitions Co.</B> Connected Students ﾖ The key to School-Initiated Graduation Rate Improvement</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=146&id=2652"><B>Pearson NCS</B> Top 10 Things to Consider When Purchasing Survey Software</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%">
+<a class='textSmalllink' href="http://www.eschoolnews.com/tsc/index.php?t=whitepaper&doc_id=147&id=2652"><B>Pearson NCS</B> Now Entering the Era of Assessment</a>
+</td></tr>
+
+<tr bgcolor="#e4e7ed"><td width="100%" class="text"><form name="search" method="post" action="/tsc/action.php?action=search">
+<strong>Search our white paper library:</strong>
+	   		<input name="current_cat_id" value="" type="hidden">  
+			<input name="table" value="link_wp" type="hidden">
+			<input name="form_input_search_keyword" value="" class="textbox" type="text">
+			<input name="form_button_search_submit" value="Search" class="button" type="submit">
+		 
+	   </form>
+</td></tr>
+</table>
+<table width="100%" cellpadding="10"><tr><td class="text">
+
+<a href="http://www.eschoolnews.com">www.eschoolnews.com</a>
+<br><a href="mailto:info@eschoolnews.com">info@eschoolnews.com</a>
+<br>7920 Norfolk Ave., Suite 900 
+<br>Bethesda, MD 20814 
+<br>(800) 394-0115 - Fax (301) 913-0119 
+<br><br><a href="/privacy.cfm">Privacy Policy</a>
+<br><a href="/emailprofile/">Manage your FREE eSchool News eMail subscriptions here</a>
+<br>Contents Copyright 2005 eSchool News. All rights reserved.
+
+</td></tr></table>
+
+
+
+
+
+	</td>
+  </tr>
+</table>
+</body>
+</html> 

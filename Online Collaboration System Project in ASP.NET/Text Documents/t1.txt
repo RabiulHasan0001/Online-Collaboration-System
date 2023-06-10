@@ -1,0 +1,357 @@
+<HTML>
+<HEAD>
+<TITLE>The Teamwork Chronicles and The Power of We</TITLE>
+<META NAME="keywords" CONTENT="teamwork, team building, teams, workplace, culture, stress, dysfunction, bosses, managers, autocrats, bureaucrats, management, productivity, performance, we, solving gripes, conflicts, disputes, disagreements, dysfunction, mock team, peak performance team, team identity, success, communication, collaboration, recognition, cohesion, power, abuse, apology, leadership, technology, surveys, business plans, proactive, reactive, coordinators, what if, document, mistakes, habits, dominate, dishonesty, peak performance, opportunity, possibilities">
+<META NAME="description" CONTENT="The Teamwork Chronicles book explores teamwork and the modern workplace. The Power of We is the name of Chapter 5 from that book, serving as the theme for our consulting, workshops, and speaking services. The workplace is a stressful environment where workers feel overworked and undervalued. Disputes and conflicts occur too often, job satisfaction is low and confidence in management is faltering. Our mission is to help workers and managers improve the teamwork and cooperation of their workplaces through effective principles, techniques, and suggestions that can make a real difference in the performance of an organization.">
+
+</HEAD>
+
+<BODY>
+<SCRIPT LANGUAGE="JavaScript" SRC="navigation.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="displayCurrentDate.js"></SCRIPT>
+<TABLE BORDER="0" WIDTH="98%" CELLSPACING="0" CELLPADDING="0">
+
+<TR>
+<TD VALIGN="TOP" ALIGN="CENTER" HEIGHT="2" COLSPAN="9" BGCOLOR="#892D41"></TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="2" ROWSPAN="4" BGCOLOR="#892D41"><IMG SRC="blank.gif" WIDTH="2" BORDER="0"></TD>
+
+    <TD VALIGN="TOP" ALIGN="CENTER" COLSPAN="7" BACKGROUND="gradienttop.jpg"> 
+      <P ALIGN="CENTER"><font face="Verdana, Arial, Helvetica" size="2" color="#ffffff"><strong> 
+        </strong></font><font face="Verdana, Arial, Helvetica" size="2" color="#ffffff"><strong> 
+        </strong></font><FONT FACE="Times" SIZE="5">The Teamwork Chronicles</FONT><BR>
+        <FONT FACE="Times" SIZE="5" COLOR="#5D1527">and <I>The Power of We</I></FONT> 
+        <FONT FACE="Times" SIZE="2"><BR>
+        <I>Teamwork solutions for workplace problems</I><BR>
+        <IMG SRC="blank.gif" HEIGHT="3" BORDER="0"></FONT></P>
+</TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="2" ROWSPAN="4" BGCOLOR="#892D41"></TD>
+
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="RIGHT" HEIGHT="2" BGCOLOR="#D1BF75" WIDTH="121"><IMG SRC="transition.gif" BORDER="0" WIDTH="4" HEIGHT="2"><IMG SRC="borderdot.jpg" BORDER="0" WIDTH="6" HEIGHT="2"></TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" HEIGHT="2" COLSPAN="8" BGCOLOR="#892D41"></TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="LEFT" BACKGROUND="buttonbackground.jpg" ROWSPAN="2"><SCRIPT LANGUAGE="JavaScript">NavigationButtons();</SCRIPT></TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" HEIGHT="54" COLSPAN="4"><FONT FACE="Times" SIZE="3" COLOR="#3A5C7F"><IMG SRC="blank.gif" WIDTH="1" HEIGHT="18" BORDER="0"><BR><B>Book Info</B></FONT></TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="27">&nbsp;</TD>
+
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="*">&nbsp;</TD>
+
+<TD VALIGN="TOP" ALIGN="RIGHT" WIDTH="257"><IMG SRC="frontcover.jpg" BORDER="0"></TD>
+<TD VALIGN="TOP" ALIGN="LEFT" WIDTH="257"><IMG SRC="blank.gif" ALIGN="LEFT" WIDTH="27" HEIGHT="362">
+
+<TABLE BORDER="0">
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Subject:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Teamwork and the workplace</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Format:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Trade Paperback</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Distributor:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Greenleaf Book Group</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">2nd Printing:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">March, 2004</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Size:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">5 1/2" x 8 1/2" with 160 
+            pages</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Price:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">$12.95</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Author:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Steven H. Carney</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2">Availability:</FONT></TD>
+          <TD VALIGN="TOP"><FONT FACE="Times" SIZE="2"><A HREF="http://www.amazon.com/exec/obidos/tg/detail/-/0974865753/qid=1100125991/sr=1-2/ref=sr_1_2/102-7931224-3364938?v=glance&s=books" TARGET="NEW">Amazon.com</A><BR>
+            <A HREF="http://search.barnesandnoble.com/booksearch/isbnInquiry.asp?userid=Er72eXi4r7&isbn=0974865753&itm=3" TARGET="NEW">BarnesandNoble.com</A><BR>
+            and other bookstores</FONT></TD>
+        </TR>
+        <TR> 
+          <TD COLSPAN="2" VALIGN="TOP">&nbsp;</TD>
+        </TR>        <TR> 
+          <TD VALIGN="TOP" COLSPAN="2"><FONT FACE="Times" SIZE="2">To purchase 
+            e-books or printed books, see below for special offers or click <A HREF="store.htm" TARGET="New">here</A> 
+            to visit the online store.</FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP" COLSPAN="2">&nbsp;</TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP" COLSPAN="2"><FONT FACE="Times" SIZE="2">For table of 
+            contents (PDF), click <A HREF="toc.pdf" TARGET="New">here</A></FONT></TD>
+        </TR>
+        <TR> 
+          <TD VALIGN="TOP" COLSPAN="2"><FONT FACE="Times" SIZE="2">For a sample 
+            chapter (PDF), click <A HREF="chapter3.pdf" TARGET="New">here</A></FONT></TD>
+        </TR>
+      </TABLE>
+
+</TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="*">&nbsp;</TD>
+
+</TR>
+</TABLE>
+
+
+<TABLE BORDER="0" WIDTH="98%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="2" BGCOLOR="#892D41"></TD>
+
+    <TD VALIGN="TOP"> <BLOCKQUOTE> 
+        <P ALIGN="CENTER"><FONT FACE="Times" SIZE="5" COLOR="#5D1527"><B>Now You 
+          Can Solve Your Workplace Headaches!</B></FONT></P>
+        <P ALIGN="center"><font color="#3A5C7F" size="4">I&#8217;ll give you the 
+          tools you need to be more successful</font><br>
+        </P>
+        <p align="justify"> 
+          <script language="JavaScript">document.write(specialDateString(new Date()))</script>
+        </p>
+        <p align="justify">Dear Employees and Managers:</p>
+        <p align="justify">Are you frustrated and unhappy at work? Are your team 
+          members suffering from low morale and a lack of teamwork? Is your boss 
+          is too busy to listen to your concerns and your co-workers too afraid 
+          to speak up?</p>
+        <p>Surveys show that many workplaces have high stress, low job satisfaction, 
+          and high turnover. In fact, job satisfaction has been falling for 9 
+          years! Back stabbing, scapegoating and one-upsmanship are also common, 
+          along with power games, gripes, and conflicts. You&#8217;ve seen this 
+          stuff.</p>
+        <p>If you&#8217;re in healthcare, education, government, retail, hotel, 
+          restaurant, manufacturing, technology, construction, legal, accounting, 
+          or other industry, you&#8217;ll love this book! Employees and managers 
+          from these places responded to a survey I did. </p>
+        <p>One key finding: 80% of the respondents thought teamwork needed to 
+          be increased!</p>
+        <p>Is it possible to have a more positive, less stressful workplace with 
+          greater teamwork and cooperation from everyone? Yes! </p>
+        <p>&nbsp;</p>
+        <p align="center"><font color="#5D1527" size="4"><strong>Your Vision</strong></font> 
+        </p>
+        <p align="justify">Your vision was for a workplace where your boss treated 
+          you well, where people worked together to fix problems, and where you 
+          could make a difference. </p>
+        <p>You envisioned a job where your input was valued, where you were appreciated 
+          for a job well done (only 35% of employees are thanked for their hard 
+          work). You wanted a place where you had good opportunities for advancement.</p>
+        <p>What happened? Your boss didn&#8217;t tell you that he or she was a 
+          bossy, unfair person who cared little for your input. Your co-workers 
+          didn&#8217;t tell you they were trying to get ahead at your expense.</p>
+        <p>Now what? The Teamwork Chronicles, a book that will help you feel empowered 
+          again. </p>
+        <p align="center">&nbsp;</p>
+        <p align="center"><font color="#5D1527" size="4"><strong>Here&#8217;s 
+          What I&#8217;ll Give You:</strong></font> </p>
+      </BLOCKQUOTE>
+      <ol>
+        <li>I&#8217;ll explain why some bosses behave badly&#8212;and why it has 
+          little to do with you or work issues.<br>
+          <br>
+        </li>
+        <li>I&#8217;ll give you examples of common teams and problems so you can 
+          identify where your team falls, in terms of teamwork and performance.<br>
+          <br>
+        </li>
+        <li>I&#8217;ll give you 4 critical teamwork principles that are the building 
+          blocks of successful teams and teamwork. You won&#8217;t have to guess 
+          about those again! You&#8217;ll know!<br>
+          <br>
+        </li>
+        <li>I&#8217;ll give you reasons why the &#8220;we&#8221; identity is so 
+          powerful for real team spirit.<br>
+          <br>
+        </li>
+        <li>I&#8217;ll give you a whole chapter of phrases to help you overcome 
+          your fear of raising gripes and concerns. I&#8217;ll also give you the 
+          key steps you need to solve gripes and conflicts without confrontation 
+          so they can be solved effectively!</li>
+      </ol>
+      <BLOCKQUOTE> 
+        <p>And that&#8217;s just the beginning! I was a very team-oriented manager 
+          for many years. Then I returned to the workforce like so many people, 
+          and I ended up working in lots of dysfunctional workplaces. It was maddening 
+          to see the dumb things that happened! It was also obvious that most 
+          people didn&#8217;t know how to do things effectively! Since I&#8217;ve 
+          written the book, I&#8217;ve also written lots of articles, had many 
+          radio interviews, and been quoted in newspapers and magazines around 
+          the country. I&#8217;m trying to make a difference just like you are.<br>
+        </p>
+        <p align="justify">&nbsp; </p>
+        <p align="center"><font color="#5d1527" size="4"><strong>Stories and Anecdotes 
+          Galore</strong></font> </p>
+      </BLOCKQUOTE>
+      <ol>
+        <li>I&#8217;ll give you real-world stories so you get the inside scoop 
+          on what happens and why. You&#8217;ll understand why things go wrong 
+          and to avoid similar problems in the future.<br>
+          <br>
+        </li>
+        <li>I&#8217;ll give you critical insights about managers and bosses&#8212;what 
+          makes a good one and how you can be a great manager someday whether 
+          you are one now or not.<br>
+          <br>
+        </li>
+        <li>Then I&#8217;ll give you the critical leadership qualities you need 
+          to be respected and admired in your workplace whether you&#8217;re an 
+          employee or a manager.<br>
+          <br>
+        </li>
+        <li>I&#8217;ll also give you the most important guidelines to follow for 
+          you and your team. I&#8217;ll cover other important skills to really 
+          make your workplace a great one. Yes, you can make a difference, whether 
+          you&#8217;re an employee or a manager!</li>
+      </ol>
+      <BLOCKQUOTE>
+        <p>&nbsp; </p>
+        <p align="center"><font color="#5d1527" size="4"><strong>What If?</strong></font> 
+        </p>
+        <p align="justify">I&#8217;ll give you a chapter of &#8220;What If&#8221; 
+          scenarios where I outline common teamwork and team problems. I&#8217;ll 
+          give you specific &#8220;Things to Say&#8221; and Things to Do&#8221; 
+          so you&#8217;ll have the answers you need. For example, what if a team 
+          member is uncooperative, what if a team member tries to dominate the 
+          team, what if a boss or manager behaves inappropriately, etc.</p>
+        <p>I&#8217;ll also give you great tips and tools to improve your performance 
+          on a routine basis. You&#8217;ll see how easy it can be. Watch your 
+          job and career improve as you follow these useful tips.
+        </p>
+        <p align="justify"><br>
+        </p>
+        <p align="center"><font color="#5d1527" size="4"><strong>Closing Chapter</strong></font> 
+        </p>
+        <p align="justify">The closing chapter lets you observe a mountain climb 
+          with a Peak Performance Team. You&#8217;ll watch this fantastic team 
+          climb Blue Sky Peak. Flower-covered meadows, blue skies, fresh air, 
+          and the story of a Peak Performance Team will leave you inspired!</p>
+        <p>The best part is, you&#8217;ll be able to use the tips and tools from 
+          this book in a matter of days. Most people can finish the book in about 
+          a week so you can make a difference for yourself and others!<br>
+        </p>
+        <p align="justify">&nbsp; </p>
+        <p align="center"><font color="#5d1527" size="4"><strong>Another Secret</strong></font> 
+        </p>
+        <p align="justify">As you read this book and absorb the easily presented 
+          information, you&#8217;ll be able to use these teamwork approaches and 
+          tips in all your relationships&#8212;family, friends, partners, spouses, 
+          everyone. You&#8217;ll be amazed at how much of a difference you can 
+          make! </p>
+        <p align="justify">&nbsp; </p>
+        <p align="center"><strong><font color="#5d1527" size="4">Special Limited-Time 
+          Offer</font></strong></p>
+        <p align="justify">Now, I have a special offer for you. If you buy the 
+          full color, printable e-book in the next few days, You can have it for 
+          just $10.95 instead of the regular price of $14.95&#8212;a substantial 
+          savings! (For a sample chapter of the e-book, <a href="samplechapter3ebook.pdf">click 
+          here.</a>) To order the Printable E-book (PDF file) click below.</p>
+        <p align="center"><form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="steve@powerofwe.com">
+<input type="hidden" name="item_name" value="Printable Color E-Book">
+<input type="hidden" name="item_number" value="2005302S">
+<input type="hidden" name="amount" value="10.95">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-butcc.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+</form></p>
+        <p>&nbsp;</p>
+        <p align="justify">If you prefer the Regular Paperback (second edition) 
+          for $12.95, we have a discount on the shipping and handling for a limited 
+          time<font size="2">.&nbsp;</font> <a href="store.htm#faq" target="_blank">(Click 
+          here for frequently asked questions)</a>.</p>
+        <p align="center"><font size="2"> </font>
+        <form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
+          <font size="2" face="Times">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="image"
+src="https://www.paypal.com/en_US/i/btn/x-click-butcc.gif" border="0"
+name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----
+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
+N0gvZbEQ32ZOBNzJgKLK4Cn1E3TS0tnmPjA2
+-----END PKCS7-----
+">
+          </font>
+        </form></p>
+        <P ALIGN="CENTER"><FONT FACE="Times" SIZE="2"><B>For book questions, contact: 
+          <A HREF="mailto:steve@teamworkchronicles.com">steve@teamworkchronicles.com</A></B></FONT><BR>
+          <FONT FACE="Times" SIZE="1"></FONT> </P>
+      </BLOCKQUOTE></TD>
+
+<TD VALIGN="TOP" ALIGN="CENTER" WIDTH="2" BGCOLOR="#892D41"></TD>
+
+</TR>
+
+<TR>
+<TD VALIGN="TOP" ALIGN="CENTER" HEIGHT="2" COLSPAN="6" BGCOLOR="#892D41"></TD>
+</TR>
+
+</TABLE>
+
+<CENTER><FONT FACE="Times" SIZE="1"><IMG SRC="blank.gif" WIDTH="1" HEIGHT="5"><BR>
+  Steven H. Carney &copy; 2003-2005<BR>
+  </FONT>
+</CENTER>
+
+</BODY>
+</HTML>

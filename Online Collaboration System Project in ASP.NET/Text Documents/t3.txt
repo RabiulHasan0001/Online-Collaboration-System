@@ -1,0 +1,92 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<title>CBS : Online teamwork</title>
+		<meta name="author" content="Curtin Business School">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="/css/style-guide.css" rel="stylesheet" type="text/css">
+
+	</head>
+<body>
+
+<div style="padding:10px 10px 10px 10px">
+	<!-- Main Content Area -->
+	
+	<h1>Online teamwork</h1>
+	<div>
+		
+		 
+<STYLE type=text/css>
+a.info{
+    position:relative; /*this is the key*/
+    z-index:24; background-color:#ffffff;
+    color:#000000;
+    text-decoration:none}
+a.info:hover{z-index:25; background-color:#eef3fb}
+a.info span{display: none}
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; left:2em; width:15em;
+    border:1px solid #c8d8f2;
+    background-color:#eef3fb; color:#000;
+    text-align: left;
+ text-decoration:none;
+ padding: 0.2cm;}
+</STYLE>
+
+<P>As an online student you may be asked to participate in group discussions and assignments. Working in an online virtual team is a new experience for many. </P>
+<TABLE cellSpacing=4 cellPadding=4 width="90%" summary="This table is for layout purposes only." border=0>
+
+<TR>
+<TD vAlign=top width="90%">
+<P><B>Why work in teams?</B></P>
+<P>Teamwork allows you to share information and ideas. It also helps you to develop some of the skills that employers are looking for – managing a project, negotiation, working as a team member. </P>
+<P><B>How virtual teamwork works</B></P>
+<P>Studying online does not mean that you are studying on your own. Blackboard offers various ways of collaborating online. Here are just some of them:</P></TD>
+<TD vAlign=top align=right width="10%"><IMG height=247 alt="I liked the interaction with the other team members.  Everybody was from different backgrounds, which opened up the debate and really challenged my views on the topic." src="/images/ole71.jpg" width=230></TD></TR>
+<TR>
+<TD vAlign=top width="90%">
+<UL>
+<LI>The <B>Discussion Board</B> allows you to post and respond to messages. If you post a message, it will be seen by all the other students and your facilitator when they next access the discussion board from their computer. The messages on the Discussion board stay visible for the duration of the unit and everyone has a chance to respond to any of the messages. <BR><BR>
+<LI>Through online <B>chat</B> you can ‘talk’ to others in real time. As you type in your message, anybody else who is logged in to the Chat session at the same time can read and respond directly to your message. <BR><BR>
+<LI>If required by your unit, the members of a team can all work on the same file thanks to the <B>file sharing</B> function in Blackboard. This way, if you make a change to a document, the others can see your change as soon as they log in to Blackboard and open the document. </LI></UL></TD>
+<TD vAlign=top align=right width="10%"><IMG height=247 alt="Through Blackboard we could communicate in the team and work on assignments together without ever having to meet. One of the team members lived overseas." src="/images/ole72.jpg" width=230></TD></TR>
+<TR>
+<TD vAlign=top width="90%">
+<P><B>Success criteria for teamwork</B></P>
+<UL>
+<LI><B>Stay in touch</B> with one another. Check the Discussion board and post a short message at least twice a week—it doesn’t have to be relevant or very long, but it will show that you are interested and contributing to the team. <A class=info href="#"><IMG height=22 alt=Tip src="/images/ole07_tip.gif" width=44 align=absMiddle border=0><SPAN>If you don't hear from a team member for a while, try contacting them by e-mail or by phone (if you have the other team members' phone numbers).</SPAN></A><BR><BR>
+<LI>Handle <B>differences of opinion</B> at the group level. Discussions should be over the concept in question, not aimed at the individual. <A class=info href="#"><IMG height=22 alt=Tip src="/images/ole07_tip.gif" width=44 align=absMiddle border=0><SPAN>Say what you like about an idea before criticising. Do not tolerate personal attacks in the team.</SPAN></A> </LI></UL></TD>
+<TD vAlign=top align=right width="10%"><IMG height=247 alt="The online team assignments were excellent. They were a great learning experience. Despite a slight problem getting started (my lack of technical know-how), the system was easy to use and very effective." src="/images/ole73.jpg" width=230></TD></TR>
+<TR>
+<TD vAlign=top width="90%">
+<UL>
+<LI>Realise that everyone has an important <B>contribution</B> to make, regardless of their skill level and what they hope to achieve. <A class=info href="#"><IMG height=22 alt=Tip src="/images/ole07_tip.gif" width=44 align=absMiddle border=0><SPAN>Discuss first-up what each member hopes to achieve for themselves and how they feel they can contribute to the team. Also make sure you agree on the plan and priorities of the work.</SPAN></A><BR><BR>
+<LI>The team <B>majority rules</B> on final decisions. <A class=info href="#"><IMG height=22 alt=Tip src="/images/ole07_tip.gif" width=44 align=absMiddle border=0><SPAN>If there is a disagreement, give everybody a chance to present their point of view for consideration by the group before making a final decision.</SPAN></A><BR><BR>
+<LI><B>Conflict</B> is not a personal battle. It is a chance for learning and discovery. <A class=info href="#"><IMG height=22 alt=Tip src="/images/ole07_tip.gif" width=44 align=absMiddle border=0><SPAN>When dealing with conflict, address the issue objectively. If you keep an open mind, you may become aware of some aspects of the issue that you had not considered.</SPAN></A> </LI></UL></TD>
+<TD vAlign=top align=right width="10%"><IMG height=247 alt="The group assignment was a very good experience. The plan that was finally formulated had far more detail and variety than if I had completed it on my own." src="/images/ole74.jpg" width=230></TD></TR></TABLE><BR><BR>
+<TABLE cellSpacing=0 cellPadding=1 width="90%" summary="This table is for layout purposes only." border=0>
+
+<TR>
+<TD vAlign=top bgColor=#afb03c>
+<TABLE cellSpacing=1 cellPadding=4 width="100%" summary="This table contains the browser details." border=0>
+
+<TR>
+<TD vAlign=top bgColor=#e6e8c3>Working in an online team is very similar to working in a <B>face-to-face group</B>—the same principles and ground rules apply.<BR><BR>Check out the general information on groupwork on your StartUp CD (or on the Curtin University of Technology website under <A href="http://startup.curtin.edu.au" target=_blank>http://startup.curtin.edu.au</A>). Look in:<BR>
+<UL>
+<LI>Study Skills, Group Discussion, and 
+<LI>Study Skills, Study Trekk, Trek 8 </LI></UL></TD></TR></TABLE></TD></TR></TABLE>
+<P><A href="/index.cfm?objectid=939C5C92-C3AF-8CC7-0FB13CC559691C03">Print version</A></P>
+<P>
+<DIV align=right><A href="javascript:window.close();">Close</A></DIV>
+<P></P>
+		
+	</div>
+</div>	
+</body>
+</html>
+
+
+

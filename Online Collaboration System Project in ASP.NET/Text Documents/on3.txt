@@ -1,0 +1,776 @@
+<html lang="en">
+
+<head>
+<title>Simple Collaboration System</title>
+</head>
+
+<body bgcolor="white">
+<hr>
+<h1 align="center">A Simple Collaboration System<br>
+  (Proposal)</h1>
+<p>Author: Eric Armstrong, Feb 2001<br>
+</p>
+<h3>Related Links</h3>
+<ul>
+  <li><a href="JustInTimeInformation.html">Project Concept</a></li>
+  <li><a href="requirements.html">Requirements for a Collaborative Design/Discussion/Decision 
+    System</a></li>
+</ul>
+<hr>
+<h2>Motivation for a Simple Tool</h2>
+<p>Ultimately, the world needs a highly-interactive, knowledge-based system for 
+  collaborating on large-scale, complex problems. Such a system is described in 
+  general terms in the <a href="JustInTimeInformation.html">Project Concept</a> document, 
+  and discussed at length in <a href="requirements.html">Requirements for a Collaborative 
+  Design/Discussion/Decision System</a>. </p>
+<p>To summarize that goal: We need (and plan to build) a distributed system that 
+  will permit collaboration by team of people who are focused on a common goal. 
+  The Engelbart &quot;knowledge repository&quot; that results from the collaboration 
+  could be virtual (the product of peer-to-peer interactions) or real (instantiated 
+  in a centralized location). The system will allow users to interact with multiple 
+  repositories and cross-fertilize what they find from one project to another. 
+  The system will &quot;participate&quot; in team conversations, like a child 
+  at a banquet. In the same way that a child is taught, users will whenever possible 
+  <i>empower</i> the system to answer questions that are within its grasp. (For 
+  example, by recategorizing things that the system already &quot;knows&quot;.) 
+  As a result of those interactions, the system will <i>evolve</i>, becoming smarter 
+  and more capable over time. (Over time, a special class of knowledge workers 
+  will undoubtedly emerge for that purpose.)</p>
+<p>However, the project has a serious chicken-and-egg problem. Many motivated 
+  interested individuals are at far ends of the continent, and at points between. 
+  Many potentially valuable contributors are located in Japan, Europe, and points 
+  East. But to build a collaborative system collaborative, we need at least a 
+  rudimentary collaboration system! That is the nature of the &quot;bootstrap&quot; 
+  problem, that <a href="http://www.bootstrap.org">Doug Engelbart</a> has spent 
+  a lifetime tackling.</p>
+<p>So we need something much simpler in the near time frame -- something that 
+  can be put together with minimal development, using existing tools, but which 
+  is powerful enough to materially advance our collaborative efforts. This document 
+  proposes such a tool, centered around:</p>
+<ul>
+  <li>IBIS-style discussions</li>
+  <li>XML documents</li>
+</ul>
+<p>(These will be explained shortly. First, we'll explore the alternatives we've 
+  investigated.) </p>
+<h3> Evaluating the Alternatives</h3>
+<p>We thought for a time that a group of physically co-located individuals centered 
+  here in Silicon Valley could produce an initial system which would allow remote 
+  folks to subsequently enter into subsequent discussions. I'm glad to say that 
+  we are making (slow) progress towards that goal. </p>
+<p>However, that alternative has turned out to be less efficacious than originally 
+  hoped, for two reasons:</p>
+<ol>
+  <li>Because it is a part-time effort, these folks only come together once a 
+    week, at most, for a couple of hours. That is simply an insufficient amount 
+    of time to make any kind of <i>rapid</i> progress. Real progress <i>is</i> 
+    being made (<i>honest</i>!), but the pace proceeds so glacially that outside 
+    observers sometimes have a hard time discerning it. <br>
+    &nbsp; </li>
+  <li>The group lacks the benefit of several keen thinkers who could make substantive 
+    contributions from their far-flung locations. (A few that come to mind: Paul 
+    Fernhout, Frode Hegland, Ken Holman).</li>
+</ol>
+<p>The simple fact of the matter is that those of use who are physically co-located 
+  need an online collaboration tool as much as anyone! We are not so physically 
+  adjacent that we can walk down the hall to talk things out. Instead, we have 
+  a few spare moments here and there throughout the day. We need an online system 
+  so we can carry forward the collaboration in the time available, without subjecting 
+  ourselves to additional travel to do it.</p>
+<p>So far, the group has experimented with different kinds of information sharing 
+  systems. All have proven unequal to the task, for the reasons noted below:</p>
+<dl> 
+  <dl> 
+    <dt><b>Shared Document Systems</b></dt>
+    <dd>Systems like ZWIKI allow multiple users to update a remote document. Those 
+      systems appear to work fine for an end-product document. If three of us 
+      are writing a paper, for example, and the final result will bear all of 
+      our names, then it doesn't matter who makes which edits. However, in a wide-ranging 
+      investigation like a design discussion, it is imperative to keep track of 
+      who said what. So <i>attribution</i> is a critical missing ingredient for 
+      such systems. <br>
+      <br>
+      (Understanding the reasons for that fact could well be a study for psychologists. 
+      But experience with such systems seems to indicate that we have an intuitive 
+      undestanding of the notion that there is no such thing as a single &quot;truth&quot; 
+      and that, even if there were, no one set of statements would capture it 
+      exactly. In a conversational scenario, then, it seems that we unconsciously 
+      filter and interpret what we read according to who said it. We compensate 
+      for their biases, and fill in gaps with an understanding of their intentions. 
+      When statements are presented on their own, without being attributed to 
+      their author, they seem somehow dry and lifeless.)</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Email Lists</b></dt>
+    <dd> Passing plain text or HTML documents in email is one way to solve the 
+      attribution problem, since the author of the revised version is clearly 
+      noted at the top of the message, and their comments are distinguished from 
+      the original text. However, only the <i>latest</i> author's comments are 
+      attributed (other attributions are lost as the document is forwarded). More 
+      importantly, after a few versions, the <i>indentation</i> that results from 
+      marking different contributions becomes excessive. (On each revision, the 
+      text is shifted to the right two spaces. After a few revisions, the document 
+      is no longer usable.)</dd>
+    <dt>&nbsp;</dt>
+    <dt> <b>Topical Chat Systems</b> </dt>
+    <dd>Topical chat systems are great for party conversations, where a single 
+      subject is carried on for a while, and then dropped in favor of another. 
+      Comments are attributed and archived, which is helpful. But there is little 
+      if any <i>structure</i> to such conversations. For a complex, lengthy, multi-faceted 
+      discussion, such systems quickly break down, because they provide no mechanisms 
+      for organizing (and, more importantly, <i>re</i>organizing) the discussion.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Word Documents</b></dt>
+    <dd>Although we haven't actually tried this, it is something to consider. 
+      Word documents would allow revisions to be highlighted. However, attribution 
+      is still an issue, the documents are not editable everywhere, and they are 
+      not web accessible. So maybe it is not something we should consider for 
+      very long...</dd>
+  </dl>
+</dl>
+<p>So, as I originally proposed during Doug Engelbart's year-2000 colloquium, 
+  we need to design and develop a useful collaboration system for online design 
+  discussions -- a system that not only makes it possible to <i>reach</i> decisions, 
+  but which <i>records</i> decisions, and their alternatives, so that downstream 
+  it becomes possible to answer the all important question, &quot;Why?&quot;. 
+  (The question &quot;What?&quot; can be answered by looking at code. But the 
+  question &quot;Why?&quot; is often virtually impossible to answer.)</p>
+<p>Such a system would be of enormous benefit to the open source community, for 
+  the very simple reason that while we can share source code and manage bug reports 
+  over the web, there are <i>no</i> tools which make it possible to fruitfully 
+  carry on a design discussion. </p>
+<p> Such system would be useful for the other kinds of <a href="http://www.gdss.com/wp/wicked.htm%20">Wicked 
+  Problems</a> that Jeff Conklin and William Weil describe. Anytime an investigative 
+  discussion is required to clarify a situation and resolve issues, anytime a 
+  focused, goal-oriented discussion needs to take place to solve a complex problem, 
+  such a system can play an important role.</p>
+<p>Finally, focusing on the issue of online design discussions has the most significant 
+  &quot;bootstrapping&quot; effect. By developing a tool that open source designers 
+  use, we will obtain the benefit of their advice (and ultimately their help) 
+  in improving the system. And by improving our own ability to carry on online 
+  discussions, we both improve our ability to design the target system, and open 
+  up our deliberations for significant contributions by others. </p>
+<h2>Overview of the Simple System</h2>
+<p>A simple tool for colloboration can be built around:</p>
+<ul>
+  <li>IBIS-style discussions</li>
+  <li>XML documents</li>
+</ul>
+<p>This section explores those concepts.</p>
+<h3>The Advantages of IBIS</h3>
+<p>In <a href="http://www.gdss.com/wp/IBIS.htm">The IBIS Manual</a>, Jeff Conklin 
+  gives a superb introduction to the concept of Issue-Based Information Systems 
+  (IBIS -- &quot;eye-biss&quot;). To summarize that paper very briefly:</p>
+<ul>
+  <li>Discussions are led by a moderator.</li>
+  <li>Every issue begins with one or more questions.</li>
+  <li>More questions are added as they become appropriate (either at the top most 
+    level, or under other questions, thereby forming a hierarchy).</li>
+  <li>As possible answers are proposed, they are collected under the question 
+    they purport to answer.</li>
+  <li>Pro's (arguments for) and con's (arguments against) are listed under each 
+    alternative.</li>
+  <li>Additional information is added anywhere it makes sense.</li>
+  <li>A decision cannot be reached until all alternatives have been evaluated.</li>
+</ul>
+<p>In a totally successful discussion, all questions are answered, and all participants 
+  agree on the answers. One suspects that such halcyon scenarios are probably 
+  not the norm. But those who have experience with such discussions report several 
+  beneficial effects:</p>
+<dl> 
+  <dl> 
+    <dt><b>Calm</b></dt>
+    <dd>The single most noticable effect is on the participants. Rather than breaking 
+      up into heated, vehement battles, IBIS discussions tend to be calm, rational 
+      affairrs. That effect tends to result from the next two characteristics 
+      of IBIS-style discussions. </dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Alternatives are Always Allowed</b></dt>
+    <dd>Because no proposal is ever allowed to stand on its own, there is never 
+      an instance of a &quot;bald assertion&quot; which must be attacked and dragged 
+      down in order to make room for one's own pet proposal or theory. Instead, 
+      the question that the proposal addresses is first adduced. As a result, 
+      a &quot;hook&quot; always which upon which to hang an alternative. (As a 
+      result, discussions tend to be more cooperative and exploratory, rather 
+      than argumentative and confrontational.)</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>All Alternatives are Evaluated</b></dt>
+    <dd>In the IBIS methodology, a decision is never reached until <i>all</i> 
+      alternatives have been evaluated. Having once gotten an idea into the system, 
+      then, it's proponent can relax, calm in the knowledge that eventually it 
+      will get its &quot;day in court&quot;, and the arguments in its favor will 
+      be heard.</dd>
+  </dl>
+</dl>
+<p>Note that IBIS-style discussions are usually carried out in a meeting, and 
+  they are led by a moderator. Jeff Conklin took a stab at creating an online 
+  version of such a system with his Graphical IBIS (gIBIS -- &quot;gibb-us&quot;). 
+  However, a paper at <a href="http://web.uvic.ca/%7Eckeep/hfl0104.html%20"> http://web.uvic.ca/~ckeep/hfl0104.html</a> 
+  (which no longer seems to be present), as well as anecdotal reports, have shown 
+  that users often have problems with automated versions of such systems. The 
+  major issues are:</p>
+<dl> 
+  <dl> 
+    <dt> <b>Graphical complexity</b></dt>
+    <dd>If memory serves, this one of the issues that users mentioned when using 
+      gIBIS. If not, I suspect that it rapidly becomes an issue for any complex 
+      discussion. </dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Cognitive overhead</b></dt>
+    <dd>The difficulty of keeping track of things increased as the system grew. 
+      (This was the core observation of the paper noted above.)</dd>
+    <dt>&nbsp;</dt>
+    <dt> <b>The need to pre-define a comment category</b></dt>
+    <dd> For example, one might not know whether one was arguing &quot;for&quot; 
+      or &quot;against&quot; a proposition when starting out to trace the implications. 
+      Indeed, the same implication could be either a point in favor or a point 
+      against, depending on the context. </dd>
+  </dl>
+</dl>
+<h3>The Advantages of XML</h3>
+<p>Using XML as a basis for an IBIS-style discussion language has several advantages: 
+</p>
+<ul>
+  <li>It is standard mechanism, created specifically for defining such languages. 
+    Because it is a widely adopted standard, editors and parsers already exist.<br>
+    &nbsp; </li>
+  <li>The approaching ubiquity of XML mechanisms means that the system is platform-agnostic. 
+    Documents can be shared and edited anywhere.<br>
+    &nbsp; </li>
+  <li>XML validation mechanisms can help ensure that IBIS-conventions are followed.<br>
+    (For example, the convention that an alternative always exists under a question 
+    can be strictly envorced.) <br>
+    &nbsp; </li>
+  <li>Since mechanisms for translating XML documents to HTML already exist, the 
+    documents can be browsed on the web. (Editing, though, would be peformed with 
+    an XML editor.
+    <p><b>Note:</b><br>
+      Eugene Kim observed during the colloquium that if documents are browsable, 
+      that is sufficient to make them generally usable, even if editing must take 
+      place in more roundabout fashion.</p>
+  </li>
+</ul>
+<p>While the XML structure does not solve the pre-selection problem, it does eliminate 
+  the issue of graphical complexity (by eliminating the graphics). However, the 
+  fact that the documents are stored in XML makes it possible to retarget them 
+  for other systems at a later date -- graphical systems, when they are devised, 
+  or perhaps more robust knowledge repositories.</p>
+<h2>Requirements for the Simple System</h2>
+There are a number of general requirements and several highly specific editing 
+requirements that go into making a viable system. These requirements are fairly 
+easy to meet, using off-the-shelf tools: 
+<dl> 
+  <dl> 
+    <dt><b>XML-&gt;HTML Server</b></dt>
+    <dd>Some mechanism is needed to translate XML documents into HTML pages and 
+      deliver them to web browsers. That way, documents can be browsed by anyone, 
+      even if editing is restricted to a chosen few. XSLT mechanisms can handle 
+      the translation, and servlets are fairly easy to build, so this requirement 
+      is easily met.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Source Control</b></dt>
+    <dd>A CVS archive, for example, makes it possible to ensure that only one 
+      person is editing the document at a time. CVS is not totally ideal, since 
+      it is a plain-text system, but it will do until a good system based on XML-differencing 
+      is devised.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Notifications</b></dt>
+    <dd>Given that the documents are shared, and that participants are remotely 
+      located, it is important that each document has a notification list associated 
+      with it, and that each person on that list gets a message when the document 
+      has been changed. This requirement is moderately difficult, but not terribly 
+      so. </dd>
+  </dl>
+</dl>
+<p>The two requirements that pose the most difficulty are the issue-based discussion 
+  language and the editor. Those requirements are discussed in the remaining two 
+  sections. </p>
+<h2> An XML-based Language for IBIS</h2>
+<p>Carrying on an IBIS-style discussion in an online XML document requires an 
+  IBIS-equivalent language. This section discusses the required language.</p>
+<p>In true IBIS, fashion, let's start by asking, &quot;What should the language 
+  look like?&quot;. The table below presents one possible proposal, along with 
+  synonyms and other interesting alteratives.</p>
+<blockquote> 
+  <table width="101%" border="0">
+    <tr> 
+      <td width="36%"><i><b><u>Proposed Language</u></b></i></td>
+      <td width="64%"><i><b><u>Notes &amp; Possible Alternatives</u></b></i></td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>&lt;query status=&quot;&quot;&gt;</pre>
+      </td>
+      <td width="64%">issue, question, ques, quest</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>  &lt;alternative status=&quot;&quot;&gt;</pre>
+      </td>
+      <td width="64%">candidate, claim, option, possibility, proposal, proposition 
+      </td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>     &lt;pro&gt;</pre>
+      </td>
+      <td width="64%">for</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>     &lt;con&gt;</pre>
+      </td>
+      <td width="64%">against</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>     &lt;rating value=&quot;&quot;&gt;</pre>
+      </td>
+      <td width="64%">evaluation</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>     &lt;endorse&gt;<i>username</i></pre>
+      </td>
+      <td width="64%">vote, recommend</td>
+    </tr>
+    <tr> 
+      <td> 
+        <pre><i><br></i><b><u>Occur anywhere</u>:</b></pre>
+      </td>
+      <td><br>
+        <i><b><u>Contents</u>: </b></i></td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>&lt;info&gt;</pre>
+      </td>
+      <td width="64%">A single paragraph (node)</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>&lt;notes&gt;
+  &lt;item&gt;+</pre>
+      </td>
+      <td width="64%">A list containing one or more paragraphs (nodes)</td>
+    </tr>
+    <tr> 
+      <td> 
+        <pre><br><b><i><u>Attributes</u>:</i></b></pre>
+      </td>
+      <td><br>
+        <i><b><u>Values</u>:</b></i></td>
+    </tr>
+    <tr> 
+      <td width="36%" height="23"> 
+        <pre>query: status=</pre>
+      </td>
+      <td width="64%" height="23">open, decided</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>alternative: status=</pre>
+      </td>
+      <td width="64%">unrated, rated, rejected, selected</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>alternative: rating=</pre>
+      </td>
+      <td width="64%">distasteful-1, implausible-2, viable-3, likely-4, favored-5<br>
+        (or: preferred-5 )</td>
+    </tr>
+    <tr> 
+      <td width="36%"> 
+        <pre>query: rating_avg=</pre>
+      </td>
+      <td width="64%">(average of ratings, as a single-decimal text string)</td>
+    </tr>
+  </table>
+</blockquote>
+<p><b>Notes:</b></p>
+<ul>
+  <li>The goal in selecting names was to choose the shortest possible intuitive 
+    name. The word &quot;alternative&quot; is the least desirable according to 
+    the shortness criteria. But it has the desirable connotation of &quot;something 
+    to be investigated&quot;, unlike a proposal or a claim. Also, when &quot;Question&quot; 
+    is shortened to &quot;Q&quot;, it is possible to reinterpret &quot;Q &amp; 
+    A&quot; as &quot;Question &amp; Alternative&quot;, rather than &quot;Question 
+    and Answer&quot;. That interpretation works especially well in a trouble-shooting 
+    FAQ, where &quot;How do I solve X?&quot; can be answered with a number of 
+    different alternatives. (Were it not for that desirable abbreviation, &quot;option&quot; 
+    would be a more succinct choice.)<br>
+    &nbsp; </li>
+  <li>Every node (element) in the discussion must obviously have some text associated 
+    with it (and xHTML tags, as well, which allows links and formatting to be 
+    added to the text). If the Schematron mechanism is used exclusively, that 
+    text can lie directly under the node. But if other schema validation mechanisms 
+    are to be supported, then a &lt;content&gt; element that contains the text 
+    (and inline elements) will need to exist under each of the elements that can 
+    have substructure. (Schematron is already required for decided-issue validation 
+    -- to ensure that an issue is marked &quot;decided&quot; only <br>
+    &nbsp; </li>
+  <li>Those few elements which cannot have substructure (&lt;link&gt; may be the 
+    only one) create an undesirable exception to the principle that every element 
+    has a &lt;content&gt; subelement. In the interests of regularity, such elements 
+    might be defined with a &lt;content&gt; subelement anyway. Or, to prevent 
+    that stupidity, Schematron validation could be required.<br>
+    &nbsp; </li>
+  <li>If nodes wind up with &lt;content&gt; subelements, it is worth being clear 
+    that a node &quot;is&quot; its content, while it &quot;has&quot; a list. Conceptually, 
+    we want to think about nodes that have sublists. If a &lt;content&gt; subelement 
+    has to be defined, that it should be an internal implemenation detail that 
+    is not exposed to the user. So a user should see: &quot;&lt;query&gt;What 
+    should we do?&quot; even though internally the data may be stored as &quot;&lt;query&gt;&lt;content&gt;What 
+    should we do?&lt;/content&gt;&lt;/query&gt;&quot;.<br>
+    &nbsp; </li>
+  <li>All nodes have a 3-by-3 cube of attributes: <br>
+    <code>{content, list} x {created, modified} x {by, date}</code><br>
+    For example:<br>
+    <code>content-created-by=&quot;Fred&quot;, list-modifed-date=&quot;xxx&quot;.</code></li>
+</ul>
+<h3>More Questions</h3>
+<p>Here are some more questions, and possible answers: </p>
+<dl> 
+  <dl> 
+    <dt><b>?-What to call the language? </b> 
+      <ul>
+        <li>IBDL: Issue-Based Discussion Language </li>
+        <li>LIDIA: Language for Investigation and Discussion of Issues and Alternatives</li>
+        <li>BIBL (bible): Basic Issue-Based Langugage</li>
+        <li>LIBL (libel): Local Issue-Based Langugage</li>
+        <li>KIBL (kibble): Knowledge-oriented Issue-Based Langugage</li>
+        <li>NIBL (nibble): Nodal Issue-Based Langugage</li>
+        <li>QIBL/QUIBL (quibble): Questioned Issue-Based Langugage</li>
+        <li>?-other words for the acronyms above?</li>
+        <li>?-other names?<br>
+          &nbsp; </li>
+      </ul>
+    </dt>
+    <dt><b>?-how to change an argument to &quot;countered&quot;</b></dt>
+    <dd>Suppose you add an argument &lt;con&gt; against an alternative, and someone 
+      counters that argument. How should the counter-argument and the final result 
+      be stored in the argument hierarchy? Should the counter argument go under 
+      the original argument? Should the &lt;con&gt; element change to some other 
+      element, like &lt;con-countered&gt;? Should an attribute be added: &lt;con 
+      status=&quot;countered&quot;&gt;? Or should a special &lt;countered&gt; 
+      section be added so countered arguments can be moved to that section and 
+      taken out of the way?<br>
+      <br>
+      Note the recursion here. There is always an <i>implicit question</i>: &quot;Has 
+      this argument been countered?&quot; Answering that question may well require 
+      the &lt;endorse&gt; and &lt;rating&gt; on counter arguments. And since multiple 
+      counter-arguments are possible, perhaps a &lt;counter&gt; element is needed 
+      that can occur under &lt;pro&gt; or &lt;con&gt; elements. (But then, what 
+      about counter counter-arguments, etc? -- the element structure would be 
+      different at the top of the hierarchy than further down.)<br>
+      <br>
+      <b>Conclusion: </b>&lt;pro&gt; and &lt;con&gt; tags should be allowed under 
+      &lt;pro&gt; and &lt;con&gt; arguments. A &lt;pro&gt; under an argument indicates 
+      support, while a &lt;con&gt; indicates a counter argument.</dd>
+  </dl>
+</dl>
+<h3>The DTD</h3>
+<p>Here is the Document Type Definition (DTD) for the language, assuming that 
+  Schematron is required, and that &lt;content&gt; elements are therefore not 
+  needed:</p>
+<blockquote> 
+  <pre>&lt;?xml version='1.0' encoding='ISO-8859-1'?>
+&lt;!-- 
+  DTD for an issue-based discussion language.
+  -->
+&lt;!element query (#PCDATA | alternative | info | notes | query)* &gt;<br>&lt;!element alternative (#PCDATA | pro | con | rating | 
+                                endorse | info | notes | query)* &gt;
+&lt;!element pro (#PCDATA | info | notes | pro | con | query)* &gt;
+&lt;!element con (#PCDATA | info | notes | pro | con | query)* &gt;<br>&lt;!element rating (#PCDATA)* &gt;
+&lt;!element endorse (#PCDATA)* &gt;
+&lt;!element info (#PCDATA)* &gt;<br>&lt;!element notes (item)* &gt;
+&lt;!element item (#PCDATA)* &gt;
+
+&lt;!attlist query 
+          status (open | decided) #IMPLIED&gt;
+&lt;!attlist alternative 
+          status  (unrated | rated | rejected | selected) #IMPLIED &gt;
+&lt;!attlist rating 
+          value (distasteful | implausible | viable | likely | favored)
+          #IMPLIED &gt;
+</pre>
+</blockquote>
+<h2>Requirements for an Issue-Based Editor</h2>
+<p>The one requirement (besides the language) that poses the greatest challenge 
+  is the requirement for a good XML-based editor, mostly because there are some 
+  specific requirements for editing that normal XML editors are unlikely to handle. 
+</p>
+<p>Fortunately, Warner Ornstine has been working on an editor for the Extensible 
+  Development Environment Project (<a href="http://extende.sourceforge.com">eXtenDE</a>) 
+  that may prove to be extensible in the directions we need. That open source 
+  development project is still in its early stages, so we can help define the 
+  architecture that produces extensibility in the editor.</p>
+<p>Here are the specific editing requirements that add difficulty to the project:</p>
+<dl> 
+  <dl> 
+    <dt><b>Context Display</b></dt>
+    <dd>When questions are indented under questions, and you're down several levels 
+      deep in the hierarchy, it's hard to determine the context for the particular 
+      question you're looking at. (Was it under the last question, or beside it?) 
+      So the editor must have have some mechanism that makes it possible to determine 
+      the context (ancestor hierarchy, and ideally relatives of those ancestors) 
+      at any given point in the tree.<br>
+      <br>
+      I believe Warner Ornstine has already anticipated this requirement in the 
+      eXtenDE editor, at least in theory. My own idea of how this should be down 
+      is tro drop a thin dotted line between the &quot;+&quot; icons that let 
+      you collapse and expand nodes. When the cursor hovers near that line, a 
+      popup could display the item at the top of the line.</dd>
+    <dd>&nbsp;</dd>
+    <dt><b>Multi-line</b></dt>
+    <dd>As described in <a href="../XmlEditor.html">Design Notes for an XML Editor</a>, 
+      a good structured editor must be capable of displaying multiple-line elements, 
+      and it must <i>also</i> be tree-structured. Most editors do one or the other, 
+      but not both. Or they make you switch modes.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Blank Sheet of Paper</b></dt>
+    <dd>One user who reviewed an early version of the eXtenDE editor used this 
+      image to describe the desired behavior for the editor. It's a great image. 
+      Although each element is a distinct object, the <i>appearance</i> of the 
+      objects in the editor should be as though they were on a blank sheet of 
+      paper. In other words, it should not be necessary to select an entry to 
+      begin editing it. Instead, the internal boundaries between elements should 
+      be seamless, so that cursor motions take you naturally from one element 
+      to another.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Auto-Fill Attribubes</b></dt>
+    <dd>These represent a novel concept in XML editing. But the editor needs to 
+      store the date/time that a node was created or modified, along with the 
+      date/time that the list under it was modified, as attributes of each and 
+      every node. It also needs to store the identification information for the 
+      person making the changes. <br>
+      <br>
+      <b>Note:</b><br>
+      Ideally, it would be possible to note such attributes and elements as &quot;auto-fill&quot; 
+      in the schema. (I somehow doubt that XML-schema has anticipated that need, 
+      but haven't looked closely enough to tell.) The autofill=date attribute 
+      would instruct the editor to store date/time info. The autofill=text attribute 
+      would instruct the editor to prompt the user for the string to use -- and 
+      to save it for future use thereafter.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Ontology Mapping</b></dt>
+    <dd>The ideal editor would also make it possible to change the elements used 
+      in the display. For example, although &lt;query&gt; elements would be stored 
+      in the file, the user may well want to display such elements using &lt;Q&gt;, 
+      to conserve display space. The existence of the mapping makes a common interchange 
+      standard easier to swallow, since you don't have to look at it if you don't 
+      like it.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Multiple Schemas</b></dt>
+    <dd>The editor must stand ready to validate a document multiple times, using 
+      different schema mechanisms, before it can declare the document to be 100% 
+      valid. For example, the list of autofill-attributes might need to come from 
+      a separate file, given that the autofill specification can't be specified 
+      in a standard schema.<br>
+      <br>
+      And, while in most cases a hierarchical schema provides more expressive 
+      power, in this particular case, an XML Document Type Definition (DTD) is 
+      the most natural way to express the structure relationships. The reason 
+      for making that statement is the fact that DTD definitions are <i>not</i> 
+      hierarchical. For highly structured data, that is typically presents more 
+      problems than it solves. But in this case, the modular reusability of elements 
+      is a big plus.<br>
+      So, in a DTD, it's easy to specify:<br>
+      <br>
+      &lt;!element query (alternative | info | notes | query)* &gt;<br>
+      &lt;!element alternative (pro | con | rating | endorse | info | notes | 
+      query)* &gt;<br>
+      <br>
+      Since queries can have queries under them, and alternatives can have queries 
+      under them, deep nested structures can occur, and be validated. In a hierarchical 
+      schema, such recursion is much more difficult to specify. <br>
+      <br>
+      Finally, the editor needs the ability to validate with the assertion based 
+      <a href="http://www.ascc.net/xml/resource/schematron/schematron.html">Schematron</a> 
+      schema system. That mechanism achieves two important goals.<br>
+      1) It allows content (text and inline tags) to be placed in the most natural 
+      position in the element, as described in <a href="../XmlEditor.html">Design 
+      Notes for an XML Editor</a>. (However, since most schema mechanisms have 
+      no such capabilities, a special &lt;content&gt; element may well be defined 
+      anyway.)<br>
+      2) It allows sophisticated validation, like ensuring that the status-attribute 
+      for a query is &quot;decided&quot; <i>only</i> if no un-evaluated alternatives 
+      remain.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Validation Errors, Handling of</b> </dt>
+    <dd>The importance of validating documents brings to mind the question of 
+      how and when the editor validates documents. On-the-fly editing ensures 
+      that the document is always in a legal state. But such restrictions typically 
+      hamper users who are making significant changes.<br>
+      <br>
+      A better alternative is probably to provide a menu choice for validation, 
+      and to automatically validate when saving a document (while making it easy 
+      to find and correct errors). If validation fails, the user should be asked 
+      if they want to save the document, before doing so. (Since they might say 
+      say yes, the editor must be capable of reading in a document that fails 
+      validation.)</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Hierarchy-aware Scripts</b></dt>
+    <dd>Ratings for an alternative need to be accumulated and averaged among all 
+      those who evaluate it. So the ideal editor will add a scripting capability 
+      that understands hierarchy and can propogate information either upward through 
+      the ancestor chain &amp;/or downward through the descendant tree</dd>
+  </dl>
+</dl>
+<h2>Extensions to the Simple System</h2>
+<p>Given a basis for collaboration, it's easy to start thinking about extra features 
+  it could have. It is too early to say whether it makes more sense to build a 
+  more sophisticated system, or to extend the simple system. But I'll trot out 
+  the ideas for extensions here, for future reference.</p>
+<h3>Display Filters</h3>
+<p>Given that XML data is stored, and that it must be converted to HTML for display 
+  on the Web, it makes sense to think about the &quot;Web-Based Intermediaries&quot; 
+  developed at IBM that Doug Engelbart has favored. WBI filters (or other such 
+  filters) could for example sort alternatives so that the highest-ranking, most 
+  heavily endorsed ideas appear first. </p>
+<p>An interactive filter would let you choose which items you want to display. 
+  You could filter out &lt;info&gt; and &lt;notes&gt;, for example, to get a better 
+  outline of the arguments. Or you could eliminate comments by certain individuals. 
+  You might want to put unrated items first in the list (because they have yet 
+  to be visited, and are therefore blocking a decision), or last (so you can focus 
+  on the most heavily rated, most thoroughly evaluated alternatives). Or maybe 
+  alternatives should be ordered alphabetically by name, alphabetically by user, 
+  or randomized to ensure unbiased investigation.</p>
+<p>One filter would create the default view. It might operate when the data is 
+  stored, to put things in the order that the group has determined to be the most 
+  generally useful. Other filters might operate when the data is delivered. (Most 
+  important, of course, is the interaction mechanism that lets you specify the 
+  filter's operation.)</p>
+<p>In the most ideal of all worlds, the editor would be able to understand and 
+  interact with the filter mechanisms, so you could have the same display when 
+  editing the XML that you can get when viewing the HTML versions.</p>
+<h3>Difference Highlighting</h3>
+<p>The ability to see what has changed is highly desirable. But adds several degrees 
+  of complexity:</p>
+<dl> 
+  <dl> 
+    <dt><b>Deleted Information in the File</b></dt>
+    <dd>Maintaining deleted information in the file requires an additional attribute. 
+      And it adds complexity when moving and inserting new information. But it 
+      is necessary to see what has been removed, as well as what has been added.</dd>
+    <dt>&nbsp;</dt>
+  </dl>
+  <dl> 
+    <dt><b>Difference Highlighting in the Editor</b></dt>
+    <dd>In the best of all possible worlds, the editor will make it esay to spot 
+      differences. Several possible mechanisms come to mind, including &quot;modified&quot; 
+      markers in the file, an XmlDiff process against a saved version of the file, 
+      or showing all changes after a given date/time.<br>
+      (The date/time mechanism may be the only viable choice for shared multiple-user 
+      documents for the simple reason that user &quot;A&quot; will want to clear 
+      the change-highlighting on sections that have not yet been seen by user 
+      &quot;B&quot;.) <br>
+      <br>
+      <b>Note:</b><br>
+      For the date/time differencing mechanism to be effective, deleted information 
+      must be stored in the XML file so it can be displayed as a change. The correlary 
+      is that it must be possible to <i>hide</i> such information when differences 
+      are not being displayed.</dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Basis for Differencing</b></dt>
+    <dd>Since each document needs an associated notification list (to inform interested 
+      parties when a document has changed) the last date that the user accessed 
+      the document can be stored in that list. Changes after that date can be 
+      highlighted. (A useful option would be the ability to include or exclude 
+      your own changes). The control file can also keep track of modification 
+      dates and the comments that summarize the changes that were made (as, for 
+      example, in CVS).<br>
+      <br>
+      <b>Note: </b><br>
+      With this mechanism you can turn off all highlighting all at once, or you 
+      can leave it on, but there is still no good way to turn off highlighting 
+      as changes are reviewed. Each client would need its own capability to do 
+      so, and ideally that capability would persist between editing sessions. 
+      If some mechanism were added to the language to handle this, it would have 
+      to contain a pointe to local file that kept track of which changes were 
+      visited and which were not. </dd>
+  </dl>
+</dl>
+<h3>Automated Implication Engine</h3>
+<p>A sophisticated query mechanism would be useful. Enabling such a mechanism 
+  requires extending the issue-based discussion language to allow more complex 
+  relationships to be described. For example, in a complex scenario, the answer 
+  to one question impacts the answer to several others. Consider a case like this:</p>
+<pre>  Q1:                 (query)
+    A1:               (alternative)
+    A2:
+    A3:
+  Q2:
+    B1:
+      +-if Q1A1       (pro, if A1 is chosen for Q1)
+      /-if Q1A2       (con, if A2 is chosen)
+    B2:
+      +-if Q1A3
+      /-if Q1A1</pre>
+<p>Were the language extended to permit such statements, perhaps with tags like 
+  &lt;proif&gt; and &lt;conif&gt;, it would be possible to:</p>
+<dl> 
+  <dl> 
+    <dt><b>Make suppositions</b></dt>
+    <dd>It should be possible to &quot;suppose&quot; that A1 has been selected, 
+      and derive Q2B1 as a result.<br>
+      (<code>suppose Q1A1 =&gt; Q2B1</code>). Playing with the system and making 
+      different suppositions would make it possible to, in effect, experiment 
+      with different designs. </dd>
+    <dt>&nbsp;</dt>
+    <dt><b>Find consistent sets of alternatives</b></dt>
+    <dd>Given the conditional knowledge embedded in the system, it should be possible 
+      to enumerate and list the set of possible designs, where each design consists 
+      of the set of consistent alternatives. In the example above, the design 
+      set would be <br>
+      <code>{Q1A1+Q2B1, Q1A2+Q2B2, Q1A3+Q2B2}</code></dd>
+  </dl>
+</dl>
+<p>A special query tool would undoubtedly be needed for this purpose, but the 
+  beneficial impact on design discussions would be considerable.</p>
+<h2>Conclusion</h2>
+<p>Using an XML-based discussion language and shared files, it should be possible 
+  to engineer an efficient and effective tool for online collaborative discussions 
+  (like design discussions), in a very short period of time. Other than the language, 
+  the really big limiting factor is the existence of a good editor that is either 
+  extensible or targeted for the purpose.</p>
+<h2>References</h2>
+<ul>
+  <li>Doug Engelbart: Bootstrap Organization<br>
+    <a href="http://www.bootstrap.org">http://www.bootstrap.org</a> </li>
+  <li>Eric Armstrong: (Full Collaboration System) Project Concept<br>
+    <a href="http://www.treelight.com/software/collaboration/requirements.html">http://www.treelight.com/software/collaboration/ProjectConcept.html</a> 
+  </li>
+  <li>Eric Armstrong: Requirements for a Collaborative Design/Discussion/Decision 
+    System<br>
+    <a href="http://www.treelight.com/software/collaboration/requirements.html">http://www.treelight.com/software/collaboration/requirements.html</a> 
+  </li>
+  <li>Eric Armstrong: Design Notes for an XML Editor<br>
+    <a href="http://www.treelight.com/software/XmlEditor.html">http://www.treelight.com/software/XmlEditor.html</a></li>
+  <li>Extensible Development Environment project (eXtenDE)<br>
+    <a href="http://extende.sourceforge.com">http://extende.sourceforge.com</a> 
+  </li>
+  <li>Jeff Conklin: The IBIS Manual: A Short Course in IBIS Methodology<br>
+    <a href="http://www.gdss.com/wp/IBIS.htm">http://www.gdss.com/wp/IBIS.htm</a> 
+  </li>
+  <li>Jeff Conklin & William Weil: Wicked Problems: Naming the Pain in Organizations<br>
+    <a href="http://www.gdss.com/wp/wicked.htm%20">http://www.gdss.com/wp/wicked.htm 
+    </a></li>
+  <li>This paper, no longer available on the web, gave a summary of IBIS that 
+    mentioned gIBIS and pointed out the major difficulty with the system: "cognitive 
+    overhead".<br>
+    <a href="http://web.uvic.ca/%7Eckeep/hfl0104.html%20">http://web.uvic.ca/~ckeep/hfl0104.html</a> 
+  </li>
+  <li>Schematron assertion-based schema validation<br>
+    <a href="http://www.xml.com/pub/a/2000/11/22/schematron.html">http://www.xml.com/pub/a/2000/11/22/schematron.html 
+    </a><br>
+    <a href="http://www.sunworld.com/swol-09-2000/swol-0908-schematron.html">http://www.sunworld.com/swol-09-2000/swol-0908-schematron.html</a> 
+    <br>
+    <a href="http://www.ascc.net/xml/resource/schematron/schematron.html">http://www.ascc.net/xml/resource/schematron/schematron.html</a> 
+    <br>
+  </li>
+</ul>
+<hr>
+</body>
+
+</html>

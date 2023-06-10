@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>5/10/05 RMIUG Meeting Minutes - Online Collaboration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../css/rmiug.css" rel="stylesheet" type="text/css">
+</head>
+<body onLoad="doDateTime();">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td width="1%" valign="top"><!-- #BeginLibraryItem "/Library/rmiug_main_leftColum.lbi" --><table width="150" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="../../../img/spacer.gif" width="4" height="4"></td>
+        </tr>
+        <tr> 
+          <td><!-- #BeginLibraryItem "/Library/rmiug_Logo.lbi" --><a href="../../../index.html"><img src="../../../img/RMIUG_logo.gif" width="150" height="117" border="0"></a><!-- #EndLibraryItem --></td>
+        </tr>
+        <tr> 
+          <td><img src="../../../img/spacer.gif" width="4" height="4"></td>
+        </tr>
+        <tr> 
+          <td><!-- #BeginLibraryItem "/Library/rmiug_mainNav_title.lbi" --><table width="100%" border="0" cellpadding="1" cellspacing="0" class="navDKborder" id="MainMenuTitle">
+              <tr> 
+                <td class="navDKborder"><table width="100%" border="0" cellpadding="5" cellspacing="0" class="navDKbody">
+                    <tr> 
+                      <td align="center" class="navTitleCopy">RMIUG's Main Menu</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table><!-- #EndLibraryItem --></td>
+        </tr>
+        <tr> 
+          <td><img src="../../../img/spacer.gif" width="4" height="4"></td>
+        </tr>
+        <tr> 
+          <td><!-- #BeginLibraryItem "/Library/rmiug_mainNav.lbi" --><table width="100%" border="0" cellpadding="1" cellspacing="0" class="navLTborder" id="MainMenuNav">
+              <tr> 
+                <td class="navLTborder"><table width="100%" border="0" cellpadding="2" cellspacing="0" class="navLTbody">
+        <tr> 
+          <td class="navLTbody"><span class="infoCopy">&#8226;</span><a href="../../meetings/meetings.html" class="navTitleCopy">Meeting 
+            Info</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../minutes.html" class="navTitleCopy">Meeting 
+            Minutes</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../email_lists.html" class="navTitleCopy">Email 
+            Lists</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../rmiug_faqs.html" class="navTitleCopy">Email 
+            List FAQs</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../how_to_unsubscribe.html" class="navTitleCopy">How 
+            to Unsubscribe</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../special_events.html" class="navTitleCopy">Special 
+            Events</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"><p><span class="infoCopy">&#8226;</span><a href="../../rmiug_committee.html" class="navTitleCopy">RMIUG 
+              Committee</a></p></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../sponsors.html" class="navTitleCopy">Our 
+            Sponsors</a></td>
+        </tr>
+        <tr> 
+          <td class="navLTbody"> <span class="infoCopy">&#8226;</span><a href="../../map_directions.html" class="navTitleCopy">Map 
+            &amp; Directions</a></td>
+        </tr>
+      </table></td>
+              </tr>
+            </table><!-- #EndLibraryItem --></td>
+        </tr>
+      </table><!-- #EndLibraryItem --></td>
+    <td width="99%" valign="top"><table width="100%" border="0" cellspacing="4" cellpadding="0">
+        <tr> 
+          <td><!-- #BeginLibraryItem "/Library/rmiug_header_url-date-time.lbi" --><table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#3C81BA">
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../../../img/hdr/title_header_stars_bkgd.gif" bgcolor="#1457A8">
+                    <tr> 
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            
+                <td width="50%" align="left" nowrap class="infoCopy"><strong><a href="http://www.rmiug.org" class="infoCopy">www.RMIUG.org</a></strong></td>
+                            
+                <td width="50%" align="right" nowrap class="infoCopy"><script language="JavaScript" src="../../../js/rmiug_date_time.js" type="text/JavaScript"></script>
+                  <span id="clock"></span></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table><!-- #EndLibraryItem --></td>
+        </tr>
+        <tr> 
+          <td><table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#3C81BA">
+              <tr> 
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../../../img/hdr/title_header_stars_bkgd.gif" bgcolor="#1457A8">
+                    <tr> 
+                      <td><table width="100%" border="0" cellpadding="0" cellspacing="0" background="../../../img/hdr/title_header_bkgd.gif">
+                          <tr> 
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td width="1%"><img src="../../../img/spacer.gif" width="10" height="51"></td>
+                                  <td width="99%" align="left" valign="middle" nowrap><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                      <tr> 
+                                        <td nowrap class="TitleHeaderA">May 10th, 2005</td>
+                                      </tr>
+                                      <tr> 
+                                        <td nowrap class="TitleHeaderB"> &quot;Online Collaboration&quot;</td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="98%" valign="top"><table width="100%" border="0" cellpadding="1" cellspacing="0" class="BKbodyborder">
+                    <tr> 
+                      <td><table width="100%" border="0" cellpadding="15" cellspacing="0" class="BKbody">
+                          <tr> 
+                            <td valign="top" class="BKbody"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr> 
+                                  <td valign="top" class="BodyCopy"><p><strong><font color="#1457A8">Minutes 
+                                      of the 5-10-05 meeting of the Rocky Mountain 
+                                      Internet Users Group (RMIUG):<BR>&quot;Online Collaboration&quot;</font></strong></p>
+                                    <p>About 50 people attended tonight's meeting.</p>
+                                    <p> MEETING SPONSORS</p>
+									<p>MicroStaff (<a href="http://www.microstaff.com" target="blank">http://www.microstaff.com</a>) 
+                                      generously provides food and beverages at the meetings. The company provides Creative and Technical Talent for Web, Interactive Media, Marketing Communications, and Software Development projects.</p>
+                                    <p>ONEWARE (<a href="http://www.ONEWARE.com" target="blank">http://www.ONEWARE.com</a>) is a Colorado-based software company that provides semicustom web-based applications, and is the sponsor of the RMIUG meeting minutes.</p>
+                                    <p>NCAR provides free use of their wonderful facility.</p>
+                                    <p>Copy Diva (<a href="http://www.copydiva.com" target="blank">http://www.copydiva.com</a>) 
+                                    provides the AV equipment.</p>
+                                    <p>_______________</p>
+								    <p>MEETING MINUTES</p>
+                                    <p>Announcements:</p>
+                                    <p>There is a quality assurance/technical writer position
+and a flash developer position opening at <a href="http://www.Architekture.com" target="blank">www.Architekture.com.</a></p>
+                                   <p>_______________</p>
+								   <p>INTRODUCTION</p>
+									<p>Companies are increasingly needing their people to
+work together to get things done. And with more team
+members 
+
+geographically dispersed over several offices (or even
+countries), there is greater need for tools to enable
+this 
+
+collaboration. Online collaboration is designed to
+make organization out of our information chaos. See a
+review 
+
+of online collaboration tools at
+<a href="http://www.kolabora.com/reviews.htm#group_collaboration">http://www.kolabora.com/reviews.htm#group_collaboration.</a></p>
+									<p>_______________</p>
+									<p>SPEAKERS<BR></p>
+									<p>Tad Haas (<a href="mailto:tadhaas@microsoft.com">tadhaas@microsoft.com</a>) is Business
+Productivity Specialist for Microsoft who works with
+large local 
+
+customers using the latest Microsoft technologies
+including Project Server. He has helped many
+organizations 
+
+evaluate and implement enterprise
+project management solutions--focusing on the
+supporting software technologies that facilitate
+communication, 
+
+collaboration, and execution of project performance.</p>
+									<p>Mark D. Bell (<a href="mailto:mark.bell@bcrevo.com">mark.bell@bcrevo.com</a>, 303-546-7923) is
+founder, president, and CEO of Apprello Soft, Inc., a 
+
+Boulder company that develops ASP solutions for medium
+and large businesses. Apprello Soft uses off-the-shelf
+web 
+
+development tools and platforms to rapidly create
+solutions that address common business problems. The
+company's 
+
+first product is BCrevo(tm), an online tool that
+enables Business Continuity/Disaster Recovery plan
+development 
+
+and coordinated recovery efforts. He holds a degree in
+Electrical & Computer Engineering and an MBA, both
+from 
+
+the University of Colorado.</p>
+									<p>Allen Ellison (<a href="mailto:allen.ellison@architekture.com">allen.ellison@architekture.com</a>) is
+president of Architekture.com, Inc. He has more than
+20 years 
+
+of software development, analysis, information
+architecture, and technology development experience. 
+
+Architekture.com is a leading Macromedia Flash
+development firm with recognized expertise in Flash
+Communication 
+
+Server and specializes in the development of
+immersive, real-time multiplayer simulations, as well
+as rapid 
+
+prototype development and real-time business
+collaboration applications.</p>
+									<p>______________</p>
+									<p>TAD HASS<BR>
+Creating Business Value through Collaboration
+</p>
+									<p>Large and small companies face the same business challenges. The only important difference is that at small companies, specific individuals may feel a greater impact of these challenges. All companies face pressure to keep everyone in a team on the same page. There are significant organizational barriers to overcome. </p>
+									<p>Environment is a key aspect: People on a team may be working in geographically separate areas, and even the local environment can be very complex.</p>
+									<p>Collaboration involves end users, teams, the entire company, and the community. Collaboration can be unstructured, for example, when people are collaborating by instant messaging or email. Collaboration can also be structured when people communicate through company portals that are controlled. Often it is difficult to balance structured and unstructured content.</p>
+									<p>Collaboration brings visibility, insight, and control. It ensures that initiatives align with objectives. It brings parts together to achieve a big-picture view.</p>
+									<p>Collaboration also helps sustain and create business value.</p>
+									<p>Surveys indicate that ineffective communication is one of the top ten barriers to effectiveness in IT companies. Good communication creates a return on investment (ROI), giving you a measurable payback. Taking the time to collaborate electronically brings a significant return.</p>
+									<p>Typically, collaboration has a 25% ROI, which is impressive for any kind of investment. It also provides a 15% improvement in productivity and time, and a 20% improvement in project and process sharing.</p>
+									<p>These benefits apply equally to large and small businesses, bringing a financial return. And it doesn't matter very much which particular collaboration tool you use, just so long as you use one. </p>
+									<p>Nowadays there is a growing reliance on collaboration as more of us spend more time working in collaborative environments.</p>
+									<p>The benefits of a collaborative infrastructure include:<BR>
+-Integrated communications: simplifying the myriad options is the key to value. <BR>
+-Staying on the same page in a common work area. These "work spaces" can be created by portals that allow information to be shared from the same place.<BR>
+-Making it easy to find people and information. You can organize information by people, topics, etc.  At Microsoft, for example, I can search on an expertise and get a list of people who are content experts. 
+</p>
+									<p>Collaboration isn't always about big teams. It's just as important to small teams and individuals. It stops you from doing the same thing twice, and you don't have information sitting in multiple places. </p>
+									<p>There are tools that can help with real-time collaboration. Microsoft is working on a product called Office Communicator, which helps keep instant messages organized. </p>
+									<p>There is also Web-based collaboration like online meetings and webinars. This saves money like travel costs.</p>
+									<p>And if you are in project management, collaboration increases the speed of project execution and accelerates performance. It helps you do more with less.</p>
+									<p>If you have questions, any of you are welcome to contact me directly. </p>
+									<p>______________</p>
+									<p>MARK BELL</p>
+									<p>Today I will be sharing with you an actual case study. This is what happened when I tried to develop a web-enabled collaboration system. </p>
+									<p>We were a very small company without a lot of resources, and trying to convince other companies to hire us for consulting. Most of the companies said "We know that we need this, but we can't afford you right now."</p>
+									<p>So how could I help them at a very low cost?</p>
+									<p>Our business was providing Business Continuity and Disaster Recovery plans (BCDR). We wanted to enable organizations to create, manage, and execute BCDR plans. Our product had to be cheap, easy, and quick to develop. </p>
+									<p>Requirements:  web based, low cost, multiuser, document management, collaboration, security, easy to use</p>
+									<p>What did I do?<BR>
+I bought Microsoft Access to do it, which turned out to be a mistake. But in the process of discovering that Access wasn't going to help me, I stumbled across Microsoft SharePoint (<a href="http://www.microsoft.com/sharepoint" target="blank">www.microsoft.com/sharepoint</a>). There may be other tools out there, but that's what worked for me. It was an accidental success. 
+</p>
+									<p>Why SharePoint worked:<BR>
+It eliminated the need for a development environment<BR>
+It provides 90% browser-based development<BR>
+It handles all the document management and collaboration issues so that I could focus on the application's value. 
+</p>
+									<p>SharePoint does the heavy lifting so I don't have to waste time reinventing the wheel. </p>
+									<p>With SharePoint I made a product called BC Manager, which provides:<BR>
+-BCDR planning methodology<BR>
+-project timeline<BR>
+-planning templates<BR>
+-training<BR>
+-secure hosted ASP model<BR>
+-internet self-sign up</p>
+									<p>The system can be hosted by others (an advantage of web-based applications), so I don't have to own any equipment for this. And with the automated sign-up, I don't have to interact with every customer. You can see how it works at <a href="http://hs2020.sharepointsite.com/bc_manager" target="blank">http://hs2020.sharepointsite.com/bc_manager</a>.</p>
+									<p>If I hadn't found SharePoint, I wouldn't have this company today. And this is critical--with Access, it never would have happened. </p>
+									<p>______________</p>
+									<p>ALLEN ELLISON</p>
+									<p>I have a small tech company that I've run for three years. We developed applications for simulations. About a year ago we bid on a prototype project for a multiplayer, real-time crisis management simulation package. Simulation is a form of collaboration. We had to explore a lot of different technologies. </p>
+									<p>One challenge was that we had to create our own custom video conferencing solutions at very high resolution. We had to run on multiple platforms, browsers or full screen, Windows or Mac OS.  </p>
+									<p>So we built our implementation using Flash Communication Server. It allowed multiple forms of communication, which was critical. </p>
+									<p>Imagine fielding phone calls, emails, and faxes from multiple sources; imagine this included conflicting information and wrong information. We had to deal with an inundation of this type of data and then provide a cinematic context to present the information. Cinematic is very good way of presenting complex information. </p>
+									<p>Our architecture also had to run multiple sessions, so we had an outer lobby and inner lobby similar to the way an X-Box game works. </p>
+									<p>It was too expensive to try and use stuff like SQL Server, so we developed our own server that allows flash developers to create sophisticated applications through a lean protocol. We could also use it for prototypes and proof of concept, without having to write any code. </p>
+									<p>Our system allowed real-time interaction to become persistent. We were able to play back the simulation to see how decisions were made under various information conditions. </p>
+									<p>It was also important for every player to go into any other player's shoes and see what's happening. We built a pessimistic model such that the simulation is informed about every element for every user, so we can see what is going on with anyone. </p>
+									<p>Beyond simulation, we're looking at developing systems to manage real crises. These could be used by the military and government, but also by corporations. We have to make our connectivity very flexible so that we can route different kinds of information in multiple ways. Of course, liability implications are a concern when developing systems for real situations.</p>
+									<p>It is possible to use existing collaboration tools like Netmeeting for this sort of thing, but then you are faced with attempting to marry various different technologies. It's better to try and do it with a single platform. For example, a lot of existing tools out there are perfect for the web, but perform very poorly in a local area network.  </p>
+									<p>______________</p>
+									<p>Q&A PERIOD / PANEL DISCUSSION</p>
+									<p><b>Q</b>: What collaboration tools do you think are underused?<BR><br>
+
+<b>A</b>: Instant messaging in corporations is underused because it's perceived as insecure--but people don't realize that you can make it secure. Wikis are also underutilized.
+<BR><br>
+A lot of people have never heard of SharePoint. 
+<br><br>
+Groove Virtual Office (<a href="http://www.groove.net" target="blank">www.groove.net</a>) is a virtual workspace we use to store files, documents, whiteboards, etc--it works peer to peer with others in the workspace, allowing direct communication. I can also use my laptop to carry a snapshot of the workspace with me on the plane, then sync up when I land. 
+</p>
+									<p><b>Q</b>: Skype is voice over IP (<a href="http://www.skype.com" target="blank">www.skype.com</a>). What do you think about it?<br><br>
+
+<b>A</b>: Voice over IP is a great way to get velocity in communications.
+</p>
+									<p><b>Q</b>: I see barriers to adoption of collaborative systems. What happens when companies aren't used to using this stuff?
+<br><br>
+<b>A</b>: You can create "silos" of collaboration, which can then spread to the rest of the company. These obstacles tend to break down very quickly as soon as people are seeing what they can do.
+<br><br>
+You can do it with SharePoint.  
+</p>
+									<p><b>Q</b>: If I'm having a meeting in an internet cafe, what can I do to collaborate? 
+<br><br>
+<b>A</b>: It's easy to set up a peer network to exchange information and share documents, but there isn't much you can do safely outside your firewall. Another easy thing you can do in the office (inside your firewall) is set up a free SharePoint server. Since it's all browser based you don't all need to have the same software or platform. 
+</p>
+									<p><b>Q</b>: Do you find there are cultural barriers to acceptance? Do people's habits get in the way?
+<br><br>
+<b>A</b>: Yes. Unfortunately people will still use reply-to-all emails even when collaborating tools are available. Sometimes new training is required to break these habits.
+</p>
+									<p><b>Q</b>: How did you decide on a tool like Groove?
+<br><br>
+<b>A</b>: We didn't look at any of the open source stuff, but we did consider Macromedia Breeze (<a href="http://www.macromedia.com/software/breeze" target="blank">http://www.macromedia.com/software/breeze</a>). It was costly, although on-demand (per minute) pricing was a possibility. Questions you should ask yourself are: How important is real-time collaboration (voice, IM, etc)? How important is security? We liked the point-to-point encryption that Groove offers. We also looked at some content management software that was web-based (subscription-based) called [ed note: sounds like "tom"]. It had very robust security. 
+<br><br>
+What does matter about getting people on board is finding a project to rally around, then pick a tool and use it for that. A great tool by itself won't necessarily break habits. 
+<br><br>
+(Audience comment) Collaboration plugins are available for Outlook.  
+</p>
+									<p><b>Q</b>: I'm implementing SharePoint now. What happens when there are too many users and too many content sites? Won't stuff get lost? 
+<br><br>
+<b>A</b>: Yes, you need to put in some architecture or structure right in the beginning. We use a SharePoint portal server to aggregate sites. It's also useful to set expiration dates on content. Various content-management technologies can help out. 
+</p>
+									<p><b>Q</b>: I'm doing computer aided design and wondering how to share and update drawings. This should be a great opportunity for collaborative designing.<BR><BR>
+									<b>A</b>: Don't know. 
+<br><br>
+(Audience comment) Try e/pop (<a href="http://www.wiredred.com" target="blank">www.wiredred.com</a>). There is also something called ProductView (<a href="http://www.ptc.com" target="blank">www.ptc.com</a>) used by the automotive industry. 
+</p>
+									<p><b>Q</b>: Sometimes collaboration can have unintended consequences. For example, there was a call center that kept records of all calls and they wanted to open up the data to everybody using SharePoint. But this data included shorthand, editorial comments, and names, all of which got broadcast. They didn't think about how collaboration requires some style and editing rules. 
+<br><br>
+<b>A</b>: Often there needs to be a referee (or a "knowledge officer") to watch as stuff gets exposed to the world. It is important to watch out for consequences of sharing certain kinds of information.
+</p>
+									<p><b>Q</b>: What do you think will happen in the health care industry in 5 to 10 years? Will doctors be able to work collaboratively with patients from remote sites?
+<br><br>
+<b>A</b>: This is already happening to some degree, but we would certainly need to transform the medical system and work on setting and establishing standards. I think the US Army is developing some of this capability. 
+<br><br>(Audience comment) Funding is a problem here because doctors are not paid to collaborate; they are paid to perform treatments.
+
+<br><br>(Audience Comment) People in India are reading your x-rays now.
+</p>
+									<p><b>Q</b>: What about people who are content experts getting bombarded with instant messages?
+<br><br>
+<b>A</b>: A best practice is the "my site" concept, where each expert has a website. People would have to go to your site first to get answers, which minimizes the emails and phone calls. 
+</p>
+									<p><b>Q</b>: Collaboration requires load balancing just like web servers. Do you see people taking on roles to share the load?
+<br><br>
+<b>A</b>: In a disaster recovery, you need to bring in people based on their expertise, and you want to avoid having single points of failure--backup people have to be available. But controlling load is a big issue. There is a danger to taking on roles in the medical profession, for example, because it' s tough to transfer patient information from one physician to another. This can result in loss of continuity. 
+</p>
+									<p></p>
+									<p></p>
+									
+                                     <p>=======================</p>
+                                    <p>RMIUG (<a href="http://www.rmiug.org/">http://www.rmiug.org/</a>) 
+                                      appreciates the sponsorship of<br>
+                                      MicroStaff (<a href="http://www.microstaff.com">www.microstaff.com</a>), 
+                                      ONEWARE (<a href="http://www.ONEWARE.com">http://www.ONEWARE.com</a>), 
+                                      and Copy Diva (<a href="http://www.copydiva.com">http://www.copydiva.com</a>).</p>
+                                    </td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table></td>
+                <td width="1%"><img src="../../../img/spacer.gif" width="4" height="4"></td>
+                <td width="1%" valign="top"><!-- #BeginLibraryItem "/Library/rmiug_MinutesNav.lbi" --><table width="125" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="top"><table width="100%" border="0" cellpadding="1" cellspacing="0" class="BKHDRborder">
+                          <tr> 
+                            <td><table width="100%" border="0" cellpadding="5" cellspacing="0" class="BKHDRbody">
+                                <tr> 
+                                  <td align="center" class="BodyCopy"><strong>Select 
+                                    a Year</strong></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td valign="top"><img src="../../../img/spacer.gif" width="4" height="4"></td>
+                    </tr>
+                    <tr>
+                      <td valign="top"><table width="100%" border="0" cellpadding="1" cellspacing="0" class="BKbodyborder">
+                          <tr> 
+                            <td><table width="100%" border="0" cellpadding="10" cellspacing="0" class="BKbody">
+                                <tr> 
+                                  <td class="BKbody"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                      <tr> 
+                                        <td align="center" valign="top" class="BodyCopy"><p><strong>
+										    <a href="../2005/min_2005.html">2005 Minutes</a><br>
+											<a href="../2004/min_2004.html">2004 Minutes</a><br>
+                                            <a href="../2003/min_2003.html">2003 Minutes</a><br>
+                                            <a href="../2002/min_2002.html">2002 Minutes</a><br>
+                                            <a href="../2001/min_2001.html">2001 Minutes</a><br>
+                                            <a href="../2000/min_2000.html">2000 Minutes</a><br>
+                                            <a href="../1999/min_1999.html">1999 Minutes</a><br>
+                                            <a href="../1998/min_1998.html">1998 Minutes</a><br>
+                                            <a href="../1997/min_1997.html">1997 Minutes</a><br>
+                                            <a href="../1996/min_1996.html">1996 Minutes</a><br>
+                                            <a href="../1995/min_1995.html">1995 Minutes</a><br>
+                                            <a href="../1994/min_1994.html">1994 Minutes</a></strong></p>
+                                        </td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table><!-- #EndLibraryItem --></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td><!-- #BeginLibraryItem "/Library/rmiug_footer.lbi" --><table width="100%" border="0" cellpadding="4" cellspacing="0" bgcolor="#3C81BA" class="ThemeBorder"> 
+  <tr> 
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" class="ThemeBody"> 
+        <tr> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+              <tr> 
+                <td nowrap class="infoCopy"><strong>Copyright 2005 RMIUG.org, All Rights Reserved</strong></td> 
+              </tr> 
+            </table></td> 
+        </tr> 
+      </table></td> 
+  </tr> 
+</table>
+<!-- #EndLibraryItem --></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>

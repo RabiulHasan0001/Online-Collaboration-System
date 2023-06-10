@@ -1,0 +1,442 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title id="articleTitle">Using the ASP.NET Panel Control</title>
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+<meta name=vs_defaultClientScript content="JavaScript">
+<meta name=vs_targetSchema content="http://schemas.microsoft.com/intellisense/ie5">
+<script src="/urchin/utm/__utm.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="dotnetjohn.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body text="#000000" bottommargin="20" topmargin="8">
+<!-- Call TopOfPage User Control -->
+
+<script language=JavaScript>
+function clear_textbox()
+{
+if (document.FormSearch.SearchBox.value == " Enter Keyword or Phrase")
+document.FormSearch.SearchBox.value = " ";
+}
+</script>
+
+<table height="100" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="topstrip">
+	<tr>
+		<td width="30%" height="90" valign="top" class="headingpad">
+			<img src="webstyle/default_heading.gif" border="0" />
+		</td>
+		<td width="20%" align="center" valign="middle">
+			<img src="images/PoweredBy.bmp" />
+		</td>
+		<td width="50%" height="90" valign="top" align="right" class="top468">
+			<!-- Begin 468x60 Alliance Ad -->
+		  <iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=1&amp;guid=4a3c17409126483881d2730c3fed1be7&amp;f=1" height="60" width="468" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+		</td>
+	</tr>
+</table>
+<table height="40" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="menusearch">
+	<tr>
+		<td width="50%" height="100%" valign="top">
+			<div align="right">
+				<script>document.write('<scr'+'ipt src="webstyle/xaramenu.js">'+'</scr'+'ipt>');document.write('<scr'+'ipt src="webstyle/default_hnavbar.js">'+'</scr'+'ipt>');</script>
+			</div>
+		</td>
+		<td width="50%" height="100%" valign="middle" class="searchbuttonposition">
+			<div align="right">
+				<form name="FormSearch" method="get" action="search.aspx">
+				<input name="SearchBox" onFocus=clear_textbox() value=" Enter Keyword or Phrase" align="middle" type="text" size="12" class="searchtextbox">
+				<INPUT type="submit" value="Search" class="button">
+				</form>
+			</div>
+		</td>
+	</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    <td valign="top" width="50%" class="productadleft">
+			<!-- Begin Product Spotlight Alliance Ads -->
+			<script src="http://ads.aspalliance.com/displayad.aspx?t=3&m=44&page=1" language="javascript">
+			</script>
+			<!-- End Product Spotlight Alliance Ad -->
+		</td>
+		<td valign="top" width="50%" class="productadright">
+			<!-- Begin Hosting Alliance Ad -->
+			<script language="javascript" src="http://ads.aspalliance.com/displayad.aspx?t=10&m=44&page=1&awr=2">
+			</script>
+			<!-- End Hosting Alliance Ad -->
+		</td>
+	</tr>
+</table>
+<!-- Main Body -->
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+  <tr valign="top">
+		<td class="tdleftrightcol">
+			<!-- Call Left Side User Control -->
+			
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="100%" valign="top" class="leftcoltext">
+			<a href="default.aspx">Latest Articles</a><br>
+			<a href="adonet.aspx">ADO.Net</a><br>
+			<a href="architecture.aspx">Architecture</a><br>
+			<a href="caching.aspx">Caching</a><br>
+			<a href="compsvcs.aspx">Component Svcs</a><br>
+			<a href="cookies.aspx">Cookies</a><br>
+			<a href="customcontrols.aspx">Custom Controls</a><br>
+			<a href="datagrids.aspx">DataGrids</a>
+			<a href="deployment.aspx">Deployment</a><br>
+			<a href="email.aspx">EMail</a><br>
+			<a href="formatting.aspx">Formatting</a><br>
+			<a href="gdi.aspx">GDI+</a><br>
+			<a href="general.aspx">General</a><br>
+			<a href="inheritance.aspx">Inheritance</a><br>
+			<a href="dotnet20.aspx">.NET 2.0</a><br>
+			<a href="Remoting.aspx">Remoting</a><br>
+			<a href="SqlServer.aspx">SQL Server</a><br>
+			<a href="systemio.aspx">System.IO</a><br>
+			<a href="usercontrols.aspx">User Controls</a><br>
+			<a href="validation.aspx">Validation</a><br>
+			<a href="webconfig.aspx">Web.Config</a><br>
+			<a href="webcontrols.aspx">Other Web Controls</a><br>
+			<a href="webservices.aspx">Web Services</a><br>
+			<a href="xml.aspx">XML</a>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=8cf298e2f17c41028cf9b420792bbbbb&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 100x30 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=2&amp;guid=d6195053f34d4d0b90ae9040ced9df26&amp;f=1" height="30" width="100" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 100x30 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=d8800e4e3e674b5dbc0c7d7250b95b45&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!--a href="http://news.com.com/">
+			<IMG SRC="Images/cnetnews.gif" border="0"></a-->
+			
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=8&amp;guid=f801f4e162554ada95a318825ed0425f&amp;f=1" height="600" width="120" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+			<!-- End Left Side User Control -->
+		</td>
+		
+		<td class="tdcentercol">
+			<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+			<form name="Form1" method="post" action="articles.aspx?articleid=33" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2Nzc1NTgxMjk7O2w8cmF0aW5nMTpSYWRCdXQxO3JhdGluZzE6UmFkQnV0MTtyYXRpbmcxOlJhZEJ1dDI7cmF0aW5nMTpSYWRCdXQyO3JhdGluZzE6UmFkQnV0MztyYXRpbmcxOlJhZEJ1dDQ7cmF0aW5nMTpSYWRCdXQ0O3JhdGluZzE6UmFkQnV0NTtyYXRpbmcxOlJhZEJ1dDU7Pj6onkJa/04RN1vaszjOO2CpAAygdw==" />
+
+				<tr>
+					<td class="tdcategory">
+						<span id="lblRating">Article Rating: &nbsp;3.67</span>
+					</td>
+				</tr>
+				<tr>
+					<td width="100%" valign="top" class="centrecoltext">
+						<span class="normal"> <b>Using the ASP.NET Panel Control...</b> </span> <hr color="#6699CC"> <span class="normal"> By: <a href="JohnKilgo.aspx" target="_blank">John Kilgo</a> <img src="images/spacer.gif" height="1" width="8"> Date: March 6, 2003<img src="images/spacer.gif" height="1" width="8"> <img src="images/download.gif" height="16" width="16" border="0"> <img src="images/spacer.gif" height="1" width="4"> <a href="DownLoads.aspx?dlid=33"> Download the code.</a> <img src="images/spacer.gif" height="1" width="6"> <asp:Label ID="lblRating" Runat="server" /> <img src="images/spacer.gif" height="1" width="6"> <a href="PrintFriend.aspx?articleid=33"> Printer Friendly Version</a> </span> <hr color="#6699CC"><br> <p> The Panel Control is so easy to use that I hesitated to even write an article about it.  But I  have received several questions about it so decided to write the article anyway.  The Panel Control is a container that allows you to include other server controls on it.  It is primarily used for containing labels, textboxes, checkboxes and other controls that you would normally use on a web form.  Panels come in handy especially when you have very large forms that become unweildy to deal with.  Using panels you can reveal your form one logical section at a time and make it appear less cumbersome.  The control has only a few properties, visible being the most useful. </p> <p> In this example we will use three panels to display our form, along with three button controls to control the visibility of each panel.  Our form actually is not very large, but it should serve the purpose of showing what can be done with the panel. </p> <p> As can be seen in the following .aspx file each section contains a panel opening tag with some properties being set, followed by the server controls to be contained on the panel, followed by the panel's closing tag.  All other processing takes place in a code-behind file to be shown further below. At the top of the aspx file are several buttons which will be used to show the  various panels.  Notice that the three buttons that control the panels raise and OnCommand event which will be handled in the code-behind file.  I also place a Submit button on the form although  I wrote no code for it. </p> <table width="100%"><tr><td class="code"> &lt;%@ Page Language="vb" Src="PanelControl.aspx.vb" Inherits="PanelControl" %&gt;<br> &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;<br> &lt;html&gt;<br> &lt;head&gt;<br> &lt;title&gt;PanelControl&lt;/title&gt;<br> &lt;meta content="Microsoft Visual Studio.NET 7.0" name=GENERATOR&gt;<br> &lt;meta content="Visual Basic 7.0" name=CODE_LANGUAGE&gt;<br> &lt;meta content=JavaScript name=vs_defaultClientScript&gt;<br> &lt;meta content=http://schemas.microsoft.com/intellisense/ie5 name=vs_targetSchema&gt;<br> &lt;/head&gt;<br> &lt;body MS_POSITIONING="GridLayout"&gt;<br> &lt;form id=Form1 method=post runat="server"&gt;<br> &lt;asp:Button ID="btnName" CommandName="name" OnCommand="button_click" text="Name" Runat="server" /&gt;<br> &lt;asp:Button ID="btnAddress" CommandName="address" OnCommand="button_click" Text="Address" Runat="server" /&gt;<br> &lt;asp:Button ID="btnPhone" CommandName="phone" OnCommand="button_click" Text="Telephone" Runat="server" /&gt;<br> &lt;asp:Button ID="btnSubmit" Text="Submit" Runat="server" /&gt;<br> &lt;asp:Panel id="pnlName" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="Z-INDEX: 101; LEFT: 20px; POSITION: absolute; TOP: 64px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;runat="server" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Height="182px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Width="278px"&gt;<br> &nbsp;&nbsp;&lt;TABLE&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblFirstName" Runat="server" text="First Name:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtFirstName" Runat="server">&lt;/asp:TextBox&gt;&lt;/TD&gt;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblMiddleName" Runat="server" text="Middle Name:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtMiddleName" Runat="server"&gt;&lt;/asp:TextBox>&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblLastName" Runat="server" text="Last Name:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtLastName" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&lt;/TABLE&gt;<br> &lt;/asp:Panel&gt;<br> &lt;asp:Panel id="pnlPhone" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="Z-INDEX: 102; LEFT: 20px; POSITION: absolute; TOP: 64px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;runat="server" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Height="182px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Width="278px"&gt;<br> &nbsp;&nbsp;&lt;TABLE&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblPhone" Runat="server" text="Telephone:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtPhone" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblCellPhone" Runat="server" text="Cell Phone:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtCellPhone" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblFax" Runat="server" text="FAX:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtFax" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&lt;/TABLE&gt;<br> &lt;/asp:Panel&gt;<br> &lt;asp:Panel id="pnlAddress" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;style="Z-INDEX: 103; LEFT: 20px; POSITION: absolute; TOP: 64px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;runat="server" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Height="182px" <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Width="278px">&gt;<br> &nbsp;&nbsp;&lt;TABLE&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblAddr1" Runat="server" text="Address1:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtAddr1" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblAddr2" Runat="server" text="Address2:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtAddr2" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblCity" Runat="server" text="Cityh:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtCity" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblState" Runat="server" text="State:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtState" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;TR&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:Label id="lblZipCode" Runat="server" text="Zip Code:"&gt;&lt;/asp:Label&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;TD&gt;&lt;asp:TextBox id="txtZipCode" Runat="server"&gt;&lt;/asp:TextBox&gt;&lt;/TD&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&lt;/TR&gt;<br> &nbsp;&nbsp;&lt;/TABLE&gt;<br> &lt;/asp:Panel&gt;<br> &lt;/FORM&gt;<br> &lt;/body&gt;<br> &lt;/html&gt; </td></tr></table> <p> It is in the code-behind file, shown below that we control the visibility of the three panels we defined in the aspx file.  Depending on which button was clicked we set its corresponding  panel's visibility to "True" and the other panels' visibility to false. </p> <table width="100%"><tr><td class="code"> Public Class PanelControl : Inherits System.Web.UI.Page<br> &nbsp;&nbsp;Protected WithEvents pnlName As System.Web.UI.WebControls.Panel<br> &nbsp;&nbsp;Protected WithEvents pnlAddress As System.Web.UI.WebControls.Panel<br> &nbsp;&nbsp;Protected WithEvents lblFirstName As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtFirstName As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblMiddleName As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtMiddleName As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblLastName As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtLastName As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblAddr1 As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtAddr1 As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblAddr2 As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtAddr2 As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblCity As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtCity As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblState As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtState As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblZipCode As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtZipCode As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblPhone As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtPhone As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblCellPhone As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtCellPhone As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents lblFax As System.Web.UI.WebControls.Label<br> &nbsp;&nbsp;Protected WithEvents txtFax As System.Web.UI.WebControls.TextBox<br> &nbsp;&nbsp;Protected WithEvents pnlPhone As System.Web.UI.WebControls.Panel<br><br>  &nbsp;&nbsp;Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load<br> &nbsp;&nbsp;&nbsp;&nbsp;pnlName.Visible = True<br> &nbsp;&nbsp;&nbsp;&nbsp;pnlPhone.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;pnlAddress.Visible = False<br> &nbsp;&nbsp;End Sub<br><br>  &nbsp;&nbsp;Public Sub Button_Click (sender As System.Object, e As system.Web.UI.WebControls.CommandEventArgs)<br> &nbsp;&nbsp;&nbsp;&nbsp;If e.CommandName="address" Then<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlName.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlPhone.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlAddress.Visible = True<br> &nbsp;&nbsp;&nbsp;&nbsp;ElseIf e.CommandName = "name" Then<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlPhone.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlAddress.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlName.Visible = True<br> &nbsp;&nbsp;&nbsp;&nbsp;ElseIF e.CommandName = "phone" Then<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlAddress.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlName.Visible = False<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnlPhone.Visible = True<br> &nbsp;&nbsp;&nbsp;&nbsp;End If<br> &nbsp;&nbsp;End Sub<br> End Class </td></tr></table> <p> In conclusion I hope you can see how easy it is to utilize panel controls and how they can bring some order and organization to your very large web forms. </p> <p> You may <a href="runtime/PanelControl.aspx" target="_blank">run the example program</a> here.<br> You may <a href="DownLoads.aspx?dlid=33">download the code</a> here. </p><p class='normal2'>Please rate this article at the bottom of the page.</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td class="tdleftrightcol">
+			
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<!--td align="center">
+				asp:AdRotator ID="adrDiscountAsp"
+															AdvertisementFile="discountaspnet.xml"
+															Runat="server"
+														  OnAdCreated="adrDiscountAsp_AdCreated"></asp:AdRotator>
+		</td-->
+			<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=e07ec1e115054f42a36bf624522209a2&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+		<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=3a293025c2594a23b393b2107024bee2&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td valign="top" align="center">
+			<!--A HREF="http://www.amazon.com/exec/obidos/redirect-home/dotnetjohn-20"-->
+			<a href="http://www.serverintellect.com/host/dotnetjohn">
+			<IMG SRC="images/130x60-1.gif" BORDER="0" HEIGHT="60" WIDTH="130" alt="Server Intellect"></a>
+		</td>
+	</tr>
+	<tr>
+		<td class="parahead">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center" class="normal2">
+			238 Sessions
+		</td>
+	</tr>
+</table>
+
+			
+
+
+
+<table align="center" cellSpacing="0" border="0">
+	<tr>
+		<td align="center">
+			<script type="text/javascript">
+			<!--
+			google_ad_client = "pub-8005402508062610";
+			google_ad_width = 120;
+			google_ad_height = 600;
+			google_ad_format = "120x600_as";
+			google_ad_type = "text_image";
+			google_ad_channel ="";
+			google_color_border = "A53333";
+			google_color_bg = "FFFFFF";
+			google_color_link = "A53333";
+			google_color_url = "121212";
+			google_color_text = "000000";
+			//-->
+			</script>
+			<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+		</td>
+	</tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr>
+		<td class="tdcategory" align="center">
+			<b>Partners</b>
+		</td>
+	<tr>
+		<td class="normal2"><a href="http://www.123aspx.com" target="_blank">123aspx</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.code101.com" target="_blank">Code101</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.developermania.com" target="_blank">DeveloperMania</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.dotnetit.com" target="_blank">DotNetIt</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.fuzzysoftware.com" target="_blank">FuzzySoftware</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.startvbdotnet.com" target="_blank">StartVBDotNet</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.superdotnet.com" target="_blank">SuperDotNet</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.totalasp.co.uk/hitsin.asp?link=3522" target="_blank">TotalASP</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.vb-tech.com" target="_blank">VB-Tech</a></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.visualcoders.net/" target="_blank">VisualCoders</A></td>
+	</tr>
+	<tr>
+		<td class="normal2"><a href="http://www.wimdows.net" target="_blank">Wimdows</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 100x30 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=2&amp;guid=a5fd6b9dde5e44d8b0c110afa063e6bb&amp;f=1" height="30" width="100" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 100x30 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td align="center">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=120801733eb046b0b51edfe4954c13d7&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td align="center">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 100x30 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=2&amp;guid=0451ab31b92449a1b90d42805a1b6462&amp;f=1" height="30" width="100" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 100x30 Alliance Ad -->
+		</td>
+	</tr>
+	<tr>
+		<td align="center">&nbsp;</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<!-- Begin 125x125 Alliance Ad -->
+			<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=5&amp;guid=d200338e0a8a4d1d8c6eea514a3c2f0c&amp;f=1" height="125" width="125" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+			<!-- End 125x125 Alliance Ad -->
+		</td>
+	</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+
+
+<!-- Footer Begins -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="140" class="bottomstrip">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="left" width="33%" class="normal">&nbsp;&nbsp;©&nbsp;Copyright 2002-2005
+						DotNetJohn.com LLC<br>
+					</td>
+					<td align="center" width="34%">
+						<a href="TermsOfUse.aspx">Terms of Use</a>
+					</td>
+					<td align="right" width="33%">
+						<a href="PrivacyPolicy.aspx">Privacy Policy</a>&nbsp;&nbsp;
+					</td>
+				</tr>
+				<tr><td colspan="3">&nbsp;</td></tr>
+				<tr>
+					<td align="center" colspan="3" class="normal2">
+						Interested in writing for DotNetJohn?  Please <a href="sendemail.aspx?subject=Writing for DotNetJohn">
+						contact us.</a>
+					</td>
+				</tr>
+				<tr><td colspan="3">&nbsp;</td></tr>
+				<tr>
+					<td align="center" colspan="3">
+						<!-- Begin 468x60 Alliance Ad -->
+						<iframe src="http://ads.aspalliance.com/displayad.aspx?m=44&amp;t=7&amp;guid=73142a84573b4a9d885af35c147f7cb4&amp;f=1" height="60" width="468" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+
+</iframe>
+						<!-- End 468x60 Alliance Ad -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="100" class="articleratingstrip">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td align="center">
+						<b>Please Rate This Article</b>
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+					<td align="center">
+						<span id="rating1_Label1" style="font-size:10pt;font-weight:bold;width:40px;">Poor</span>
+						<input id="rating1_RadBut1" type="radio" name="rating1:rbg" value="RadBut1" /><label for="rating1_RadBut1">1</label>&nbsp;
+						<input id="rating1_RadBut2" type="radio" name="rating1:rbg" value="RadBut2" /><label for="rating1_RadBut2">2</label>&nbsp;
+						<input id="rating1_RadBut3" type="radio" name="rating1:rbg" value="RadBut3" checked="checked" /><label for="rating1_RadBut3">3</label>&nbsp;
+						<input id="rating1_RadBut4" type="radio" name="rating1:rbg" value="RadBut4" /><label for="rating1_RadBut4">4</label>&nbsp;
+						<input id="rating1_RadBut5" type="radio" name="rating1:rbg" value="RadBut5" /><label for="rating1_RadBut5">5</label>&nbsp;
+						<span id="rating1_Label2" style="font-size:10pt;font-weight:bold;width:53px;">Excellent</span>
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+					<td align="middle" valign="middle">
+						<input type="submit" name="rating1:btnSubmit" value="Submit" id="rating1_btnSubmit" class="button" />
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</form>
+
+</form>
+</body>
+</html>

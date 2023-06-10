@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+    
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+		<title>[Abstract] Patterns of Virtual Collaboration in Online Collaboration Systems</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="description" content="ACTA Press publishes numerous proceeding volumes for international conferences in the general areas of engineering and computer science." />
+		<meta  name="keywords" content="ACTA Press, Iasted, Journal, Paper, abstract, publication, 
+		Proceedings, Research, Computer, Technical, Conference, Technology, Science, Scientific, 
+		Scholar, Article, Online, Publishing, Engineering, Information, International, Biomedical, IEEE" />
+		
+		<style type="text/css" media="all">
+ 				@import url("css/style.css");
+ 				#content{margin-right:10px;}
+ 				
+ 		</style>
+		
+		<script type="text/javascript" src="js/Library.js">
+  		</script>
+		
+</head>
+<body>
+<div id="container">
+<div id="main">
+<div id="header">
+		
+		<a href="http://www.actapress.com/"><img id="Header_imgLogo" src="images/actalong3.gif" alt="www.actapress.com" border="0" />
+		</a>
+		<img id="Header_imgBanner" src="images/bannerbook.jpg" alt="Open Book" border="0" style="width:720px;" />
+		
+</div>
+<div id="topbar">
+		&#8226;<a href="http://www.actapress.com/" class='bottomnav1'>Home</a>&#8226;
+		<a id="Header_hlLogin" class="bottomnav1" href="login.aspx">Login</a>&#8226;
+		<a href="http://www.actapress.com/cart.aspx" class='bottomnav1'>My Cart</a>&#8226;
+		<a href="#" onclick="openFullWindow1('http://review.iasted.com/journal/', '_blank')" class="bottomnav1">Reviewers Only</a>&#8226;
+		<a href="http://www.actapress.com/contactus.aspx" class='bottomnav1'>Contact</a>&#8226;
+		<a href="http://www.actapress.com/policies.aspx" class='bottomnav1'>FAQ</a>&#8226;
+		<a href="http://www.iasted.org/" class='bottomnav1'>IASTED</a>&#8226;
+		<a id="Header_hlPrint" class="bottomnav1" OnClick="javascript:location.href='http://www.actapress.com/PaperInfo.aspx?PaperID=17236&amp;mode=print';" href="#">Print page</a>&#8226;	
+</div>
+
+<div id="leftsidebar">
+
+
+
+<div class="menubox">
+	<ul>
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/journals.aspx" class="topnav">Journals</a></li>
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/proceedings.aspx" class="topnav">Proceedings</a></li>
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/papers.aspx" class="topnav">Papers</a></li>
+			<!-- <li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/#" class="topnav">Search Publications</a></li>
+			-->
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/subscriptions_cover.aspx" class="topnav">Subscriptions</a></li>
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/submissioninfo.aspx" class="topnav">Submissions</a></li>	
+			<li> <img src="images/arrow_off2.gif" width="19" height="7" alt="" /> <a href="http://www.actapress.com/specialissue.aspx?journalID=2" class="topnav">Special Issues</a></li>	
+	</ul>
+</div>
+
+<div class="menubox">
+              
+	<form class="frmSearch" id="frmSearch" name="frmSearch" action="http://www.actapress.com/SearchResults.aspx" method="post">
+				<span class="search"><strong>Publication Search:</strong></span> <br />
+                <input maxlength="50" iid="keyword"  type="text" name="keyword" size="14" align="absmiddle" style="font-size: 10pt; margin: 0px; width: 115px; font-family: Arial">
+                <input type="image" align="absmiddle" src="images/go.gif" border="0" alt="Submit." onClick="document.query.submit();" name="image">
+                <br />
+             <a href="advancedsearch.aspx"><span class="search">advanced search</span></a>
+          </form>
+</div> 
+</div>
+
+ <div id="content">	
+								<table cellSpacing="0" cellPadding="0" border="0">
+										<TR>
+											<TD align="center"><br>
+												<STRONG><FONT color="#000099"  size="4">
+														<span id="lblTitle" style="font-size:16px;">Patterns of Virtual Collaboration in Online Collaboration Systems</span></FONT></STRONG></TD>
+										</TR>
+										<TR>
+											<TD style="HEIGHT: 35px" align="center">
+											<span id="lblAuthors" style="font-size:13px;">R.P. Biuk-Aghai (Macau) and S.J. Simoff (Australia)</span>
+											</TD>
+										</TR>
+										<TR>
+											<TD style="FONT-SIZE: 13px; HEIGHT: 30px" vAlign="bottom" align="left" width="584"><STRONG>Keywords:</STRONG>
+											</TD>
+										</TR>
+										<TR>
+											<TD><font style="LINE-HEIGHT: 5px">&nbsp;</font><br>
+												<span id="lblKeywords" style="font-size:12px;">pattern, virtual collaboration, shared workspace, group
+ware</span></TD>
+										</TR>
+										<TR>
+											<TD align="left" width="584" style="FONT-SIZE: 13px; HEIGHT: 30px"><STRONG>Abstract:</STRONG></TD>
+										</TR>
+										<TR>
+											<TD align="left">
+												<span id="lblAbstract" style="font-size:12px;LINE-HEIGHT: 18px">Virtual collaboration through online collaboration systems
+that provide shared workspaces is becoming increasingly
+commonplace in today's organizations. Recent research
+has focused on identifying and describing patterns of col
+laborative activity. Current observation methods of collab
+orative work are mostly manual and labour-intensive. We
+propose using the shared workspace system itself to collect
+and make available observations of virtual work. We pro
+pose the notion of patterns of virtual collaboration as ag
+gregations of detailed activities into larger-scale units, and
+distinguish several different levels of abstraction. We illus
+trate the use of patterns of virtual collaboration on an ac
+tual shared workspace system, and discuss other potential
+applications.</span>
+											</TD>
+										</TR>
+										<TR>
+											<TD align="left" style="FONT-SIZE: 13px; "><br>
+												<span id="lblDOI" style="font-size:12px;"></span>
+											</TD>
+										</TR>
+										<TR>
+											<TD align="left" height="10">&nbsp;</TD>
+										</TR>
+										<TR>
+											<TD align="left"><br>
+												<span id="lblParent" style="font-size:12px;"><i>From Proceeding</i> <a href='Content_Of_Proceeding.aspx?ProceedingID=263'>(430) Knowledge Sharing and Collaborative Engineering - 2004</a></span>
+											</TD>
+										</TR>
+										<TR>
+											<TD align="left" height="10">&nbsp;</TD>
+										</TR>
+										<TR>
+											<TD align="left"><span id="lblAddToCart"><a href='PaperInfo.aspx?PaperToCart=17236'>Add this paper to <strong>My Cart</strong></a></span></TD>
+										</TR>
+										<TR>
+											<TD align="left" height="30">&nbsp;
+											</TD>
+										</TR>
+									</table>
+						
+				
+
+		</div>
+</div>
+
+<div id="footer">
+				<div id="footmenu" style="float:right">
+					 <a href="privacy.aspx"  class='bottomnav'>Privacy &amp; Legal</a> 
+                    <a href="sitemap.aspx"  class='bottomnav'>Sitemap</a> 
+                   
+				  <a  href="" class='bottomnav'>
+                    Copyright &copy; 2005 ACTAPress</a>
+				</div>
+				<!--
+				<div id="validation">
+					<a href="http://validator.w3.org/check?uri=referer">
+						
+				</div>
+			-->
+             
+</div>
+</div>
+</body>
+</html>

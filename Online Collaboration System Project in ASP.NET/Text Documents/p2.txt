@@ -1,0 +1,314 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="/styles/sitestyle.css">
+<title>.net101: Panel Control in ASP.NET</title>
+</head>
+
+<body>
+<div align="center"><center>
+
+<table border="0" width="90%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#000000" width="1" height="1"><img border="0" src="/images/dot_clear.gif"
+    width="1" height="1" border="0"></td>
+    <td bgcolor="#000000" width="100%" height="1"><img border="0"
+    src="/images/dot_clear.gif" width="1" height="1"></td>
+    <td width="15"><img src="/images/corner_topright.jpg" width="15" height="1" border="0"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#000000" width="1"><img border="0" src="/images/dot_clear.gif" width="1"
+    height="1" border="0"></td>
+    <td width="100%" bgcolor="#ffffff" valign="top"><table border="0" width="100%"
+    cellspacing="0" cellpadding="0" background="/images/bkgd_titlebar.gif">
+      <tr>
+        <td width="100%" height="70" background="/images/bkgd_titlebar.gif" valign=top><a href="/"><img border="0" src="/images/site_logo.gif" width="250"
+    	height="60" border="0" hspace=10 vspace=4 alt=".net101"></a></td>
+      </tr>
+      <tr>
+        <td width="100%" height="1" bgcolor="#000000"><img border="0"
+        src="/images/dot_clear.gif" width="1" height="1"></td>
+      </tr>
+    </table>
+    <table border="0" width="100%" cellspacing="0" cellpadding="10">
+      <tr>
+        <td width="130" valign="top" class="clsSidebar"><img border="0"
+        src="/images/dot_clear.gif" width="130" height="1"><table border="0" width="100%"
+        cellspacing="0" cellpadding="3">
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a class="clsSideNav" href="/"><strong>Home</strong></a></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="/images/dot_clear.gif" border="0" width="1" height="3"></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><strong>101 SECTIONS</strong></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a class="clsSideNav" href="/general/">.NET General</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a class="clsSideNav" href="/asp/">ASP.NET</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/ado/" class="clsSideNav">ADO.NET</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/csharp/" class="clsSideNav">C#</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/vb/" class="clsSideNav">VB.NET</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/webservices/" class="clsSideNav">Web Services</a></td>
+          </tr>
+          <tr>
+            <td width="100%"></td>
+          </tr>
+          <tr>
+            <td width="100%"><img src="/images/dot_clear.gif" border="0" width="1" height="3"></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><strong>SITE INFO</strong></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/siteinfo/default.asp"
+            class="clsSideNav">About</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/siteinfo/contactus.asp"
+            class="clsSideNav">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/siteinfo/newsletter.asp"
+            class="clsSideNav">Newsletter</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/siteinfo/privacy.asp"
+            class="clsSideNav">Privacy</a></td>
+          </tr>
+          <tr>
+            <td width="100%"><p class="clsNormalText"><a href="/siteinfo/terms.asp" class="clsSideNav">Terms
+            of Service</a></td>
+          </tr>
+          <tr>
+            <td width="100%"></td>
+          </tr>
+          <tr>
+            <td width="100%"></td>
+          </tr>
+          <tr>
+            <td width="100%"></td>
+          </tr>
+        </table>
+        </td>
+        <td width="100%" valign="top">
+
+<p class="clsHeader1">Panel Control in ASP.NET</p>
+
+<p class="clsNormalText"><em><a href="../siteinfo/authors/gopis.asp">Gopikrishna S</a><br>
+February 1, 2001</em></p>
+
+<p class="clsNormalText"><strong>Level</strong>: Beginner</p>
+
+<p class="clsNormalText">ASP.NET is provided with lot of cool server side controls, one
+such control being Panel Control. Panel control acts as a container control for group of
+other controls, meaning that it encloses other web controls as a group represented by a
+panel name.</p>
+
+<p class="clsNormalText">Panel control can monitor the other controls present in them and
+can set the visibility of these controls in the group to 'ON' or 'OFF' as required.</p>
+
+<p class="clsNormalText">&nbsp;</p>
+
+<p class="clsHeader2">Syntax For Panel Control</p>
+
+<p class="clsNormalText">The syntax for defining the panel control is as follows</p>
+
+<p class="clsNormalText"><span class="clsCode">&lt;asp:Panel runat=&quot;server&quot;&gt;</span></p>
+
+<p class="clsNormalText"><span class="clsCode">..... </span></p>
+
+<p class="clsNormalText"><span class="clsCode">define input controls to be enclosed in the
+panel </span></p>
+
+<p class="clsNormalText"><span class="clsCode">.....</span></p>
+
+<p class="clsNormalText"><span class="clsCode">&lt;/asp:Panel&gt;</span></p>
+
+<p class="clsNormalText">&nbsp;</p>
+
+<p class="clsHeader2">Using Panel control in ASP.NET Page</p>
+
+<p class="clsNormalText">Let us explore the working of a panel control by taking a simple
+example. Let us take a case where the user enters his name in an input text box and
+submits the value. Once the user submits the form, the input control where the user enters
+the name should disappear and the user should be greeted with &quot;Hello&quot; message.
+This case can be conveniently handled by making use of two panel controls. </p>
+
+<p class="clsNormalText">One panel control encloses the user input textbox control along
+with the submit button while the other panel encloses the label control whose value is set
+to the message once the user submits the name. The first time the page is loaded. the
+visibility of the panel having the label is set to false so that the label is invisible
+while the panel having the input textbox control is visible to the user. Once the user
+submits the name the visibility of the panel containing the text box (which holds the user
+input) is set to false and the panel enclosing the label control is made visible.</p>
+
+<p class="clsNormalText">The code for the above example is given below and it is
+self-explanatory</p>
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" class="clsCode">&lt;HTML&gt;<br>
+    &lt;BODY&gt;<br>
+    &lt;SCRIPT LANGUAGE=&quot;vb&quot; RUNAT=&quot;server&quot;&gt;<br>
+    &nbsp; <span class="clsComments">' This method is triggered when the button on the<br>
+    &nbsp; ' form is clicked</span><br>
+    &nbsp; Sub usersubmit(SRC AS Object, E AS EventArgs)<br>
+    &nbsp;&nbsp;&nbsp; <span class="clsComments">' Set the text of the usermsg label to the
+    input text</span><br>
+    &nbsp;&nbsp;&nbsp; usermsg.Text = &quot;Hello &quot; &amp; username.Text <br>
+    <br>
+    &nbsp;&nbsp;&nbsp; <span class="clsComments">' Hide the form control by setting the
+    visibility property of <br>
+    &nbsp;&nbsp;&nbsp; ' its panel control to false</span><br>
+    &nbsp;&nbsp;&nbsp; userinfo.visible = false<br>
+    <br>
+    &nbsp;&nbsp;&nbsp; <span class="clsComments">' Display the label containing the message by
+    setting the <br>
+    &nbsp;&nbsp;&nbsp; ' visibility property of its panel control to true</span><br>
+    &nbsp;&nbsp;&nbsp; useroutput.visible = true<br>
+    <br>
+    &nbsp; End Sub<br>
+    &lt;/SCRIPT&gt; <br>
+    <br>
+    <span class="clsComments">&lt;!-- This is a panel control that holds a form control --&gt;</span><br>
+    &lt;asp:Panel id=&quot;userinfo&quot; runat=&quot;server&quot;&gt; <br>
+    <br>
+    &nbsp; &lt;FORM METHOD=&quot;post&quot; RUNAT=&quot;server&quot;&gt;<br>
+    &nbsp;&nbsp;&nbsp; &lt;TABLE&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TR&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TD&gt;Name:&lt;/TD&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TD&gt;&lt;asp:textbox
+    id=&quot;username&quot; runat=&quot;server&quot; /&gt;&lt;/TD&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/TR&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TR&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;TD&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;asp:button
+    text=&quot;Submit&quot; runat=&quot;server&quot; onClick=&quot;usersubmit&quot; /&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/TD&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/TR&gt;<br>
+    &nbsp;&nbsp;&nbsp; &lt;/TABLE&gt;<br>
+    &nbsp; &lt;/FORM&gt;<br>
+    <br>
+    &lt;/asp:Panel&gt;<br>
+    <br>
+    <span class="clsComments">&lt;!-- This is another panel control that holds a label that is
+    displayed<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; when the form is submitted --&gt;</span><br>
+    &lt;asp:Panel id=&quot;useroutput&quot; runat=&quot;server&quot;
+    visible=&quot;false&quot;&gt;<br>
+    <br>
+    &nbsp; &lt;asp:Label id=&quot;usermsg&quot; runat=&quot;server&quot; /&gt;<br>
+    <br>
+    &lt;/asp:Panel&gt;<br>
+    <br>
+    &lt;/BODY&gt;<br>
+    &lt;/HTML&gt;</td>
+  </tr>
+</table>
+
+<p class="clsSmallerText"><a href="demo/art010_PanelControl.aspx" target="newwindow">Demo
+this code</a></p>
+
+<p class="clsNormalText">In conclusion, the Panel control in ASP.NET makes the task of
+presenting a group of controls a cakewalk for web developers.</p>
+
+
+<script language="javascript">
+function submitFeedback()
+{
+	window.open("", "feedbackwindow", "scrolling=no,center=yes,width=200,height=150,menubar=no,resizeable=no");
+	document.frmFeedback.submit();
+
+	return false;
+}
+</script>
+
+<hr size=1 noshade color="#999999">
+<p class=clsHeader2>Your Opinion</p>
+<p class=clsNormalText>Please provide us with your feedback so we can produce better
+content.</p>
+
+<form name="frmFeedback" action="art_feedback_submit.asp" target="feedbackwindow" method="post"
+onsubmit="return submitFeedback();">
+  <input type="hidden" name="articleid" value="10"><table border="0" width="60%"
+  cellspacing="0" cellpadding="4">
+    <tr>
+      <td width="100%" valign="top" colspan="2"><p class="clsNormalText"><br>
+      Please rate this article on the following factors. Rating 5 is the highest rating.</td>
+    </tr>
+    <tr>
+      <td width="16%" valign="top"><p class="clsNormalText"><strong>Usefulness</strong></td>
+      <td width="84%" valign="top"><p class="clsNormalText">
+	<input type="radio" value="5" name="usefulness"> 5&nbsp;&nbsp;
+	<input type="radio" value="4" name="usefulness"> 4&nbsp;&nbsp;
+	<input type="radio" value="3" name="usefulness"> 3&nbsp;&nbsp;
+	<input type="radio" value="2" name="usefulness"> 2&nbsp;&nbsp;
+	<input type="radio" value="1" name="usefulness"> 1&nbsp;&nbsp;
+	</td>
+    </tr>
+    <tr>
+      <td width="16%" valign="top"><p class="clsNormalText"><strong>Readability</strong></td>
+      <td width="84%" valign="top"><p class="clsNormalText">
+	<input type="radio" value="5" name="readability"> 5&nbsp;&nbsp;
+	<input type="radio" value="4" name="readability"> 4&nbsp;&nbsp;
+	<input type="radio" value="3" name="readability"> 3&nbsp;&nbsp;
+	<input type="radio" value="2" name="readability"> 2&nbsp;&nbsp;
+	<input type="radio" value="1" name="readability"> 1&nbsp;&nbsp;
+	</td>
+    </tr>
+    <tr>
+      <td width="100%" valign="top" colspan="2"><p class="clsNormalText"><strong><br>
+      Would you like to see more of the above topic?</strong><br>
+      <input type="radio" name="sametopic" value="1"> Yes <input type="radio"
+      name="sametopic" value="0"> No</td>
+    </tr>
+    <tr>
+      <td width="16%" valign="top"><p class="clsNormalText"><strong>Comments</strong></td>
+      <td width="84%" valign="top"><textarea rows="3" name="comments" cols="30" class="clsInput"
+      wrap="physical"></textarea></td>
+    </tr>
+    <tr>
+      <td width="16%" valign="top"></td>
+      <td width="84%" valign="top"><br>
+      <input type="submit" value="     Send     " class="clsNormalText"></td>
+    </tr>
+  </table>
+</form>
+</td>
+      </tr>
+      <tr>
+        <td class="clsSidebar"><img src="/images/dot_clear.gif" border="0" width="1" height="1"></td>
+        <td width="100%" valign="top" align="center"><p class="clsSmallerText">&nbsp;</p>
+        <p class="clsSmallerText"><a class="clsSideNav" href="/siteinfo/terms.asp#copyright">Copyright</a>
+        © 2001 .net101. All rights reserved.</td>
+      </tr>
+    </table>
+    </td>
+    <td background="/images/border_right.jpg" valign="top" width="15"><img border="0"
+    src="/images/border_righttop.jpg" width="15" height="15"></td>
+  </tr>
+  <tr>
+    <td colspan="2" width="100%" background="/images/border_bottom.jpg"><img border="0"
+    src="/images/border_bottomleft.jpg" width="15" height="15"></td>
+    <td width="15" align="right"><img src="/images/border_rightbottom.jpg" width="15"
+    height="15"></td>
+  </tr>
+</table>
+</center></div>
+
+</body>
+</html>

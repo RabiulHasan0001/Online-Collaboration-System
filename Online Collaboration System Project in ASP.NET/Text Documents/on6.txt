@@ -1,0 +1,920 @@
+<Html>
+
+<Head>
+
+<TITLE>Caucus Consortium - online collaboration for virtual teams,
+ collaborative commerce, virtual communities, and web
+ conferences.</TITLE>
+
+<meta NAME="Description" CONTENT="Caucus Consortium provides of online
+ collaboration environments for collaborative commerce, knowledge
+ management, virtual community, virtual teams, web conferencing, and
+ distance learning.">
+
+<meta NAME="keywords" CONTENT="collaborative commerce, knowledge
+ management, virtual community, virtual team, web conferencing, online
+ collaboration, collaboration, c-commerce, distance learning, application
+ service provider, ASP, business communications, business to business,
+ business travel, channel training, chat room, computer-based learning,
+ computer-based training, conference, conferencing, corporate training,
+ CRM, customer relationship management, digital workplace, distance
+ education, e-business, e-commerce, electronic commerce, e-meeting,
+ groupware, internet conference, internet meeting, just in time training,
+ net meeting, off-site meeting, online classroom, online community,
+ online conference, online meeting, online seminar, online training,
+ product launch, sales training,  seminar, telecommute, telecommuting,
+ virtual classroom, virtual collaboration, virtual office, virtual
+ workplace, web chat, web conference, web meeting, web meetings, web
+ presentations, web seminar">
+
+<Script Language="JavaScript">
+
+
+isamap = new Object();
+
+isamap[0] = "_df"
+
+isamap[1] = "_ov"
+
+isamap[2] = "_ot"
+
+isamap[3] = "_dn"
+
+
+
+function isimgact(id, act)
+
+{
+
+	if(document.images) document.images[id].src = eval( "isimages." + id +
+	isamap[act] + ".src");
+
+}
+
+
+
+if (document.images) { // ensure browser can do JavaScript rollovers.
+
+isimages = new Object();
+
+isimages.toptitle15_df = new Image();
+
+isimages.toptitle15_df.src = "images/toptitlequick__tours.jpg";
+
+
+
+isimages.toptitle15_ov = new Image();
+
+isimages.toptitle15_ov.src = "images/toptitlequick__toursov.jpg";
+
+
+
+isimages.toptitle15_dn = new Image();
+
+isimages.toptitle15_dn.src = "images/toptitlequick__toursdn.jpg";
+
+
+
+isimages.toptitle19_df = new Image();
+
+isimages.toptitle19_df.src = "images/toptitlehome.jpg";
+
+
+
+isimages.toptitle19_ov = new Image();
+
+isimages.toptitle19_ov.src = "images/toptitlehomeov.jpg";
+
+
+
+isimages.toptitle24_df = new Image();
+
+isimages.toptitle24_df.src = "images/toptitlecontact_us.jpg";
+
+
+
+isimages.toptitle24_ov = new Image();
+
+isimages.toptitle24_ov.src = "images/toptitlecontact_usov.jpg";
+
+
+
+isimages.toptitle26_df = new Image();
+
+isimages.toptitle26_df.src = "images/toptitlesite_map.jpg";
+
+
+
+isimages.toptitle26_ov = new Image();
+
+isimages.toptitle26_ov.src = "images/toptitlesite_mapov.jpg";
+
+
+
+isimages.toptitle46_df = new Image();
+
+isimages.toptitle46_df.src = "images/toptitleimage.jpg";
+
+
+
+isimages.toptitle46_ov = new Image();
+
+isimages.toptitle46_ov.src = "images/toptitleimageov.jpg";
+
+
+
+isimages.toptitle47_df = new Image();
+
+isimages.toptitle47_df.src = "images/toptitleimage1.jpg";
+
+
+
+isimages.toptitle47_ov = new Image();
+
+isimages.toptitle47_ov.src = "images/toptitleimage1ov.jpg";
+
+
+
+isimages.nav_df = new Image();
+
+isimages.nav_df.src = "images/navwhy_virtualize_.jpg";
+
+
+
+isimages.nav_ov = new Image();
+
+isimages.nav_ov.src = "images/navwhy_virtualize_ov.jpg";
+
+
+
+isimages.nav1_df = new Image();
+
+isimages.nav1_df.src = "images/navproducts___services.jpg";
+
+
+
+isimages.nav1_ov = new Image();
+
+isimages.nav1_ov.src = "images/navproducts___servicesov.jpg";
+
+
+
+isimages.nav2_df = new Image();
+
+isimages.nav2_df.src = "images/navresearch.jpg";
+
+
+
+isimages.nav2_ov = new Image();
+
+isimages.nav2_ov.src = "images/navresearchov.jpg";
+
+
+
+isimages.nav3_df = new Image();
+
+isimages.nav3_df.src = "images/navevents.jpg";
+
+
+
+isimages.nav3_ov = new Image();
+
+isimages.nav3_ov.src = "images/naveventsov.jpg";
+
+
+
+isimages.nav4_df = new Image();
+
+isimages.nav4_df.src = "images/navpress.jpg";
+
+
+
+isimages.nav4_ov = new Image();
+
+isimages.nav4_ov.src = "images/navpressov.jpg";
+
+
+
+isimages.nav5_df = new Image();
+
+isimages.nav5_df.src = "images/navour_clients.jpg";
+
+
+
+isimages.nav5_ov = new Image();
+
+isimages.nav5_ov.src = "images/navour_clientsov.jpg";
+
+
+
+isimages.nav6_df = new Image();
+
+isimages.nav6_df.src = "images/navpartners.jpg";
+
+
+
+isimages.nav6_ov = new Image();
+
+isimages.nav6_ov.src = "images/navpartnersov.jpg";
+
+
+
+isimages.nav7_df = new Image();
+
+isimages.nav7_df.src = "images/navabout_caucus.jpg";
+
+
+
+isimages.nav7_ov = new Image();
+
+isimages.nav7_ov.src = "images/navabout_caucusov.jpg";
+
+
+
+}
+
+
+</Script>
+
+</Head>
+
+<BODY BGcolor="#ffffff" bottommargin="0" topmargin="0" marginheight="0"
+ marginwidth="0">
+
+<!-- START TOP TITLE -->
+
+<center>
+
+
+
+<TABLE Border="0" CellSpacing="0" CellPadding="0" >
+
+	<TR>
+
+		<TD Width="640" Height="159"><TABLE Border="0" CellSpacing="0"
+		 CellPadding="0" ><TR><TD Width="192" Height="1"><IMG alt="" border=0
+		 height=1 name=toptitle src="images/toptitlepane1_1_.jpg"
+		 width=192></TD><TD Width="25" Height="1"><IMG alt="" border=0 height=1
+		 name=toptitle1 src="images/toptitlepane2_1_.jpg" width=25></TD><TD
+		 Width="78" Height="1"><IMG alt="" border=0 height=1 name=toptitle2
+		 src="images/toptitlepane3_1_.jpg" width=78></TD><TD Width="11"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle3
+		 src="images/toptitlepane4_1_.jpg" width=11></TD><TD Width="67"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle4
+		 src="images/toptitlepane5_1_.jpg" width=67></TD><TD Width="14"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle5
+		 src="images/toptitlepane6_1_.jpg" width=14></TD><TD Width="25"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle6
+		 src="images/toptitlepane7_1_.jpg" width=25></TD><TD Width="25"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle7
+		 src="images/toptitlepane8_1_.jpg" width=25></TD><TD Width="108"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle8
+		 src="images/toptitlepane9_1_.jpg" width=108></TD><TD Width="71"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle9
+		 src="images/toptitlepane10_1_.jpg" width=71></TD><TD Width="16"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle10
+		 src="images/toptitlepane11_1_.jpg" width=16></TD><TD Width="8"
+		 Height="1"><IMG alt="" border=0 height=1 name=toptitle11
+		 src="images/toptitlepane12_1_.jpg" width=8></TD></TR><TR><TD Width="640"
+		 Height="1" ColSpan="12"><IMG alt="" border=0 height=1 name=toptitle12
+		 src="images/toptitlepane1_2_.jpg" width=640></TD></TR><TR><TD
+		 Width="545" Height="34" ColSpan="9"><IMG alt="" border=0 height=34
+		 name=toptitle13 src="images/toptitlepane1_3_.jpg" useMap=#toptitle14
+		 width=545><MAP Name="toptitle14"><AREA coords=30,6,171,34
+		 href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="71" RowSpan="6"
+              width=71><A href="quicktours.html" onmousedown="isimgact(
+              'toptitle15',3)"  onmouseout="isimgact( 'toptitle15',0)" 
+              onmouseover="isimgact( 'toptitle15',1)"  ><IMG
+              alt="QUICK&#13;&#10;&#13;&#10;TOURS" border=0 height=71 name=toptitle15
+              src="images/toptitlequick__tours.jpg" width=71 ></A></TD><TD Width="24"
+              Height="34" ColSpan="2"><IMG alt="" border=0 height=34 name=toptitle16
+              src="images/toptitlepane11_3_.jpg" width=24></TD></TR><TR><TD
+              Width="387" Height="1" ColSpan="6"><IMG alt="" border=0 height=1
+              name=toptitle17 src="images/toptitlepane1_4_.jpg" useMap=#toptitle18
+              width=387><MAP Name="toptitle18"><AREA coords=30,0,171,1
+              href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="25" RowSpan="2"
+              ColSpan="2" width=50 ><A href="index.html" onmouseout="isimgact(
+              'toptitle19',0)"  onmouseover="isimgact( 'toptitle19',1)"  ><IMG
+              alt=home border=0 height=25 name=toptitle19
+              src="images/toptitlehome.jpg" width=50></A></TD><TD Width="108"
+              Height="1"><IMG alt="" border=0 height=1 name=toptitle20
+              src="images/toptitlepane9_4_.jpg" width=108></TD><TD Width="24"
+              Height="1" ColSpan="2"><IMG alt="" border=0 height=1 name=toptitle21
+              src="images/toptitlepane11_4_.jpg" width=24></TD></TR><TR><TD
+              Width="217" Height="24" ColSpan="2"><IMG alt="" border=0 height=24
+              name=toptitle22 src="images/toptitlepane1_5_.jpg" useMap=#toptitle23
+              width=217><MAP Name="toptitle23"><AREA coords=30,0,171,24
+              href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="25" RowSpan="2"
+              width=78><A href="mailto:consortium@caucuscare.com" onmouseout="isimgact( 'toptitle24',0)"
+              onmouseover="isimgact( 'toptitle24',1)"  ><IMG alt="contact us" border=0
+              height=25 name=toptitle24 src="images/toptitlecontact_us.jpg" width=78
+              ></A></TD><TD Width="11" Height="24"><IMG alt="" border=0 height=24
+              name=toptitle25 src="images/toptitlepane4_5_.jpg" width=11></TD><TD
+              Width="67" Height="27" RowSpan="3"><A href="sitemap.html"
+              onmouseout="isimgact( 'toptitle26',0)"  onmouseover="isimgact(
+              'toptitle26',1)"  ><IMG alt="site map" border=0 height=27
+              name=toptitle26 src="images/toptitlesite_map.jpg" width=67 ></A></TD><TD
+              Width="14" Height="24"><IMG alt="" border=0 height=24 name=toptitle27
+              src="images/toptitlepane6_5_.jpg" width=14></TD><TD Width="108"
+              Height="24"><IMG alt="" border=0 height=24 name=toptitle28
+              src="images/toptitlepane9_5_.jpg" width=108></TD><TD Width="24"
+              Height="24" ColSpan="2"><IMG alt="" border=0 height=24 name=toptitle29
+              src="images/toptitlepane11_5_.jpg" width=24></TD></TR><TR><TD
+              Width="217" Height="1" ColSpan="2"><IMG alt="" border=0 height=1
+              name=toptitle30 src="images/toptitlepane1_6_.jpg" useMap=#toptitle31
+              width=217><MAP Name="toptitle31"><AREA coords=30,0,171,1
+              href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="1" width=11 ><IMG
+              alt="" border=0 height=1 name=toptitle32
+              src="images/toptitlepane4_6_.jpg" width=11></TD><TD Width="172"
+              Height="1" ColSpan="4"><IMG alt="" border=0 height=1 name=toptitle33
+              src="images/toptitlepane6_6_.jpg" width=172></TD><TD Width="24"
+              Height="1" ColSpan="2"><IMG alt="" border=0 height=1 name=toptitle34
+              src="images/toptitlepane11_6_.jpg" width=24></TD></TR><TR><TD
+              Width="306" Height="2" ColSpan="4"><IMG alt="" border=0 height=2
+              name=toptitle35 src="images/toptitlepane1_7_.jpg" useMap=#toptitle36
+              width=306><MAP Name="toptitle36"><AREA coords=30,0,171,2
+              href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="2" ColSpan="4"
+              width=172><IMG alt="" border=0 height=2 name=toptitle37
+              src="images/toptitlepane6_7_.jpg" width=172></TD><TD Width="24"
+              Height="2" ColSpan="2"><IMG alt="" border=0 height=2 name=toptitle38
+              src="images/toptitlepane11_7_.jpg" width=24></TD></TR><TR><TD
+              Width="545" Height="9" ColSpan="9"><IMG alt="" border=0 height=9
+              name=toptitle39 src="images/toptitlepane1_8_.jpg" useMap=#toptitle40
+              width=545><MAP Name="toptitle40"><AREA coords=30,0,171,9
+              href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="9" ColSpan="2"
+              width=24><IMG alt="" border=0 height=9 name=toptitle41
+              src="images/toptitlepane11_8_.jpg" width=24></TD></TR><TR><TD
+              Width="640" Height="10" ColSpan="12"><IMG alt="" border=0 height=10
+              name=toptitle42 src="images/toptitlepane1_9_.jpg" useMap=#toptitle43
+              width=640><MAP Name="toptitle43"><AREA coords=30,0,171,10
+              href="index.html"
+
+              shape=RECT ?></MAP></TD></TR>
+
+        <TR><TD Height="76" width=192 ><IMG alt="" border=0 height=76
+         name=toptitle44 src="images/toptitlepane1_10_.jpg" useMap=#toptitle45
+         width=192><MAP Name="toptitle45"><AREA coords=30,0,171,69
+         href="index.html"
+
+              shape=RECT ?></MAP></TD><TD Height="76" ColSpan="10"
+              width=440><font size="4" face="Arial"
+              color="#533067"><b>Research</b></font><br><IMG alt="" border=0 height=1
+              src="images/gray-box.gif" width=430><br><font size="3"
+              face="arial">Whitepapers</font></TD><TD Width="8" Height="76"><IMG
+              alt="" border=0 height=76 name=toptitle48
+              src="images/toptitlepane12_10_.jpg" width=8></TD></TR></TABLE></TD>
+
+	</TR>
+
+	<TR>
+
+		<TD><IMG alt="" height=1 src="images/is_single_pixel_gif.gif"
+		 width=640></TD>
+
+	</TR>
+
+</TABLE>
+
+<!-- STOP TOP TITLE -->
+
+
+
+<!-- START NAVIGATION BUTTONS -->
+
+<table width="610" cellspacing="5"><tr valign="top">
+
+      <td width="170" align="middle"><font size="1" color="black"
+       face="arial">
+        <A href="prod-services.html" onmouseout="isimgact( 'nav1',0)" 
+         onmouseover="isimgact( 'nav1',1)"  ><IMG alt="Products &amp; Services"
+         border=0 height=27 name=nav1 src ="images/navproducts___services.jpg"
+         width=159 ></A><br>
+
+
+
+<A href="research.html" onmouseout="isimgact( 'nav2',0)" 
+ onmouseover="isimgact( 'nav2',1)"  ><IMG alt=Research border=0 height=27
+ name=nav2 src="images/navresearch.jpg" width=159></A><br>
+
+<table width="130" cellpadding="0" border="0"><tr valign="top"><td><font
+ size="1" color="black" face="arial">
+
+<A href="whitepapers.html">Whitepapers</A><br><IMG border=0 height=1
+ src="images/gray-box.gif" width=140><br>
+
+<A href="published.html">
+
+Published Works</A><br></font></td></tr></table>
+
+<!--
+<A href="press.html" onmouseout="isimgact( 'nav4',0)" 
+ onmouseover="isimgact( 'nav4',1)"  ><IMG alt=Press border=0 height=27
+ name=nav4 src="images/navpress.jpg" width=159></A><br>
+-->
+
+
+
+<A href="ourclients.html" onmouseout="isimgact( 'nav5',0)" 
+ onmouseover="isimgact( 'nav5',1)"  ><IMG alt="Our Clients" border=0
+ height=27 name=nav5 src="images/navour_clients.jpg" width=159 ></A><br>
+
+
+
+<A href="partners.html" onmouseout="isimgact( 'nav6',0)" 
+ onmouseover="isimgact( 'nav6',1)"  ><IMG alt=Partners border=0 height=27
+ name=nav6 src="images/navpartners.jpg" width=159></A><br>
+
+
+
+<A href="aboutcaucus.html" onmouseout="isimgact( 'nav7',0)" 
+ onmouseover="isimgact( 'nav7',1)"  ><IMG alt="About Caucus" border=0
+ height=27 name=nav7 src="images/navabout_caucus.jpg" width=159 ></A><br>
+ 
+<IMG alt="" border=0 height=300 src="images/is_single_pixel_gif.gif"
+ width=1>
+
+
+
+<!-- STOP NAVIGATION BUTTONS -->
+
+<br></font>
+
+
+
+</td>
+
+<!-- START FIRST COLUMN -->
+
+<td width="480"><font face="Arial" size="2" color="black">
+
+
+
+<font face="Arial" size=3><b>
+
+Team Effectiveness Strategies
+
+</b></font><br>
+
+<B>
+
+by Lisa Kimball, <a href="http://www.groupjazz.com">Group Jazz</a>
+
+</B><p>
+
+
+
+Leading a virtual team requires more than working on the team's project
+agenda. Teams which are unable to meet in person frequently because
+members are distributed geographically need additional help to support
+their team process so that they can act and feel like a team.
+
+<p>
+
+Here are several strategies team leaders can use which make a
+significant difference in team effectiveness.
+
+<ul>
+
+<li>	Make whole visible to everyone
+
+<li>	Provide "line of sight"
+
+<li>	Catalyze rich conversations
+
+<li>	Amplify energy
+
+<li>	Create tracks and footprints in physical space</ul>
+
+<p>
+
+Get the whole team involved in the process of being conscious of making
+these things happen. That not only distributes the work but makes it
+more likely that opportunities to support these strategies won't be
+missed.
+
+<p>
+
+One way of involving the team is to share the list and talk about which
+one or two strategies would be worthwhile to work on for the next period
+of time (the next quarter, between now and the next face-to-face team
+meeting). Develop a shared understanding and an image of what it would
+feel like if the team was successful in implementing the strategy.
+Brainstorm a list of ways to achieve goals related to the selected
+strategy. Be as concrete and specific as possible in identifying actions
+for team members and team leaders.
+
+<p>
+
+<b>
+
+- Who will do what and when and how will they do it? <br>
+
+- How will we know if it's working? <br>
+
+- What will we do if it's not working? </b>
+
+<p><img src="images/gray-box.gif" width="430" height="1" alt=""
+ border="0"><p>
+
+<b>Make Whole Visible to Everyone </b>
+
+  <p>
+
+
+
+<b>The idea of wholeness</b><br>
+
+One of the most difficult challenges for a distributed team is
+maintaining an image of itself as a whole. This is critical so that the
+team becomes more than just a loose collection of related parts. Working
+as a whole is what makes a team powerful.
+
+<p>
+
+When a team is co-located they develop a shared image of themselves
+through experience - sitting in a conference room, meeting in someone's
+office, having lunch together.
+
+<p>
+
+A distributed team will lack these images so you need other strategies
+for creating a sense of the whole so the team doesn't feel fragmented.
+
+<p>
+
+The goal is to have the whole team present in all the individual members
+of the team.
+
+
+
+<p>
+
+
+
+<b>Find images to illustrate the idea which the team can share </b>
+
+<ul>
+
+<li>	The children's game where you connect numbered dots in a certain
+ order to "see" a whole picture  <li>	Pointillist paintings where the
+ whole picture is made up of many little dots
+
+<li>	A hologram where each part contains the whole image
+
+</ul>
+
+
+
+
+
+<b>Brainstorm "wholeness" strategies with your team</b>	<ul>
+
+<li>	Make sure there is a team photograph and that everyone has a copy
+ (If you aren't able to take a team photo when you are together in
+ person, make a collage out of pictures of all the individuals). Put it
+ on something people are likely to keep in view (a mouse pad, a telephone
+ contact list, a calendar).
+
+<li>	Distribute a map showing where each team member is located.
+
+<li>	Create a graphic which shows the name of each team member "sitting"
+ at a place around a table (this generates a feeling of the whole better
+ than seeing the names of team members in a list).
+
+</ul>
+
+
+
+<img src="images/gray-box.gif" width="430" height="1" alt=""
+ border="0"><p>
+
+<b>Provide "Line of Sight" </b>
+
+  <p>
+
+<b>The idea of lines of sight.</b> <br>
+
+One of the most difficult things for distributed teams is for members to
+"see" and feel what's happening above and around them in the
+organization. They don't have a "line of sight" to key parts of the
+system and so feel disconnected which reduces their effectiveness.
+
+<p>
+
+When teams are co-located, members often sit in on briefings, company
+announcements, and meetings of related teams. In distributed teams, it's
+not unusual for the team manager to be the only one in regular contact
+with the team sponsor or other key players in the system and, therefore,
+the only one with a good view.
+
+<p>
+
+This problem is exacerbated when there is a critical mass of members in
+one location and smaller groups elsewhere who will always feel that they
+are missing out on the action.
+
+<p>
+
+CC'ing people on meeting minutes isn't adequate, they need the stories,
+the feel, the picture, the emotional tone which is the essence of what
+they are missing
+
+
+
+
+
+<p>
+
+<b>Find images to illustrate the idea which the team can share</b> <ul>
+
+<li>	A periscope which allows people in a submarine to see above the
+ surface of the water
+
+<li>	A fire observation tower
+
+<li>	Opera glasses which let people in the balcony see facial
+ expressions of people on stage
+
+</ul>
+
+
+
+
+
+<b>Brainstorm strategies to get lines of sight in all directions with
+ your team</b><ul>
+
+<li>	Create "journalism" style (in contrast to "minutes") reports on
+ meetings and publish to the rest of the team (including photos where
+ possible)
+
+<li>	Encourage people to acknowledge who is missing in the room at the
+ beginning of meetings and develop conscious strategies to connect
+ distributed members to the process.
+
+<li>	Create space in the electronic communication system for informal
+ swapping of stories and feelings about what's happening (the water
+ cooler)</ul>
+
+
+
+<p><img src="images/gray-box.gif" width="430" height="1" alt=""
+ border="0"><p>
+
+
+
+<b>Catalyze Rich Conversations </b>
+
+  <p>
+
+<b>The idea of a variety of rich conversations  Include conversations
+ that are:</b>  <br>
+
+Long-term  - Short-term  - Present  - Future  - About projects  - About
+fun  - Social  - Creative
+
+<p>
+
+In order to realize the benefits of working as an aligned,
+interdependent, system teams need to have conversations which are
+diverse, complex, and deal with everything from key routines to major
+strategies. Collaboration can be thought of as a network of different
+conversations.
+
+<p>
+
+A common problem for distributed teams is that their conversations
+deteriorate to being about logistical details, routine reports, and
+administrative matters except during infrequent face-to-face meetings.
+This just doesn't provide the "juice" you need to support the essential
+creative energy of teamwork because, in many cases, these conversations
+are the only shared experience the team has for long periods of time.
+
+<p>
+
+It's critical to consciously create time and space for the team to have
+multiple, rich conversations between meetings - which means that you
+need to find ways to use a range of communications technologies to
+support these conversations.
+
+
+
+<p>
+
+
+
+<b>Find images to illustrate the idea which the team can share</b> 	<ul>
+ 
+<li>	The great philosophical "over dinner" conversations teams have
+ during off-site meetings
+
+<li>	The juicy dialogue catalyzed by reading an evocative article
+
+<li>	The informal exchange in the hall on the way to lunch where
+ critical information is passed along
+
+
+
+</ul>
+
+
+
+<b>Brainstorm strategies to enrich conversations with your team	</b><ul>
+ 
+<li>	Hold periodic team telephone conferences described as "after
+ dinner" talks (no admin matters allowed)
+
+<li>	Rotate responsibility among the team to facilitate discussion on
+ non-routine topics (theories of marketing, regional culture) in an
+ online environment on the Intranet.
+
+<li>	Invite "experts" (authors, consultants, key people from other parts
+ of the organization) to engage with the team.
+
+
+
+</ul><img src="images/gray-box.gif" width="430" height="1" alt=""
+ border="0"><p>
+
+
+
+<b>Amplify Energy </b>
+
+  <p>
+
+<b>The idea of amplifying energy</b><br>
+
+
+
+ 	The best team experiences are those where you can really feel the
+ 	energy of the team. It feels synergistic. It's exciting.
+
+<p>
+
+   When a team meets in physical space, the room itself serves as a
+   "container" which amplifies the energy of the team. At a great creative
+   meeting it can feel like energy is bouncing off the walls and being
+   absorbed by members of the team.
+
+<p>
+
+Distributed teams experience a kind of entropy effect where energy
+dissipates and drains out of the system because there is no container
+for it.
+
+<p>
+
+It's critical to find ways to identify energy in the distributed team
+and make it available to the whole so they can feel it and build on it.
+Blow on the distributed embers of energy to help the whole team catch
+fire.
+
+<p>
+
+<b>Find images to illustrate the idea which the team can share </b>	<ul>
+ 
+<li>	a fantastic brainstorming session where the ideas are flowing and
+ time just seems to fly by
+
+<li>	the energy created when a team member comes running into the room
+ to share the excitement of a new development or accomplishment
+
+<li>	a team pitching in together on a tight deadline has the energy to
+ work overtime until it's time to celebrate the accomplishment
+
+
+
+</ul>
+
+<b>Brainstorm strategies to amplify energy with your team	</b><ul>
+
+<li>	Find ways to "spotlight" individuals or parts of the team where
+ something interesting is happening (initiate audio and video conferences
+ from different places to feature different parts of the team)
+
+<li>	Develop a team norm of sending "hot news" bulletins to the team
+ (and a norm to respond to provide reinforcement and support)
+
+<li>	Create ways to celebrate accomplishments as a whole team even when
+ you aren't together.
+
+
+
+</ul><img src="images/gray-box.gif" width="430" height="1" alt=""
+ border="0"><p>
+
+<b>Create Tracks and Footprints in Physical Space</b>
+
+  <p>
+
+<b>The idea of tracks and footprints</b> 	<br>
+
+Virtual teams can feel very vague and abstract which makes it hard for
+both team members and others in the organization to experience the team
+as "real" and important.
+
+<p>
+
+   In a co-located team, the physical space and artifacts in it serve as
+   reminders that the team exists - the names of everyone on in-boxes, the
+   space around a shared secretary where you're likely to run into other
+   team members, the corridor where everyone has an office.
+
+<p>
+
+Without these, a distributed team can disappear off the radar screens of
+others in the organization and team members can lose a sense of
+themselves as part of the team. Lacking reminders, virtual team members
+can forget to tune into various team communication channels unless there
+is something pressing.
+
+<p>
+
+Artifacts give a virtual team visibility in team members' physical
+space. They serve as an anchor to bring the team down to earth. Catching
+a glimpse of the team picture out of the corner of your eye is a
+subliminal reminder of the team, makes it present for you.
+
+<p>
+
+
+
+<b>Find images to illustrate the idea which the team can share</b> 	<ul>
+ 
+<li>The corridor where everyone on the team has their office (what does
+ a virtual corridor look like?)
+
+<li>The break room with shared coffee pot, coffee mugs from a conference
+ everyone went to, postcards from team members on vacation.
+
+<li>A team bulletin board that shows what everyone is doing.
+
+</ul>
+
+
+
+<b>Brainstorm ways of creating tracks and footprints with your team </b>
+ <ul>
+
+<li>Even where there is only a single team member, create a sign or team
+ in-box or some other signifier of the team so it's visible to everyone
+ in that environment
+
+<li>Especially at the beginning, circulate team "output" with some kind
+ of team-specific headings and formatting. This puts it in a team context
+ and conveys the sense of ideas coming from the whole team rather than a
+ single member.
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</font></td>
+
+</tr></table>
+
+<!-- START BOTTOM BANNER -->
+
+
+<p>
+&nbsp;<br>
+
+<IMG align=absBottom alt="" border=0 height=34 src="images/bttm-bar.jpg"
+ width=640 ></A><table width="600" cellpadding="0"><tr>
+      <td align="center"><font face="Arial" size="1" color="gray">
+       Caucus and
+        the Caucus logo are trademarks of CaucusCare.<br> 
+All other names
+        and logos
+        are registered trademarks of their respective owners.
+        </font> </td>
+    </tr></table></center></BODY>
+
+</Html>
+
